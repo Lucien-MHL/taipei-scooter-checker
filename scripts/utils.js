@@ -58,17 +58,101 @@ function normalizeAddress(address, forNominatim = false) {
     }
   }
 
-  // 4. Nominatim 專用格式化
+  // 4. Nominatim 專用格式化 - 使用逗號分隔格式 (基於用戶突破性發現)
   if (forNominatim) {
-    // 轉換為更通用的格式
-    const nominatimFormatted = normalized
-      .replace("臺北市", "Taipei City, Taiwan")
-      .replace("區", " District, ");
+    // 解析地址組件 - 使用新的分離器
+    const addressComponents = parseAddressComponents(normalized);
 
-    return nominatimFormatted;
+    // 建構逗號分隔格式: "臺北市, 文山區, 興隆路2段, 241號"
+    const parts = [
+      addressComponents.city,
+      addressComponents.district,
+      addressComponents.street,
+      addressComponents.houseNumber,
+    ].filter((part) => part && part.trim()); // 移除空值和空白
+
+    const commaFormat = parts.join(", ");
+    console.log(`   🔍 地址轉換: "${normalized}" → "${commaFormat}"`);
+
+    return commaFormat;
   }
 
   return normalized;
+}
+
+/**
+ * 門牌標準化函數 (基於用戶實證研究)
+ * Standardize house number based on user's empirical research
+ */
+function standardizeHouseNumber(houseNumber) {
+  if (!houseNumber || typeof houseNumber !== "string") {
+    return null;
+  }
+
+  let standardized = houseNumber.trim();
+
+  // 1. 移除樓層資訊 ("204號1樓" → "204號")
+  standardized = standardized.replace(/(\d+號)\d*樓$/, "$1");
+
+  // 2. 處理並列門牌 ("36、38號" → "38號" - 取較大/後者)
+  const multipleHouseMatch = standardized.match(/(\d+)、(\d+)號/);
+  if (multipleHouseMatch) {
+    const num1 = parseInt(multipleHouseMatch[1]);
+    const num2 = parseInt(multipleHouseMatch[2]);
+    const largerNum = Math.max(num1, num2);
+    standardized = `${largerNum}號`;
+  }
+
+  // 3. 保留子門牌格式 ("128之1號", "28-1號" 維持不變)
+  // 這些格式Nominatim能正確處理，不需修改
+
+  return standardized;
+}
+
+/**
+ * 地址組件分離器 (基於用戶發現的街道範圍)
+ * Parse address components based on user's street range findings
+ */
+function parseAddressComponents(address, districtFromAPI = null) {
+  if (!address) return {};
+
+  const components = {
+    city: "臺北市", // 固定值
+    district: districtFromAPI || extractDistrict(address), // 優先使用API提供的行政區
+    street: null,
+    houseNumber: null,
+  };
+
+  // 移除城市和行政區，取得剩餘部分
+  let remaining = address
+    .replace("臺北市", "")
+    .replace(components.district || "", "")
+    .trim();
+
+  // 提取門牌號碼 (處理複雜門牌格式: 並列、子門牌、樓層等)
+  const houseNumberPatterns = [
+    /(\d+、\d+(?:、\d+)*號(?:\d*樓)?)$/, // 並列門牌: 36、38號, 12、14、16號
+    /(\d+(?:之\d+|-\d+)?號(?:\d*樓)?)$/, // 一般門牌: 241號, 128之1號, 28-1號, 204號1樓
+  ];
+
+  let houseNumberMatch = null;
+  for (const pattern of houseNumberPatterns) {
+    houseNumberMatch = remaining.match(pattern);
+    if (houseNumberMatch) break;
+  }
+
+  if (houseNumberMatch) {
+    const rawHouseNumber = houseNumberMatch[1];
+    components.houseNumber = standardizeHouseNumber(rawHouseNumber);
+
+    // 從剩餘部分移除門牌，得到街道部分
+    components.street = remaining.replace(houseNumberMatch[0], "").trim();
+  } else {
+    // 如果沒有找到門牌，整個剩餘部分都是街道
+    components.street = remaining;
+  }
+
+  return components;
 }
 
 /**
@@ -267,4 +351,7 @@ module.exports = {
   formatError,
   loadJSONFile,
   saveJSONFile,
+  // 新增的地址處理函數 (基於用戶研究)
+  standardizeHouseNumber,
+  parseAddressComponents,
 };

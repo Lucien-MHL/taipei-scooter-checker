@@ -1,0 +1,4210 @@
+{
+  "metadata": {
+    "total_stations": 247,
+    "successful_geocoding": 247,
+    "failed_geocoding": 0,
+    "processing_time_ms": 442879,
+    "tgos_enabled": false,
+    "generated_at": "2025-09-05T13:58:42.082Z"
+  },
+  "stations": [
+    {
+      "id": 1,
+      "name": "宏立機車事業有限公司",
+      "address": "臺北市大安區和平東路2段141號",
+      "phone": "(02)27065429",
+      "district": "大安區",
+      "owner": "沈鳳雲",
+      "coordinates": {
+        "lat": 25.0254141,
+        "lng": 121.541036
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:20.721Z"
+      }
+    },
+    {
+      "id": 2,
+      "name": "群億車業商行",
+      "address": "臺北市松山區八德路4段336號",
+      "phone": "(02)27603181",
+      "district": "松山區",
+      "owner": "鄭宇廷",
+      "coordinates": {
+        "lat": 25.0490818,
+        "lng": 121.5680532
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:21.565Z"
+      }
+    },
+    {
+      "id": 3,
+      "name": "松春來車業有限公司",
+      "address": "臺北市松山區民權東路5段30號",
+      "phone": "(02)27666884",
+      "district": "松山區",
+      "owner": "盧家偉",
+      "coordinates": {
+        "lat": 25.0628212,
+        "lng": 121.5642785
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:22.868Z"
+      }
+    },
+    {
+      "id": 4,
+      "name": "國盛機車行",
+      "address": "臺北市松山區撫遠街189號",
+      "phone": "(02)27688819",
+      "district": "松山區",
+      "owner": "陳盛",
+      "coordinates": {
+        "lat": 25.0595123,
+        "lng": 121.5684067
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:23.892Z"
+      }
+    },
+    {
+      "id": 5,
+      "name": "益隆車業有限公司",
+      "address": "臺北市士林區重慶北路4段244號",
+      "phone": "(02)28127500",
+      "district": "士林區",
+      "owner": "潘林慶",
+      "coordinates": {
+        "lat": 25.0865703,
+        "lng": 121.5113283
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:24.774Z"
+      }
+    },
+    {
+      "id": 6,
+      "name": "台益機車有限公司",
+      "address": "臺北市士林區延平北路5段129號",
+      "phone": "(02)28122405",
+      "district": "士林區",
+      "owner": "劉尚承",
+      "coordinates": {
+        "lat": 25.0820035,
+        "lng": 121.5102287
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:25.764Z"
+      }
+    },
+    {
+      "id": 7,
+      "name": "良陽國際有限公司",
+      "address": "臺北市士林區士東路250號",
+      "phone": "(02)28370460",
+      "district": "士林區",
+      "owner": "林弘儒",
+      "coordinates": {
+        "lat": 25.1128835,
+        "lng": 121.5355728
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:26.976Z"
+      }
+    },
+    {
+      "id": 8,
+      "name": "加祥車業有限公司",
+      "address": "臺北市大同區延平北路2段256號",
+      "phone": "(02)25571818",
+      "district": "大同區",
+      "owner": "蕭耿祥",
+      "coordinates": {
+        "lat": 25.0602874,
+        "lng": 121.5112633
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:27.906Z"
+      }
+    },
+    {
+      "id": 9,
+      "name": "忠億車業有限公司",
+      "address": "臺北市大同區西寧北路17-4號",
+      "phone": "(02)25525232",
+      "district": "大同區",
+      "owner": "林坤忠",
+      "coordinates": {
+        "lat": 25.0634181,
+        "lng": 121.5110482
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:30.959Z"
+      }
+    },
+    {
+      "id": 10,
+      "name": "順旺車業有限公司",
+      "address": "臺北市大同區延平北路1段24號",
+      "phone": "(02)25589506",
+      "district": "大同區",
+      "owner": "陳祈良",
+      "coordinates": {
+        "lat": 25.0506006,
+        "lng": 121.5119127
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:31.678Z"
+      }
+    },
+    {
+      "id": 11,
+      "name": "新協大車業有限公司",
+      "address": "臺北市大同區延平北路3段67-1號",
+      "phone": "(02)25924480",
+      "district": "大同區",
+      "owner": "張黃玉梅",
+      "coordinates": {
+        "lat": 25.0632,
+        "lng": 121.5127
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:51:38.541Z"
+      }
+    },
+    {
+      "id": 12,
+      "name": "大輝車業有限公司",
+      "address": "臺北市南港區忠孝東路7段600號",
+      "phone": "(02)27820869",
+      "district": "南港區",
+      "owner": "黃進發",
+      "coordinates": {
+        "lat": 25.0528735,
+        "lng": 121.6153216
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:39.210Z"
+      }
+    },
+    {
+      "id": 13,
+      "name": "新三和機車行",
+      "address": "臺北市內湖區文德路22巷1號",
+      "phone": "(02)27970959",
+      "district": "內湖區",
+      "owner": "廖平和",
+      "coordinates": {
+        "lat": 25.0751535,
+        "lng": 121.5804262
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:41.099Z"
+      }
+    },
+    {
+      "id": 14,
+      "name": "日盛車業有限公司",
+      "address": "臺北市內湖區成功路3段73號",
+      "phone": "(02)27934893",
+      "district": "內湖區",
+      "owner": "賴文棟",
+      "coordinates": {
+        "lat": 25.0778977,
+        "lng": 121.5900415
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:42.020Z"
+      }
+    },
+    {
+      "id": 15,
+      "name": "東龍旺車業有限公司",
+      "address": "臺北市萬華區東園街133號",
+      "phone": "(02)23320264",
+      "district": "萬華區",
+      "owner": "周盈君",
+      "coordinates": {
+        "lat": 25.0248512,
+        "lng": 121.4970108
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:43.761Z"
+      }
+    },
+    {
+      "id": 16,
+      "name": "得山車業有限公司",
+      "address": "臺北市萬華區康定路114號",
+      "phone": "(02)23313426",
+      "district": "萬華區",
+      "owner": "魏夏萍",
+      "coordinates": {
+        "lat": 25.0410035,
+        "lng": 121.5020406
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:44.212Z"
+      }
+    },
+    {
+      "id": 17,
+      "name": "健立車業有限公司",
+      "address": "臺北市萬華區桂林路206號",
+      "phone": "(02)23082460",
+      "district": "萬華區",
+      "owner": "張璿彬",
+      "coordinates": {
+        "lat": 25.0383403,
+        "lng": 121.4967868
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:46.321Z"
+      }
+    },
+    {
+      "id": 18,
+      "name": "永振億實業有限公司",
+      "address": "臺北市萬華區柳州街87號",
+      "phone": "(02)23044111",
+      "district": "萬華區",
+      "owner": "葉書銘",
+      "coordinates": {
+        "lat": 25.0368291,
+        "lng": 121.5050563
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:47.959Z"
+      }
+    },
+    {
+      "id": 19,
+      "name": "運輪機車行",
+      "address": "臺北市中山區八德路2段86號",
+      "phone": "(02)27215371",
+      "district": "中山區",
+      "owner": "林秋霞",
+      "coordinates": {
+        "lat": 25.0455966,
+        "lng": 121.5357581
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:49.044Z"
+      }
+    },
+    {
+      "id": 20,
+      "name": "弘展機車有限公司",
+      "address": "臺北市大同區西寧北路93號",
+      "phone": "(02)25565871",
+      "district": "大同區",
+      "owner": "郭永坤",
+      "coordinates": {
+        "lat": 25.0566482,
+        "lng": 121.5091381
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:50.624Z"
+      }
+    },
+    {
+      "id": 21,
+      "name": "高旺企業股份有限公司",
+      "address": "臺北市文山區羅斯福路5段182號",
+      "phone": "(02)29312289",
+      "district": "文山區",
+      "owner": "高德旺",
+      "coordinates": {
+        "lat": 25.0040288,
+        "lng": 121.5384671
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:52.030Z"
+      }
+    },
+    {
+      "id": 22,
+      "name": "福盛全有限公司",
+      "address": "臺北市北投區中央南路1段210號",
+      "phone": "(02)28920313",
+      "district": "北投區",
+      "owner": "陳志宗",
+      "coordinates": {
+        "lat": 25.1283188,
+        "lng": 121.5010827
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:53.093Z"
+      }
+    },
+    {
+      "id": 23,
+      "name": "汶吉車業行",
+      "address": "臺北市北投區大業路560號",
+      "phone": "(02)28929174",
+      "district": "北投區",
+      "coordinates": {
+        "lat": 25.1353364,
+        "lng": 121.4969368
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:54.029Z"
+      }
+    },
+    {
+      "id": 24,
+      "name": "聯螢車業有限公司",
+      "address": "臺北市北投區中央南路1段156號1樓",
+      "phone": "(02)28955695",
+      "district": "北投區",
+      "owner": "徐琇晴",
+      "coordinates": {
+        "lat": 25.1295561,
+        "lng": 121.500961
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:55.254Z"
+      }
+    },
+    {
+      "id": 25,
+      "name": "大仁車業有限公司",
+      "address": "臺北市信義區松隆路80號",
+      "phone": "(02)27606918",
+      "district": "信義區",
+      "owner": "鄭朝澤",
+      "coordinates": {
+        "lat": 25.0444775,
+        "lng": 121.5692689
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:57.072Z"
+      }
+    },
+    {
+      "id": 26,
+      "name": "松宏車業有限公司",
+      "address": "臺北市信義區忠孝東路5段205號",
+      "phone": "(02)27668065",
+      "district": "信義區",
+      "owner": "林禾田",
+      "coordinates": {
+        "lat": 25.0411963,
+        "lng": 121.5697418
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:57.687Z"
+      }
+    },
+    {
+      "id": 27,
+      "name": "四維通車業有限公司",
+      "address": "臺北市內湖區民權東路6段128號",
+      "phone": "(02)27923672",
+      "district": "內湖區",
+      "owner": "羅志成",
+      "coordinates": {
+        "lat": 25.0688766,
+        "lng": 121.5875397
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:59.634Z"
+      }
+    },
+    {
+      "id": 28,
+      "name": "展嘉輪業有限公司",
+      "address": "臺北市文山區羅斯福路5段48號",
+      "phone": "(02)29352235",
+      "district": "文山區",
+      "owner": "陳炳坤",
+      "coordinates": {
+        "lat": 25.008711,
+        "lng": 121.5376132
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:00.453Z"
+      }
+    },
+    {
+      "id": 29,
+      "name": "鋒權輪有限公司",
+      "address": "臺北市文山區興隆路2段241號",
+      "phone": "(02)29318529",
+      "district": "文山區",
+      "owner": "高新添",
+      "coordinates": {
+        "lat": 25.0019154,
+        "lng": 121.551348
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:01.634Z"
+      }
+    },
+    {
+      "id": 30,
+      "name": "盛昌機車行",
+      "address": "臺北市大安區辛亥路1段58號",
+      "phone": "(02)23656459",
+      "district": "大安區",
+      "owner": "傅海祥",
+      "coordinates": {
+        "lat": 25.0204073,
+        "lng": 121.530617
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:03.147Z"
+      }
+    },
+    {
+      "id": 31,
+      "name": "進山車業有限公司",
+      "address": "臺北市北投區石牌路1段24號",
+      "phone": "(02)28271123",
+      "district": "北投區",
+      "owner": "黃浩彰",
+      "coordinates": {
+        "lat": 25.1127697,
+        "lng": 121.5100821
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:04.289Z"
+      }
+    },
+    {
+      "id": 32,
+      "name": "良江企業有限公司",
+      "address": "臺北市萬華區中華路2段98號",
+      "phone": "(02)23049911",
+      "district": "萬華區",
+      "owner": "陳志強",
+      "coordinates": {
+        "lat": 25.0314292,
+        "lng": 121.5040725
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:05.750Z"
+      }
+    },
+    {
+      "id": 33,
+      "name": "大旺車行",
+      "address": "臺北市萬華區萬大路214號",
+      "phone": "(02)23015555",
+      "district": "萬華區",
+      "owner": "李金蓮",
+      "coordinates": {
+        "lat": 25.0270877,
+        "lng": 121.5003138
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:07.006Z"
+      }
+    },
+    {
+      "id": 34,
+      "name": "后里車業有限公司",
+      "address": "臺北市中正區牯嶺街47號",
+      "phone": "(02)23417010",
+      "district": "中正區",
+      "owner": "楊振武",
+      "coordinates": {
+        "lat": 25.029851,
+        "lng": 121.5166415
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:08.337Z"
+      }
+    },
+    {
+      "id": 35,
+      "name": "松大車業有限公司",
+      "address": "臺北市中正區牯嶺街61-3號",
+      "phone": "(02)23519923",
+      "district": "中正區",
+      "owner": "呂鴻毅",
+      "coordinates": {
+        "lat": 25.0323,
+        "lng": 121.5127
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:52:15.865Z"
+      }
+    },
+    {
+      "id": 36,
+      "name": "隆大車業行",
+      "address": "臺北市北投區承德路7段344巷15號",
+      "phone": "(02)28214471",
+      "district": "北投區",
+      "owner": "陳美杏",
+      "coordinates": {
+        "lat": 25.1179076,
+        "lng": 121.5045934
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:16.529Z"
+      }
+    },
+    {
+      "id": 37,
+      "name": "鉍勝車業有限公司",
+      "address": "臺北市中正區師大路146號",
+      "phone": "(02)23670321",
+      "district": "中正區",
+      "owner": "王仁鴻",
+      "coordinates": {
+        "lat": 25.0209924,
+        "lng": 121.5265955
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:18.475Z"
+      }
+    },
+    {
+      "id": 38,
+      "name": "忠豪車業有限公司",
+      "address": "臺北市中正區忠孝東路2段31號",
+      "phone": "(02)23223646",
+      "district": "中正區",
+      "owner": "連昭銘",
+      "coordinates": {
+        "lat": 25.0438701,
+        "lng": 121.5279069
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:19.331Z"
+      }
+    },
+    {
+      "id": 39,
+      "name": "磬葉企業有限公司",
+      "address": "臺北市大同區錦西街56號",
+      "phone": "(02)25532553",
+      "district": "大同區",
+      "owner": "蕭富聰",
+      "coordinates": {
+        "lat": 25.0601705,
+        "lng": 121.5197157
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:21.137Z"
+      }
+    },
+    {
+      "id": 40,
+      "name": "良星車業有限公司",
+      "address": "臺北市大同區重慶北路2段39號",
+      "phone": "(02)25550191",
+      "district": "大同區",
+      "owner": "吳西寬",
+      "coordinates": {
+        "lat": 25.0550961,
+        "lng": 121.5143585
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:21.812Z"
+      }
+    },
+    {
+      "id": 41,
+      "name": "大華車業有限公司",
+      "address": "臺北市大同區承德路1段47號",
+      "phone": "(02)25550831",
+      "district": "大同區",
+      "owner": "陳信忠",
+      "coordinates": {
+        "lat": 25.0514257,
+        "lng": 121.5174204
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:23.799Z"
+      }
+    },
+    {
+      "id": 42,
+      "name": "中盛機車有限公司",
+      "address": "臺北市南港區東新街4號",
+      "phone": "(02)27826661",
+      "district": "南港區",
+      "owner": "曾月環",
+      "coordinates": {
+        "lat": 25.0482901,
+        "lng": 121.5842979
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:25.808Z"
+      }
+    },
+    {
+      "id": 43,
+      "name": "富偉機車行",
+      "address": "臺北市士林區文林路663號",
+      "phone": "(02)28351376",
+      "district": "士林區",
+      "owner": "黃豐榮",
+      "coordinates": {
+        "lat": 25.1007335,
+        "lng": 121.5223581
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:27.138Z"
+      }
+    },
+    {
+      "id": 44,
+      "name": "力泰車業有限公司",
+      "address": "臺北市士林區延平北路5段220號",
+      "phone": "(02)28126365",
+      "district": "士林區",
+      "owner": "程麗蓉",
+      "coordinates": {
+        "lat": 25.0840042,
+        "lng": 121.5100916
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:28.172Z"
+      }
+    },
+    {
+      "id": 45,
+      "name": "永生車業有限公司",
+      "address": "臺北市士林區華齡街71號",
+      "phone": "(02)28832628",
+      "district": "士林區",
+      "owner": "呂金隆",
+      "coordinates": {
+        "lat": 25.0848611,
+        "lng": 121.5192627
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:29.753Z"
+      }
+    },
+    {
+      "id": 46,
+      "name": "長豐車業行",
+      "address": "臺北市大同區承德路3段160號",
+      "phone": "(02)25910280",
+      "district": "大同區",
+      "owner": "胡有典",
+      "coordinates": {
+        "lat": 25.0687273,
+        "lng": 121.518192
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:30.419Z"
+      }
+    },
+    {
+      "id": 47,
+      "name": "弘達車業有限公司",
+      "address": "臺北市大同區承德路3段162號",
+      "phone": "(02)25927617",
+      "district": "大同區",
+      "owner": "陳武田",
+      "coordinates": {
+        "lat": 25.0687885,
+        "lng": 121.5181967
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:31.733Z"
+      }
+    },
+    {
+      "id": 48,
+      "name": "金理車業有限公司",
+      "address": "臺北市大安區八德路2段35號",
+      "phone": "(02)27112950",
+      "district": "大安區",
+      "owner": "楊劉玉英",
+      "coordinates": {
+        "lat": 25.044809,
+        "lng": 121.5340323
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:32.823Z"
+      }
+    },
+    {
+      "id": 49,
+      "name": "宏興車業有限公司",
+      "address": "臺北市大安區和平東路3段127號",
+      "phone": "(02)27371201",
+      "district": "大安區",
+      "owner": "侯天助",
+      "coordinates": {
+        "lat": 25.024551,
+        "lng": 121.5517864
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:34.108Z"
+      }
+    },
+    {
+      "id": 50,
+      "name": "車王二輪社",
+      "address": "臺北市大安區延吉街64-1號",
+      "phone": "(02)27783310",
+      "district": "大安區",
+      "owner": "陳文祥",
+      "coordinates": {
+        "lat": 25.0474614,
+        "lng": 121.5533188
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:36.599Z"
+      }
+    },
+    {
+      "id": 51,
+      "name": "益揚車業有限公司",
+      "address": "臺北市大安區羅斯福路3段93號",
+      "phone": "(02)23653488",
+      "district": "大安區",
+      "owner": "陳周紅",
+      "coordinates": {
+        "lat": 25.0225845,
+        "lng": 121.5263236
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:38.646Z"
+      }
+    },
+    {
+      "id": 52,
+      "name": "農安機車有限公司",
+      "address": "臺北市中山區龍江路375號",
+      "phone": "(02)25032002",
+      "district": "中山區",
+      "owner": "黃登鑫",
+      "coordinates": {
+        "lat": 25.0646625,
+        "lng": 121.5410766
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:39.129Z"
+      }
+    },
+    {
+      "id": 53,
+      "name": "大昌機車有限公司",
+      "address": "臺北市中山區北安路458巷3號",
+      "phone": "(02)25325325",
+      "district": "中山區",
+      "owner": "湯乾坤",
+      "coordinates": {
+        "lat": 25.0793637,
+        "lng": 121.5446566
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:40.487Z"
+      }
+    },
+    {
+      "id": 54,
+      "name": "展欣豪車業有限公司",
+      "address": "臺北市中山區民權東路2段126號",
+      "phone": "(02)25215751",
+      "district": "中山區",
+      "owner": "吳惠鈴",
+      "coordinates": {
+        "lat": 25.06229,
+        "lng": 121.5327157
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:41.998Z"
+      }
+    },
+    {
+      "id": 55,
+      "name": "异城車業有限公司",
+      "address": "臺北市中山區八德路2段329號",
+      "phone": "(02)27818035",
+      "district": "中山區",
+      "owner": "簡?達",
+      "coordinates": {
+        "lat": 25.0474686,
+        "lng": 121.5432052
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:42.947Z"
+      }
+    },
+    {
+      "id": 56,
+      "name": "達誠車業有限公司",
+      "address": "臺北市中山區吉林路12-3號",
+      "phone": "(02)25615203",
+      "district": "中山區",
+      "owner": "邱寬",
+      "coordinates": {
+        "lat": 25.0552001,
+        "lng": 121.5375747
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:46.161Z"
+      }
+    },
+    {
+      "id": 57,
+      "name": "名佳車業行",
+      "address": "臺北市中山區錦州街310-1號",
+      "phone": "(02)25052840",
+      "district": "中山區",
+      "owner": "廖偉樹",
+      "coordinates": {
+        "lat": 25.0636,
+        "lng": 121.5342
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:52:55.134Z"
+      }
+    },
+    {
+      "id": 58,
+      "name": "慶發車業有限公司",
+      "address": "臺北市中正區汀州路1段182號",
+      "phone": "(02)23013749",
+      "district": "中正區",
+      "owner": "邱炳宗",
+      "coordinates": {
+        "lat": 25.0282807,
+        "lng": 121.5089701
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:55.748Z"
+      }
+    },
+    {
+      "id": 59,
+      "name": "隆發車業有限公司",
+      "address": "臺北市中正區重慶南路3段135號",
+      "phone": "(02)23688822",
+      "district": "中正區",
+      "owner": "陳哲男",
+      "coordinates": {
+        "lat": 25.0236825,
+        "lng": 121.516999
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:57.590Z"
+      }
+    },
+    {
+      "id": 60,
+      "name": "春琳國際車業有限公司",
+      "address": "臺北市內湖區江南街28號",
+      "phone": "(02)26574081",
+      "district": "內湖區",
+      "owner": "呂圓",
+      "coordinates": {
+        "lat": 25.0775969,
+        "lng": 121.5776638
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:59.436Z"
+      }
+    },
+    {
+      "id": 61,
+      "name": "鳳翔車業行",
+      "address": "臺北市文山區木柵路1段57-6號",
+      "phone": "(02)22362673",
+      "district": "文山區",
+      "owner": "楊偉源",
+      "coordinates": {
+        "lat": 24.9889,
+        "lng": 121.5706
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:53:05.989Z"
+      }
+    },
+    {
+      "id": 62,
+      "name": "元土車行",
+      "address": "臺北市文山區木柵路1段212號",
+      "phone": "(02)29363029",
+      "district": "文山區",
+      "owner": "潘宗彬",
+      "coordinates": {
+        "lat": 24.9878505,
+        "lng": 121.5533051
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:08.036Z"
+      }
+    },
+    {
+      "id": 63,
+      "name": "光輝機車行",
+      "address": "臺北市文山區忠順街1段36、38號",
+      "phone": "(02)29375440",
+      "district": "文山區",
+      "owner": "李世雄",
+      "coordinates": {
+        "lat": 24.9840183,
+        "lng": 121.5597548
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:09.409Z"
+      }
+    },
+    {
+      "id": 64,
+      "name": "順利機車行",
+      "address": "臺北市文山區木新路2段285號",
+      "phone": "(02)29390679",
+      "district": "文山區",
+      "owner": "吳顏差",
+      "coordinates": {
+        "lat": 24.982815,
+        "lng": 121.5657371
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:10.391Z"
+      }
+    },
+    {
+      "id": 65,
+      "name": "拓源機車行",
+      "address": "臺北市文山區木新路3段73號",
+      "phone": "(02)29360058",
+      "district": "文山區",
+      "owner": "呂世源",
+      "coordinates": {
+        "lat": 24.9822075,
+        "lng": 121.563448
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:11.869Z"
+      }
+    },
+    {
+      "id": 66,
+      "name": "東和機車行",
+      "address": "臺北市文山區指南路1段4號",
+      "phone": "(02)29391769",
+      "district": "文山區",
+      "owner": "陳智山",
+      "coordinates": {
+        "lat": 24.9875557,
+        "lng": 121.5688793
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:14.488Z"
+      }
+    },
+    {
+      "id": 67,
+      "name": "祥騰機車行",
+      "address": "臺北市文山區景興路94號",
+      "phone": "(02)29321453",
+      "district": "文山區",
+      "owner": "李木傳",
+      "coordinates": {
+        "lat": 24.9948151,
+        "lng": 121.5445354
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:15.614Z"
+      }
+    },
+    {
+      "id": 68,
+      "name": "威烝車業行",
+      "address": "臺北市文山區景興路28-1號",
+      "phone": "(02)29336070",
+      "district": "文山區",
+      "owner": "鄭揚瑞",
+      "coordinates": {
+        "lat": 24.9978365,
+        "lng": 121.5446512
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.05340790341039136,
+        "geocoded_at": "2025-09-05T13:53:16.844Z"
+      }
+    },
+    {
+      "id": 69,
+      "name": "騰暉車業行",
+      "address": "臺北市文山區興隆路2段18號",
+      "phone": "(02)29355119",
+      "district": "文山區",
+      "owner": "蔡文文",
+      "coordinates": {
+        "lat": 24.998589,
+        "lng": 121.5455496
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:18.583Z"
+      }
+    },
+    {
+      "id": 70,
+      "name": "弘偉車業有限公司",
+      "address": "臺北市文山區羅斯福路6段317號",
+      "phone": "(02)29310378",
+      "district": "文山區",
+      "owner": "陳志祥",
+      "coordinates": {
+        "lat": 24.9938771,
+        "lng": 121.5413651
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:19.196Z"
+      }
+    },
+    {
+      "id": 71,
+      "name": "雄大車業行",
+      "address": "臺北市北投區中和街453-11號",
+      "phone": "(02)28950910",
+      "district": "北投區",
+      "owner": "何宜修",
+      "coordinates": {
+        "lat": 25.1315,
+        "lng": 121.5017
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:53:27.509Z"
+      }
+    },
+    {
+      "id": 72,
+      "name": "和峰車業有限公司",
+      "address": "臺北市北投區致遠一路1段92號",
+      "phone": "(02)28279551",
+      "district": "北投區",
+      "owner": "童美惠",
+      "coordinates": {
+        "lat": 25.1094046,
+        "lng": 121.5153357
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:28.362Z"
+      }
+    },
+    {
+      "id": 73,
+      "name": "重輪車業有限公司",
+      "address": "臺北市北投區崇仁路1段21號",
+      "phone": "(02)28918687",
+      "district": "北投區",
+      "owner": "呂學殷",
+      "coordinates": {
+        "lat": 25.1277116,
+        "lng": 121.5014133
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:29.642Z"
+      }
+    },
+    {
+      "id": 74,
+      "name": "日星車業行",
+      "address": "臺北市松山區八德路3段198號",
+      "phone": "(02)25780643",
+      "district": "松山區",
+      "owner": "黃棟樑",
+      "coordinates": {
+        "lat": 25.0479114,
+        "lng": 121.5563385
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:30.564Z"
+      }
+    },
+    {
+      "id": 75,
+      "name": "亞帝車業有限公司",
+      "address": "臺北市南港區中坡南路43號",
+      "phone": "(02)27852274",
+      "district": "南港區",
+      "owner": "彭福強",
+      "coordinates": {
+        "lat": 25.0429194,
+        "lng": 121.583557
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:32.918Z"
+      }
+    },
+    {
+      "id": 76,
+      "name": "尚益車業有限公司",
+      "address": "臺北市松山區五常街281-2號",
+      "phone": "(02)27129855",
+      "district": "松山區",
+      "owner": "陳奎宇",
+      "coordinates": {
+        "lat": 25.0578,
+        "lng": 121.5773
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:53:40.273Z"
+      }
+    },
+    {
+      "id": 77,
+      "name": "新光機車行",
+      "address": "臺北市松山區民生東路5段57號",
+      "phone": "(02)27612708",
+      "district": "松山區",
+      "owner": "蔡月琴",
+      "coordinates": {
+        "lat": 25.0585957,
+        "lng": 121.5578256
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:41.828Z"
+      }
+    },
+    {
+      "id": 78,
+      "name": "千翔車業行",
+      "address": "臺北市松山區光復北路109號",
+      "phone": "(02)27693225",
+      "district": "松山區",
+      "owner": "林振文",
+      "coordinates": {
+        "lat": 25.0510964,
+        "lng": 121.5580225
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:43.876Z"
+      }
+    },
+    {
+      "id": 79,
+      "name": "佳昇機車行",
+      "address": "臺北市松山區健康路44號",
+      "phone": "(02)87707177",
+      "district": "松山區",
+      "owner": "易正盛",
+      "coordinates": {
+        "lat": 25.0532271,
+        "lng": 121.5527947
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:47.050Z"
+      }
+    },
+    {
+      "id": 80,
+      "name": "吉安運動器材有限公司",
+      "address": "臺北市信義區中坡南路287號",
+      "phone": "(02)27265996",
+      "district": "信義區",
+      "owner": "衛霖森",
+      "coordinates": {
+        "lat": 25.0385637,
+        "lng": 121.5842389
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:47.526Z"
+      }
+    },
+    {
+      "id": 81,
+      "name": "春崇車業行",
+      "address": "臺北市信義區福德街268巷1號",
+      "phone": "(02)27591500",
+      "district": "信義區",
+      "owner": "張嘉琪",
+      "coordinates": {
+        "lat": 25.0407006,
+        "lng": 121.5853545
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:49.390Z"
+      }
+    },
+    {
+      "id": 82,
+      "name": "儀弘機車行",
+      "address": "臺北市南港區研究院路1段185號",
+      "phone": "(02)27881023",
+      "district": "南港區",
+      "owner": "潘月娥",
+      "coordinates": {
+        "lat": 25.0495153,
+        "lng": 121.615919
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:50.533Z"
+      }
+    },
+    {
+      "id": 83,
+      "name": "高陞機車行",
+      "address": "臺北市南港區研究院路2段72號",
+      "phone": "(02)27821361",
+      "district": "南港區",
+      "owner": "高文義",
+      "coordinates": {
+        "lat": 25.0456353,
+        "lng": 121.6151032
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:52.067Z"
+      }
+    },
+    {
+      "id": 84,
+      "name": "瑞明機車行",
+      "address": "臺北市大同區長安西路199號",
+      "phone": "(02)25595038",
+      "district": "大同區",
+      "owner": "黃武雄",
+      "coordinates": {
+        "lat": 25.0519196,
+        "lng": 121.5130255
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:53.194Z"
+      }
+    },
+    {
+      "id": 85,
+      "name": "三育機車有限公司",
+      "address": "臺北市文山區景隆街54號",
+      "phone": "(02)29315966",
+      "district": "文山區",
+      "owner": "陳秋永",
+      "coordinates": {
+        "lat": 24.998406,
+        "lng": 121.544303
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:55.297Z"
+      }
+    },
+    {
+      "id": 86,
+      "name": "欣利機車有限公司",
+      "address": "臺北市萬華區西園路2段288之1號",
+      "phone": "(02)23094206",
+      "district": "萬華區",
+      "owner": "張清輝",
+      "coordinates": {
+        "lat": 25.027378,
+        "lng": 121.494046
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:55.758Z"
+      }
+    },
+    {
+      "id": 87,
+      "name": "鑫東園車業有限公司",
+      "address": "臺北市萬華區東園街105號",
+      "phone": "(02)23035374",
+      "district": "萬華區",
+      "owner": "楊承達",
+      "coordinates": {
+        "lat": 25.0253411,
+        "lng": 121.4967797
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:58.372Z"
+      }
+    },
+    {
+      "id": 88,
+      "name": "葉山車行",
+      "address": "臺北市萬華區桂林路30號",
+      "phone": "(02)23062832",
+      "district": "萬華區",
+      "owner": "徐秋蓮",
+      "coordinates": {
+        "lat": 25.0376707,
+        "lng": 121.504992
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:59.751Z"
+      }
+    },
+    {
+      "id": 89,
+      "name": "尚億車業有限公司",
+      "address": "臺北市萬華區萬大路500號",
+      "phone": "(02)23016258",
+      "district": "萬華區",
+      "owner": "林偉傑",
+      "coordinates": {
+        "lat": 25.0193946,
+        "lng": 121.4971166
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:01.387Z"
+      }
+    },
+    {
+      "id": 90,
+      "name": "盟業車業行",
+      "address": "臺北市士林區通河街169號",
+      "phone": "(02)28864407",
+      "district": "士林區",
+      "owner": "呂金隆",
+      "coordinates": {
+        "lat": 25.0814063,
+        "lng": 121.519815
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:02.307Z"
+      }
+    },
+    {
+      "id": 91,
+      "name": "好發達車業",
+      "address": "臺北市士林區天母東路8巷99號",
+      "phone": "(02)28735552",
+      "district": "士林區",
+      "owner": "蔡昇達",
+      "coordinates": {
+        "lat": 25.1142902,
+        "lng": 121.5302877
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:03.328Z"
+      }
+    },
+    {
+      "id": 92,
+      "name": "新天母機車行",
+      "address": "臺北市士林區中山北路6段405巷83號",
+      "phone": "(02)28768286",
+      "district": "士林區",
+      "owner": "林俊忠",
+      "coordinates": {
+        "lat": 25.1171518,
+        "lng": 121.526022
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:04.356Z"
+      }
+    },
+    {
+      "id": 93,
+      "name": "銘豐機車行",
+      "address": "臺北市士林區文林路314號",
+      "phone": "(02)28819070",
+      "district": "士林區",
+      "owner": "汪碧雲",
+      "coordinates": {
+        "lat": 25.0922046,
+        "lng": 121.5262221
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:05.729Z"
+      }
+    },
+    {
+      "id": 94,
+      "name": "小緯機車行",
+      "address": "臺北市大同區大龍街26號",
+      "phone": "(02)25572788",
+      "district": "大同區",
+      "owner": "李建緯",
+      "coordinates": {
+        "lat": 25.0638325,
+        "lng": 121.5159307
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:07.625Z"
+      }
+    },
+    {
+      "id": 95,
+      "name": "旭宏車業行",
+      "address": "臺北市信義區和平東路3段285號",
+      "phone": "(02)27385828",
+      "district": "信義區",
+      "owner": "沈毓翔",
+      "coordinates": {
+        "lat": 25.0220636,
+        "lng": 121.5552397
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:09.094Z"
+      }
+    },
+    {
+      "id": 96,
+      "name": "東貿機車有限公司",
+      "address": "臺北市大安區基隆路2段233號",
+      "phone": "(02)27351212",
+      "district": "大安區",
+      "owner": "黃正德",
+      "coordinates": {
+        "lat": 25.0225538,
+        "lng": 121.5507467
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:10.193Z"
+      }
+    },
+    {
+      "id": 97,
+      "name": "德剛車行有限公司",
+      "address": "臺北市中山區天津街27號",
+      "phone": "(02)25318292",
+      "district": "中山區",
+      "owner": "林鴻鑫",
+      "coordinates": {
+        "lat": 25.0486266,
+        "lng": 121.5226587
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:12.445Z"
+      }
+    },
+    {
+      "id": 98,
+      "name": "偉恆有限公司",
+      "address": "臺北市中山區吉林路408號",
+      "phone": "(02)25950909",
+      "district": "中山區",
+      "owner": "黃立偉",
+      "coordinates": {
+        "lat": 25.0655461,
+        "lng": 121.530253
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:13.030Z"
+      }
+    },
+    {
+      "id": 99,
+      "name": "世輪機車行",
+      "address": "臺北市中正區汀州路2段76號",
+      "phone": "(02)23680029",
+      "district": "中正區",
+      "owner": "鄭秀玉",
+      "coordinates": {
+        "lat": 25.0250464,
+        "lng": 121.518695
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:15.112Z"
+      }
+    },
+    {
+      "id": 100,
+      "name": "日昇機車行",
+      "address": "臺北市內湖區康寧路3段16巷115號",
+      "phone": "(02)26321200",
+      "district": "內湖區",
+      "owner": "郭誌銘",
+      "coordinates": {
+        "lat": 25.0711493,
+        "lng": 121.6095769
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:15.825Z"
+      }
+    },
+    {
+      "id": 101,
+      "name": "宏淞車業有限公司",
+      "address": "臺北市內湖區金龍路87號",
+      "phone": "(02)27902769",
+      "district": "內湖區",
+      "owner": "曾振豪",
+      "coordinates": {
+        "lat": 25.0853092,
+        "lng": 121.5918603
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:18.385Z"
+      }
+    },
+    {
+      "id": 102,
+      "name": "正倫車業行",
+      "address": "臺北市內湖區康樂街67號",
+      "phone": "(02)26331673",
+      "district": "內湖區",
+      "owner": "林瑩霞",
+      "coordinates": {
+        "lat": 25.0687375,
+        "lng": 121.6185038
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:19.508Z"
+      }
+    },
+    {
+      "id": 103,
+      "name": "金展機車行",
+      "address": "臺北市北投區自強街62號",
+      "phone": "(02)28232068",
+      "district": "北投區",
+      "owner": "李瑞德",
+      "coordinates": {
+        "lat": 25.1103519,
+        "lng": 121.513915
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:21.255Z"
+      }
+    },
+    {
+      "id": 104,
+      "name": "聯耀機車行",
+      "address": "臺北市萬華區環河南路1段21號",
+      "phone": "(02)23617187",
+      "district": "萬華區",
+      "owner": "李碧珠",
+      "coordinates": {
+        "lat": 25.0468657,
+        "lng": 121.5041926
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:22.071Z"
+      }
+    },
+    {
+      "id": 105,
+      "name": "唭哩岸機車行",
+      "address": "臺北市北投區致遠二路89號",
+      "phone": "(02)28226981",
+      "district": "北投區",
+      "owner": "葉淑娥",
+      "coordinates": {
+        "lat": 25.1161631,
+        "lng": 121.5116646
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:23.717Z"
+      }
+    },
+    {
+      "id": 106,
+      "name": "昇輪機車行",
+      "address": "臺北市信義區信義路6段47號",
+      "phone": "(02)27282084",
+      "district": "信義區",
+      "owner": "劉銹錦",
+      "coordinates": {
+        "lat": 25.0350767,
+        "lng": 121.5763355
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:24.875Z"
+      }
+    },
+    {
+      "id": 107,
+      "name": "友順機車行",
+      "address": "臺北市萬華區萬大路423巷27號",
+      "phone": "(02)23391766",
+      "district": "萬華區",
+      "owner": "蔡金龍",
+      "coordinates": {
+        "lat": 25.0212452,
+        "lng": 121.4999969
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:26.214Z"
+      }
+    },
+    {
+      "id": 108,
+      "name": "巨揚機車行",
+      "address": "臺北市士林區中正路605號",
+      "phone": "(02)28131959",
+      "district": "士林區",
+      "owner": "林振華",
+      "coordinates": {
+        "lat": 25.0865606,
+        "lng": 121.5097387
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:27.860Z"
+      }
+    },
+    {
+      "id": 109,
+      "name": "信全車業有限公司",
+      "address": "臺北市大安區通化街168號",
+      "phone": "(02)27389789",
+      "district": "大安區",
+      "owner": "許溪泉",
+      "coordinates": {
+        "lat": 25.0282491,
+        "lng": 121.5535572
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:29.956Z"
+      }
+    },
+    {
+      "id": 110,
+      "name": "立豐機車行",
+      "address": "臺北市中正區重慶南路3段32號",
+      "phone": "(02)23072575",
+      "district": "中正區",
+      "owner": "侯秋燕",
+      "coordinates": {
+        "lat": 25.0287361,
+        "lng": 121.5153732
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:30.673Z"
+      }
+    },
+    {
+      "id": 111,
+      "name": "國祥機車行",
+      "address": "臺北市內湖區康樂街32號",
+      "phone": "(02)26333510",
+      "district": "內湖區",
+      "owner": "曹永陣",
+      "coordinates": {
+        "lat": 25.0688303,
+        "lng": 121.6183625
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:33.045Z"
+      }
+    },
+    {
+      "id": 112,
+      "name": "葉陽車業行",
+      "address": "臺北市內湖區民權東路6段320號",
+      "phone": "(02)26345556",
+      "district": "內湖區",
+      "owner": "周鴻政",
+      "coordinates": {
+        "lat": 25.072688,
+        "lng": 121.6061099
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:33.584Z"
+      }
+    },
+    {
+      "id": 113,
+      "name": "通龍車業行",
+      "address": "臺北市內湖區港墘路34號",
+      "phone": "(02)27996478",
+      "district": "內湖區",
+      "owner": "林振昌",
+      "coordinates": {
+        "lat": 25.0824877,
+        "lng": 121.5780473
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:36.101Z"
+      }
+    },
+    {
+      "id": 114,
+      "name": "大發車業",
+      "address": "臺北市北投區中央北路2段167號",
+      "phone": "(02)28955121",
+      "district": "北投區",
+      "owner": "詹文琦",
+      "coordinates": {
+        "lat": 25.1376188,
+        "lng": 121.4933757
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:36.814Z"
+      }
+    },
+    {
+      "id": 115,
+      "name": "崑宏機車行",
+      "address": "臺北市松山區撫遠街362號",
+      "phone": "(02)27476668",
+      "district": "松山區",
+      "owner": "盧蘇阿葉",
+      "coordinates": {
+        "lat": 25.0630278,
+        "lng": 121.5658837
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:38.558Z"
+      }
+    },
+    {
+      "id": 116,
+      "name": "大慶機車材料行",
+      "address": "臺北市信義區莊敬路325巷33號",
+      "phone": "(02)27224533",
+      "district": "信義區",
+      "owner": "林靜惠",
+      "coordinates": {
+        "lat": 25.0287833,
+        "lng": 121.5643639
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:39.479Z"
+      }
+    },
+    {
+      "id": 117,
+      "name": "東勝機車行",
+      "address": "臺北市信義區松仁路167號",
+      "phone": "(02)27291027",
+      "district": "信義區",
+      "owner": "黃東安",
+      "coordinates": {
+        "lat": 25.0281834,
+        "lng": 121.5684773
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:41.054Z"
+      }
+    },
+    {
+      "id": 118,
+      "name": "益群車業有限公司",
+      "address": "臺北市南港區東新街69號",
+      "phone": "(02)26511998",
+      "district": "南港區",
+      "owner": "洪淑華",
+      "coordinates": {
+        "lat": 25.0466699,
+        "lng": 121.5882285
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:42.457Z"
+      }
+    },
+    {
+      "id": 119,
+      "name": "民豐機車行",
+      "address": "臺北市南港區成福路137號",
+      "phone": "(02)27858389",
+      "district": "南港區",
+      "owner": "王秀玉",
+      "coordinates": {
+        "lat": 25.0418124,
+        "lng": 121.5876666
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:44.497Z"
+      }
+    },
+    {
+      "id": 120,
+      "name": "政賢機車行",
+      "address": "臺北市南港區忠孝東路7段564號",
+      "phone": "(02)27834062",
+      "district": "南港區",
+      "owner": "李信賢",
+      "coordinates": {
+        "lat": 25.0526095,
+        "lng": 121.6133067
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:44.934Z"
+      }
+    },
+    {
+      "id": 121,
+      "name": "億林機車行",
+      "address": "臺北市萬華區艋舺大道416號",
+      "phone": "(02)23025528",
+      "district": "萬華區",
+      "owner": "孫溪林",
+      "coordinates": {
+        "lat": 25.0290764,
+        "lng": 121.4921986
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:47.054Z"
+      }
+    },
+    {
+      "id": 122,
+      "name": "一成機車有限公司",
+      "address": "臺北市中正區新生南路1段134-1號",
+      "phone": "(02)23215118",
+      "district": "中正區",
+      "owner": "林躍庭",
+      "coordinates": {
+        "lat": 25.0323,
+        "lng": 121.5127
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:54:55.286Z"
+      }
+    },
+    {
+      "id": 123,
+      "name": "紘益機車行",
+      "address": "臺北市中正區牯嶺街77號",
+      "phone": "(02)23968808",
+      "district": "中正區",
+      "owner": "商嘉宏",
+      "coordinates": {
+        "lat": 25.0281499,
+        "lng": 121.5178965
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:57.297Z"
+      }
+    },
+    {
+      "id": 124,
+      "name": "皇信機車行",
+      "address": "臺北市大安區濟南路3段68號",
+      "phone": "(02)27520622",
+      "district": "大安區",
+      "owner": "蔡明成",
+      "coordinates": {
+        "lat": 25.0400493,
+        "lng": 121.5372116
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:58.321Z"
+      }
+    },
+    {
+      "id": 125,
+      "name": "興陽機車行",
+      "address": "臺北市內湖區五分街39號",
+      "phone": "(02)26323772",
+      "district": "內湖區",
+      "owner": "林秉宏",
+      "coordinates": {
+        "lat": 25.0676285,
+        "lng": 121.6136864
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:59.959Z"
+      }
+    },
+    {
+      "id": 126,
+      "name": "誠鎰車業行",
+      "address": "臺北市士林區德行東路23號",
+      "phone": "(02)28362220",
+      "district": "士林區",
+      "owner": "陳惠如",
+      "coordinates": {
+        "lat": 25.1068983,
+        "lng": 121.5258801
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:01.501Z"
+      }
+    },
+    {
+      "id": 127,
+      "name": "翊翔機車行",
+      "address": "臺北市大同區錦西街67號",
+      "phone": "(02)25536665",
+      "district": "大同區",
+      "owner": "林子雄",
+      "coordinates": {
+        "lat": 25.0598145,
+        "lng": 121.5155851
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:03.440Z"
+      }
+    },
+    {
+      "id": 128,
+      "name": "欣民機車行",
+      "address": "臺北市北投區行義路21號",
+      "phone": "(02)28740905",
+      "district": "北投區",
+      "owner": "賴民禮",
+      "coordinates": {
+        "lat": 25.125107,
+        "lng": 121.5264914
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:04.667Z"
+      }
+    },
+    {
+      "id": 129,
+      "name": "裕進車業行",
+      "address": "臺北市信義區富陽街63號",
+      "phone": "(02)27321673",
+      "district": "信義區",
+      "owner": "蔡進奎",
+      "coordinates": {
+        "lat": 25.0219662,
+        "lng": 121.5565114
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:06.821Z"
+      }
+    },
+    {
+      "id": 130,
+      "name": "小林機車行",
+      "address": "臺北市大安區建國南路2段79巷3號",
+      "phone": "(02)27087471",
+      "district": "大安區",
+      "owner": "林世魁",
+      "coordinates": {
+        "lat": 25.0309197,
+        "lng": 121.538244
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:07.245Z"
+      }
+    },
+    {
+      "id": 131,
+      "name": "協合國際行銷有限公司",
+      "address": "臺北市萬華區和平西路2段182號",
+      "phone": "(02)77137716",
+      "district": "萬華區",
+      "owner": "劉燦慧",
+      "coordinates": {
+        "lat": 25.0335972,
+        "lng": 121.5048275
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:09.559Z"
+      }
+    },
+    {
+      "id": 132,
+      "name": "鎧詮機車行",
+      "address": "臺北市內湖區內湖路1段31號",
+      "phone": "(02)27992419",
+      "district": "內湖區",
+      "owner": "洪益詮",
+      "coordinates": {
+        "lat": 25.0852107,
+        "lng": 121.5588122
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:10.711Z"
+      }
+    },
+    {
+      "id": 133,
+      "name": "駿全車坊",
+      "address": "臺北市大安區市民大道4段22號",
+      "phone": "(02)27727739",
+      "district": "大安區",
+      "owner": "王俊傑",
+      "coordinates": {
+        "lat": 25.0265,
+        "lng": 121.5436
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:55:17.862Z"
+      }
+    },
+    {
+      "id": 134,
+      "name": "致盛機車行",
+      "address": "臺北市大安區金華街118-4號",
+      "phone": "(02)23943990",
+      "district": "大安區",
+      "owner": "游季偉",
+      "coordinates": {
+        "lat": 25.0265,
+        "lng": 121.5436
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:55:25.181Z"
+      }
+    },
+    {
+      "id": 135,
+      "name": "成功車業行",
+      "address": "臺北市內湖區金龍路9號",
+      "phone": "(02)27961751",
+      "district": "內湖區",
+      "owner": "郭志明",
+      "coordinates": {
+        "lat": 25.0844585,
+        "lng": 121.5949763
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:28.006Z"
+      }
+    },
+    {
+      "id": 136,
+      "name": "達成車業有限公司",
+      "address": "臺北市文山區興隆路2段177號",
+      "phone": "(02)29317227",
+      "district": "文山區",
+      "owner": "高志宏",
+      "coordinates": {
+        "lat": 25.0007633,
+        "lng": 121.5491165
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:28.659Z"
+      }
+    },
+    {
+      "id": 137,
+      "name": "嘉盛車業行",
+      "address": "臺北市士林區延平北路6段139號",
+      "phone": "(02)28126456",
+      "district": "士林區",
+      "owner": "張振盛",
+      "coordinates": {
+        "lat": 25.0890274,
+        "lng": 121.507659
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00006715571831841028,
+        "geocoded_at": "2025-09-05T13:55:30.499Z"
+      }
+    },
+    {
+      "id": 138,
+      "name": "永承車業行",
+      "address": "臺北市松山區健康路230號",
+      "phone": "(02)27618169",
+      "district": "松山區",
+      "owner": "吳勝雄",
+      "coordinates": {
+        "lat": 25.0538723,
+        "lng": 121.5614237
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:31.499Z"
+      }
+    },
+    {
+      "id": 139,
+      "name": "德龍車業行",
+      "address": "臺北市士林區故宮路41巷1號",
+      "phone": "(02)28882256",
+      "district": "士林區",
+      "owner": "吳建龍",
+      "coordinates": {
+        "lat": 25.0966024,
+        "lng": 121.5474172
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:33.092Z"
+      }
+    },
+    {
+      "id": 140,
+      "name": "俊明機車行",
+      "address": "臺北市信義區吳興街469號",
+      "phone": "(02)27294238",
+      "district": "信義區",
+      "owner": "吳俊明",
+      "coordinates": {
+        "lat": 25.0237577,
+        "lng": 121.5691996
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:33.893Z"
+      }
+    },
+    {
+      "id": 141,
+      "name": "勵瑩車業有限公司",
+      "address": "臺北市信義區松山路348號",
+      "phone": "(02)27682775",
+      "district": "信義區",
+      "owner": "彭胡鳳英",
+      "coordinates": {
+        "lat": 25.0411408,
+        "lng": 121.5776618
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:35.798Z"
+      }
+    },
+    {
+      "id": 142,
+      "name": "順達機車行",
+      "address": "臺北市北投區立農街2段206號",
+      "phone": "(02)28273761",
+      "district": "北投區",
+      "owner": "鄭進福",
+      "coordinates": {
+        "lat": 25.1186874,
+        "lng": 121.5144116
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:36.745Z"
+      }
+    },
+    {
+      "id": 143,
+      "name": "車強機車行",
+      "address": "臺北市萬華區環河南路2段105號",
+      "phone": "(02)23067553",
+      "district": "萬華區",
+      "owner": "陳少玉",
+      "coordinates": {
+        "lat": 25.03486,
+        "lng": 121.4940583
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:38.596Z"
+      }
+    },
+    {
+      "id": 144,
+      "name": "季祥車業行",
+      "address": "臺北市南港區研究院路1段45號",
+      "phone": "(02)27883297",
+      "district": "南港區",
+      "owner": "王仁鴻",
+      "coordinates": {
+        "lat": 25.0533449,
+        "lng": 121.6164873
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:39.449Z"
+      }
+    },
+    {
+      "id": 145,
+      "name": "祥和機車行",
+      "address": "臺北市萬華區環河南路2段117號",
+      "phone": "(02)23088967",
+      "district": "萬華區",
+      "owner": "羅淑惠",
+      "coordinates": {
+        "lat": 25.034493,
+        "lng": 121.4937338
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:41.126Z"
+      }
+    },
+    {
+      "id": 146,
+      "name": "國真車業有限公司",
+      "address": "臺北市大同區哈密街63巷1號",
+      "phone": "(02)25961888",
+      "district": "大同區",
+      "owner": "連素真",
+      "coordinates": {
+        "lat": 25.0632,
+        "lng": 121.5127
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:55:46.766Z"
+      }
+    },
+    {
+      "id": 147,
+      "name": "三沅行車業股份有限公司",
+      "address": "臺北市信義區忠孝東路5段713號",
+      "phone": "(02)87851899",
+      "district": "信義區",
+      "owner": "潘明洲",
+      "coordinates": {
+        "lat": 25.0426473,
+        "lng": 121.5803679
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:48.761Z"
+      }
+    },
+    {
+      "id": 148,
+      "name": "國裕機車行",
+      "address": "臺北市中正區濟南路2段73號",
+      "phone": "(02)23414867",
+      "district": "中正區",
+      "owner": "鄭朝誥",
+      "coordinates": {
+        "lat": 25.0402703,
+        "lng": 121.5325243
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:49.931Z"
+      }
+    },
+    {
+      "id": 149,
+      "name": "玟樺機車行",
+      "address": "臺北市內湖區內湖路1段91巷7號",
+      "phone": "(02)27997488",
+      "district": "內湖區",
+      "owner": "曾文華",
+      "coordinates": {
+        "lat": 25.0846584,
+        "lng": 121.5611583
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:51.366Z"
+      }
+    },
+    {
+      "id": 150,
+      "name": "典輪機車行",
+      "address": "臺北市大安區建國南路2段161號",
+      "phone": "(02)27072733",
+      "district": "大安區",
+      "owner": "陳經典",
+      "coordinates": {
+        "lat": 25.0284824,
+        "lng": 121.5381027
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:52.490Z"
+      }
+    },
+    {
+      "id": 151,
+      "name": "偉翔機車行",
+      "address": "臺北市中山區長安東路1段45號",
+      "phone": "(02)25119195",
+      "district": "中山區",
+      "owner": "康田",
+      "coordinates": {
+        "lat": 25.0490048,
+        "lng": 121.5255979
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:54.129Z"
+      }
+    },
+    {
+      "id": 152,
+      "name": "展悅機車行",
+      "address": "臺北市北投區公館路146號",
+      "phone": "(02)28949129",
+      "district": "北投區",
+      "owner": "何瑞通",
+      "coordinates": {
+        "lat": 25.1292842,
+        "lng": 121.5056411
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:55.086Z"
+      }
+    },
+    {
+      "id": 153,
+      "name": "僑王機車行",
+      "address": "臺北市北投區致遠二路116號",
+      "phone": "(02)28205708",
+      "district": "北投區",
+      "owner": "廖展誌",
+      "coordinates": {
+        "lat": 25.1171876,
+        "lng": 121.5129691
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:56.487Z"
+      }
+    },
+    {
+      "id": 154,
+      "name": "鴻吉機車行",
+      "address": "臺北市文山區興隆路3段117號",
+      "phone": "(02)22308318",
+      "district": "文山區",
+      "owner": "劉清坡",
+      "coordinates": {
+        "lat": 24.9989866,
+        "lng": 121.558113
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:57.816Z"
+      }
+    },
+    {
+      "id": 155,
+      "name": "慧昌機車行",
+      "address": "臺北市文山區木柵路3段102巷7號",
+      "phone": "(02)86611049",
+      "district": "文山區",
+      "owner": "陳雪妮",
+      "coordinates": {
+        "lat": 24.9882767,
+        "lng": 121.5676555
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:59.238Z"
+      }
+    },
+    {
+      "id": 156,
+      "name": "駿輝機車行",
+      "address": "臺北市士林區大南路295號",
+      "phone": "(02)28881771",
+      "district": "士林區",
+      "owner": "徐濤",
+      "coordinates": {
+        "lat": 25.0888416,
+        "lng": 121.5186878
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:00.478Z"
+      }
+    },
+    {
+      "id": 157,
+      "name": "新鎰昌機車行",
+      "address": "臺北市士林區至誠路1段2-6號",
+      "phone": "(02)28313711",
+      "district": "士林區",
+      "owner": "蘇芬芬",
+      "coordinates": {
+        "lat": 25.1013547,
+        "lng": 121.5343195
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.05340790341039136,
+        "geocoded_at": "2025-09-05T13:56:03.243Z"
+      }
+    },
+    {
+      "id": 158,
+      "name": "朝日車業行",
+      "address": "臺北市中山區民權東路2段133號",
+      "phone": "(02)25066372",
+      "district": "中山區",
+      "owner": "鄭榮輝",
+      "coordinates": {
+        "lat": 25.0626488,
+        "lng": 121.5349111
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:04.062Z"
+      }
+    },
+    {
+      "id": 159,
+      "name": "聯盈機車材料行",
+      "address": "臺北市北投區中央北路4段545號",
+      "phone": "(02)28920623",
+      "district": "北投區",
+      "owner": "林嘉政",
+      "coordinates": {
+        "lat": 25.1276324,
+        "lng": 121.4675769
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:05.709Z"
+      }
+    },
+    {
+      "id": 160,
+      "name": "坤達機車行",
+      "address": "臺北市內湖區文湖街75號",
+      "phone": "(02)26578305",
+      "district": "內湖區",
+      "owner": "柯坤達",
+      "coordinates": {
+        "lat": 25.0866769,
+        "lng": 121.5637056
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:07.173Z"
+      }
+    },
+    {
+      "id": 161,
+      "name": "峻東機車行",
+      "address": "臺北市內湖區東湖路119巷49弄30號",
+      "phone": "(02)26337968",
+      "district": "內湖區",
+      "owner": "葉秀銘",
+      "coordinates": {
+        "lat": 25.0701652,
+        "lng": 121.6163605
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:08.434Z"
+      }
+    },
+    {
+      "id": 162,
+      "name": "承鋒車業行",
+      "address": "臺北市萬華區西園路2段67之2號",
+      "phone": "(02)23080669",
+      "district": "萬華區",
+      "owner": "徐正雄",
+      "coordinates": {
+        "lat": 25.0308376,
+        "lng": 121.4968551
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:09.549Z"
+      }
+    },
+    {
+      "id": 163,
+      "name": "建維機車行",
+      "address": "臺北市大安區潮州街86號",
+      "phone": "(02)23410243",
+      "district": "大安區",
+      "owner": "簡陳碧雲",
+      "coordinates": {
+        "lat": 25.0290593,
+        "lng": 121.5246573
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:13.064Z"
+      }
+    },
+    {
+      "id": 164,
+      "name": "力鼎機車行",
+      "address": "臺北市信義區基隆路一段99號",
+      "phone": "(02)27855522",
+      "district": "信義區",
+      "owner": "廖德政",
+      "coordinates": {
+        "lat": 25.0455279,
+        "lng": 121.5672914
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:14.199Z"
+      }
+    },
+    {
+      "id": 165,
+      "name": "原益車業行",
+      "address": "臺北市士林區延平北路5段14號",
+      "phone": "(02)28128212",
+      "district": "士林區",
+      "owner": "李忠喜",
+      "coordinates": {
+        "lat": 25.0794261,
+        "lng": 121.5113007
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:15.587Z"
+      }
+    },
+    {
+      "id": 166,
+      "name": "卉茂實業有限公司",
+      "address": "臺北市士林區文林路764號",
+      "phone": "(02)28319416",
+      "district": "士林區",
+      "owner": "謝林麗豐",
+      "coordinates": {
+        "lat": 25.0913968,
+        "lng": 121.5266504
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.05340790341039136,
+        "geocoded_at": "2025-09-05T13:56:16.657Z"
+      }
+    },
+    {
+      "id": 167,
+      "name": "百鉅機車行",
+      "address": "臺北市內湖區成功路2段314號",
+      "phone": "(02)27920086",
+      "district": "內湖區",
+      "owner": "曾德昌",
+      "coordinates": {
+        "lat": 25.0672208,
+        "lng": 121.5904634
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:18.192Z"
+      }
+    },
+    {
+      "id": 168,
+      "name": "豪信機車行",
+      "address": "臺北市信義區松隆路211號",
+      "phone": "(02)27602773",
+      "district": "信義區",
+      "owner": "何政憲",
+      "coordinates": {
+        "lat": 25.0484858,
+        "lng": 121.5763412
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:19.113Z"
+      }
+    },
+    {
+      "id": 169,
+      "name": "泓原彰車業行",
+      "address": "臺北市中山區中原街23號",
+      "phone": "(02)25410110",
+      "district": "中山區",
+      "owner": "詹秉樟",
+      "coordinates": {
+        "lat": 25.0562851,
+        "lng": 121.5289814
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:21.367Z"
+      }
+    },
+    {
+      "id": 170,
+      "name": "誠鴻機車行",
+      "address": "臺北市內湖區民權東路6段60號",
+      "phone": "(02)27939829",
+      "district": "內湖區",
+      "owner": "李志成",
+      "coordinates": {
+        "lat": 25.0686762,
+        "lng": 121.5847407
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:22.086Z"
+      }
+    },
+    {
+      "id": 171,
+      "name": "大利車業行",
+      "address": "臺北市北投區中央北路1段203號",
+      "phone": "(02)28954867",
+      "district": "北投區",
+      "owner": "張永和",
+      "coordinates": {
+        "lat": 25.1359111,
+        "lng": 121.4972936
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:23.927Z"
+      }
+    },
+    {
+      "id": 172,
+      "name": "樺新車業行",
+      "address": "臺北市大安區市民大道4段64號",
+      "phone": "(02)27212062",
+      "district": "大安區",
+      "owner": "吳志遠",
+      "coordinates": {
+        "lat": 25.0265,
+        "lng": 121.5436
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:56:29.419Z"
+      }
+    },
+    {
+      "id": 173,
+      "name": "永全機車行",
+      "address": "臺北市中山區中山北路2段137巷36-2號",
+      "phone": "(02)25114713",
+      "district": "中山區",
+      "owner": "呂金國",
+      "coordinates": {
+        "lat": 25.0636,
+        "lng": 121.5312
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:56:36.257Z"
+      }
+    },
+    {
+      "id": 174,
+      "name": "浩成機車行",
+      "address": "臺北市北投區崇仁路1段40號",
+      "phone": "(02)28982710",
+      "district": "北投區",
+      "owner": "許位誠",
+      "coordinates": {
+        "lat": 25.1272635,
+        "lng": 121.5012944
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:37.546Z"
+      }
+    },
+    {
+      "id": 175,
+      "name": "飛皇車業行",
+      "address": "臺北市內湖區內湖路2段9號",
+      "phone": "(02)27993707",
+      "district": "內湖區",
+      "owner": "章香琴",
+      "coordinates": {
+        "lat": 25.0787917,
+        "lng": 121.5792918
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:39.288Z"
+      }
+    },
+    {
+      "id": 176,
+      "name": "豪成機車行",
+      "address": "臺北市萬華區和平西路2段190巷5號",
+      "phone": "(02)23085576",
+      "district": "萬華區",
+      "owner": "蔡榮龍",
+      "coordinates": {
+        "lat": 25.0335424,
+        "lng": 121.5046338
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:39.902Z"
+      }
+    },
+    {
+      "id": 177,
+      "name": "日輝車業有限公司",
+      "address": "臺北市士林區延平北路5段41號",
+      "phone": "(02)28119912",
+      "district": "士林區",
+      "owner": "丁東日",
+      "coordinates": {
+        "lat": 25.0799593,
+        "lng": 121.5108122
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:41.749Z"
+      }
+    },
+    {
+      "id": 178,
+      "name": "元信機車行有限公司",
+      "address": "臺北市文山區木柵路2段125號",
+      "phone": "(02)29395976",
+      "district": "文山區",
+      "owner": "溫仕傳",
+      "coordinates": {
+        "lat": 24.9890176,
+        "lng": 121.5621663
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:43.076Z"
+      }
+    },
+    {
+      "id": 179,
+      "name": "益昇機車行",
+      "address": "臺北市信義區莊敬路214號",
+      "phone": "(02)27208285",
+      "district": "信義區",
+      "owner": "李坤憲",
+      "coordinates": {
+        "lat": 25.0300906,
+        "lng": 121.5616567
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:44.714Z"
+      }
+    },
+    {
+      "id": 180,
+      "name": "老羅機車行",
+      "address": "臺北市松山區塔悠路206號",
+      "phone": "(02)27611373",
+      "district": "松山區",
+      "owner": "羅重庚",
+      "coordinates": {
+        "lat": 25.0574474,
+        "lng": 121.5690764
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:45.738Z"
+      }
+    },
+    {
+      "id": 181,
+      "name": "惠展車業",
+      "address": "臺北市南港區福德街354號",
+      "phone": "(02)27864091",
+      "district": "南港區",
+      "owner": "邱阿亮",
+      "coordinates": {
+        "lat": 25.039672,
+        "lng": 121.588856
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:47.376Z"
+      }
+    },
+    {
+      "id": 182,
+      "name": "米德車業行",
+      "address": "臺北市內湖區環山路2段21號",
+      "phone": "(02)27978295",
+      "district": "內湖區",
+      "owner": "古丞凱",
+      "coordinates": {
+        "lat": 25.0861062,
+        "lng": 121.5713961
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:48.398Z"
+      }
+    },
+    {
+      "id": 183,
+      "name": "迅誠機車行",
+      "address": "臺北市大安區通化街171巷11號",
+      "phone": "(02)27384621",
+      "district": "大安區",
+      "owner": "丁進忠",
+      "coordinates": {
+        "lat": 25.0279761,
+        "lng": 121.5544343
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:49.859Z"
+      }
+    },
+    {
+      "id": 184,
+      "name": "新星機車行",
+      "address": "臺北市中山區新生北路3段91號",
+      "phone": "(02)25973766",
+      "district": "中山區",
+      "owner": "許明貴",
+      "coordinates": {
+        "lat": 25.0676369,
+        "lng": 121.5281494
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:51.678Z"
+      }
+    },
+    {
+      "id": 185,
+      "name": "草山車業",
+      "address": "臺北市北投區東陽街470號1樓",
+      "phone": "(02)28280568",
+      "district": "北投區",
+      "owner": "林祺富",
+      "coordinates": {
+        "lat": 25.1121481,
+        "lng": 121.5197606
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:53.149Z"
+      }
+    },
+    {
+      "id": 186,
+      "name": "德客隆機車行",
+      "address": "臺北市萬華區西藏路170號1樓",
+      "phone": "(02)23028688",
+      "district": "萬華區",
+      "owner": "陳柏榮",
+      "coordinates": {
+        "lat": 25.0300372,
+        "lng": 121.5033502
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:54.745Z"
+      }
+    },
+    {
+      "id": 187,
+      "name": "尚勇車業行",
+      "address": "臺北市松山區八德路4段332號",
+      "phone": "(02)27476009",
+      "district": "松山區",
+      "owner": "張雅萍",
+      "coordinates": {
+        "lat": 25.0490746,
+        "lng": 121.5679808
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:56.182Z"
+      }
+    },
+    {
+      "id": 188,
+      "name": "嘉駿機車行",
+      "address": "臺北市南港區成福路155號1樓",
+      "phone": "(02)26522360",
+      "district": "南港區",
+      "owner": "王健治",
+      "coordinates": {
+        "lat": 25.0413109,
+        "lng": 121.5880657
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:57.207Z"
+      }
+    },
+    {
+      "id": 189,
+      "name": "翔偉機車行",
+      "address": "臺北市信義區福德街66號1樓",
+      "phone": "(02)27591223",
+      "district": "信義區",
+      "owner": "葉聰明",
+      "coordinates": {
+        "lat": 25.0369755,
+        "lng": 121.58074
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:59.255Z"
+      }
+    },
+    {
+      "id": 190,
+      "name": "福星機車行",
+      "address": "臺北市文山區木新路2段123號",
+      "phone": "(02)29392485",
+      "district": "文山區",
+      "owner": "廖銘恭",
+      "coordinates": {
+        "lat": 24.9841273,
+        "lng": 121.5695261
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:00.279Z"
+      }
+    },
+    {
+      "id": 191,
+      "name": "北大機車材料行",
+      "address": "臺北市士林區中正路411、413號",
+      "phone": "(02)28892163",
+      "district": "士林區",
+      "owner": "張榮芳",
+      "coordinates": {
+        "lat": 25.0936457,
+        "lng": 121.5207755
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:02.022Z"
+      }
+    },
+    {
+      "id": 192,
+      "name": "家育車業行",
+      "address": "臺北市南港區成福路200-1號1樓",
+      "phone": "(02)26548333",
+      "district": "南港區",
+      "owner": "何樺俊",
+      "coordinates": {
+        "lat": 25.0554,
+        "lng": 121.6477
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:57:08.779Z"
+      }
+    },
+    {
+      "id": 193,
+      "name": "三漾輪業行",
+      "address": "臺北市南港區忠孝東路6段240號1樓",
+      "phone": "(02)27861161",
+      "district": "南港區",
+      "owner": "莊敬長",
+      "coordinates": {
+        "lat": 25.0488368,
+        "lng": 121.5879299
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:10.519Z"
+      }
+    },
+    {
+      "id": 194,
+      "name": "合展車業行",
+      "address": "臺北市文山區羅斯福路6段73、75號",
+      "phone": "(02)29327700",
+      "district": "文山區",
+      "owner": "張景州",
+      "coordinates": {
+        "lat": 24.9987145,
+        "lng": 121.5404527
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:11.543Z"
+      }
+    },
+    {
+      "id": 195,
+      "name": "立偉成有限公司",
+      "address": "臺北市大同區寧夏路127號1樓",
+      "phone": "(02)25538225",
+      "district": "大同區",
+      "owner": "賴宏林",
+      "coordinates": {
+        "lat": 25.0605268,
+        "lng": 121.5145235
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:13.694Z"
+      }
+    },
+    {
+      "id": 196,
+      "name": "內湖車業有限公司",
+      "address": "臺北市內湖區文德路18號",
+      "phone": "(02)27972411",
+      "district": "內湖區",
+      "owner": "郭錦練",
+      "coordinates": {
+        "lat": 25.0783448,
+        "lng": 121.5793924
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:15.124Z"
+      }
+    },
+    {
+      "id": 197,
+      "name": "法仕德車業有限公司",
+      "address": "臺北市內湖區新明路363號",
+      "phone": "(02)27956362",
+      "district": "內湖區",
+      "owner": "黃宇宏",
+      "coordinates": {
+        "lat": 25.055828,
+        "lng": 121.5824357
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:16.766Z"
+      }
+    },
+    {
+      "id": 198,
+      "name": "摩都車業行",
+      "address": "臺北市信義區吳興街378號1樓",
+      "phone": "(02)27290106",
+      "district": "信義區",
+      "owner": "古紘瑞",
+      "coordinates": {
+        "lat": 25.025077,
+        "lng": 121.5669814
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:17.687Z"
+      }
+    },
+    {
+      "id": 199,
+      "name": "光明車業有限公司",
+      "address": "臺北市信義區基隆路2段165號1樓",
+      "phone": "(02)27365785",
+      "district": "信義區",
+      "owner": "陳洪幸姱",
+      "coordinates": {
+        "lat": 25.0253998,
+        "lng": 121.5539296
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:19.531Z"
+      }
+    },
+    {
+      "id": 200,
+      "name": "三光機車行",
+      "address": "臺北市文山區景興路7號1樓",
+      "phone": "(02)29322568",
+      "district": "文山區",
+      "owner": "蔡宗涼",
+      "coordinates": {
+        "lat": 24.9982706,
+        "lng": 121.5447663
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:21.388Z"
+      }
+    },
+    {
+      "id": 201,
+      "name": "永景機車材料行",
+      "address": "臺北市士林區中山北路6段405巷79號1樓",
+      "phone": "(02)28721918",
+      "district": "士林區",
+      "owner": "劉明德",
+      "coordinates": {
+        "lat": 25.1170738,
+        "lng": 121.526036
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:22.834Z"
+      }
+    },
+    {
+      "id": 202,
+      "name": "進(吉吉)車業行",
+      "address": "臺北市士林區通河東街1段198號1樓",
+      "phone": "(02)28835319",
+      "district": "士林區",
+      "owner": "王豪裕",
+      "coordinates": {
+        "lat": 25.0900213,
+        "lng": 121.5154211
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:23.934Z"
+      }
+    },
+    {
+      "id": 203,
+      "name": "金里車行",
+      "address": "臺北市萬華區桂林路244巷57號",
+      "phone": "(02)23061858",
+      "district": "萬華區",
+      "owner": "張漢生",
+      "coordinates": {
+        "lat": 25.0365034,
+        "lng": 121.4931052
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:25.288Z"
+      }
+    },
+    {
+      "id": 204,
+      "name": "永盛機車行",
+      "address": "臺北市萬華區環河南路2段300號1樓",
+      "phone": "(02)23042598",
+      "district": "萬華區",
+      "owner": "陳哲俊",
+      "coordinates": {
+        "lat": 25.0313263,
+        "lng": 121.4905674
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:26.392Z"
+      }
+    },
+    {
+      "id": 205,
+      "name": "立暉機車行",
+      "address": "臺北市大安區新生南路2段82-1號1樓",
+      "phone": "(02)23410829",
+      "district": "大安區",
+      "owner": "李茂信",
+      "coordinates": {
+        "lat": 25.0265,
+        "lng": 121.5436
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:57:34.276Z"
+      }
+    },
+    {
+      "id": 206,
+      "name": "世貿機車材料行",
+      "address": "臺北市信義區松信路162號",
+      "phone": "(02)27653133",
+      "district": "信義區",
+      "owner": "林柏諺",
+      "coordinates": {
+        "lat": 25.0431016,
+        "lng": 121.5718812
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:34.946Z"
+      }
+    },
+    {
+      "id": 207,
+      "name": "旭順車業行",
+      "address": "臺北市中山區中原街55號",
+      "phone": "(02)25214938",
+      "district": "中山區",
+      "owner": "連永昌",
+      "coordinates": {
+        "lat": 25.0583782,
+        "lng": 121.5289767
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:37.451Z"
+      }
+    },
+    {
+      "id": 208,
+      "name": "龍杰車業行",
+      "address": "臺北市文山區木柵路1段206號",
+      "phone": "(02)86610565",
+      "district": "文山區",
+      "owner": "林佶賓",
+      "coordinates": {
+        "lat": 24.9878242,
+        "lng": 121.5531547
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:38.001Z"
+      }
+    },
+    {
+      "id": 209,
+      "name": "興羨機車行",
+      "address": "臺北市中山區興安街65號",
+      "phone": "(02)25172015",
+      "district": "中山區",
+      "owner": "廖崇憲",
+      "coordinates": {
+        "lat": 25.0561931,
+        "lng": 121.5426358
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:40.520Z"
+      }
+    },
+    {
+      "id": 210,
+      "name": "千豐車業行",
+      "address": "臺北市內湖區安康路191號",
+      "phone": "(02)26314736",
+      "district": "內湖區",
+      "owner": "高賜銘",
+      "coordinates": {
+        "lat": 25.0660471,
+        "lng": 121.6115206
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:41.015Z"
+      }
+    },
+    {
+      "id": 211,
+      "name": "崇盛機車行",
+      "address": "臺北市大安區瑞安街152號",
+      "phone": "(02)27076860",
+      "district": "大安區",
+      "owner": "黃崇軒",
+      "coordinates": {
+        "lat": 25.029209,
+        "lng": 121.5418621
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:43.390Z"
+      }
+    },
+    {
+      "id": 212,
+      "name": "雄偉機車行",
+      "address": "臺北市大同區環河北路1段335號",
+      "phone": "(02)25531130",
+      "district": "大同區",
+      "owner": "洪秀枝",
+      "coordinates": {
+        "lat": 25.0600291,
+        "lng": 121.5085901
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00006715571831841028,
+        "geocoded_at": "2025-09-05T13:57:44.107Z"
+      }
+    },
+    {
+      "id": 213,
+      "name": "冠頡車業行",
+      "address": "臺北市內湖區康樂街200號1樓",
+      "phone": "(02)26332066",
+      "district": "內湖區",
+      "owner": "呂泓頡",
+      "coordinates": {
+        "lat": 25.0762717,
+        "lng": 121.6211358
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00006715571831841028,
+        "geocoded_at": "2025-09-05T13:57:46.050Z"
+      }
+    },
+    {
+      "id": 214,
+      "name": "學生機車行有限公司",
+      "address": "臺北市士林區華岡路31之3號1樓",
+      "phone": "(02)28621991",
+      "district": "士林區",
+      "owner": "賴重安",
+      "coordinates": {
+        "lat": 25.1379213,
+        "lng": 121.5425857
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:46.974Z"
+      }
+    },
+    {
+      "id": 215,
+      "name": "祥瑞車業行",
+      "address": "臺北市松山區光復南路46號",
+      "phone": "(02)25774732",
+      "district": "松山區",
+      "owner": "劉家國",
+      "coordinates": {
+        "lat": 25.0462005,
+        "lng": 121.5576023
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:48.966Z"
+      }
+    },
+    {
+      "id": 216,
+      "name": "祥銘機車行",
+      "address": "臺北市南港區興中路80巷14號1樓",
+      "phone": "(02)27832343",
+      "district": "南港區",
+      "owner": "林建文",
+      "coordinates": {
+        "lat": 25.0573448,
+        "lng": 121.6061568
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:49.465Z"
+      }
+    },
+    {
+      "id": 217,
+      "name": "吉全機車行",
+      "address": "臺北市文山區興隆路4段111-2號",
+      "phone": "(02)29381336",
+      "district": "文山區",
+      "owner": "張武雄",
+      "coordinates": {
+        "lat": 24.9889,
+        "lng": 121.5706
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:57:56.803Z"
+      }
+    },
+    {
+      "id": 218,
+      "name": "展旗車業行",
+      "address": "臺北市信義區松山路225巷1號",
+      "phone": "(02)27671181",
+      "district": "信義區",
+      "owner": "許博翔",
+      "coordinates": {
+        "lat": 25.0448333,
+        "lng": 121.5779572
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:57.623Z"
+      }
+    },
+    {
+      "id": 219,
+      "name": "百傑車業行",
+      "address": "臺北市北投區中央北路2段303號",
+      "phone": "(02)28911509",
+      "district": "北投區",
+      "owner": "江柏輝",
+      "coordinates": {
+        "lat": 25.1383657,
+        "lng": 121.4899953
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:59.354Z"
+      }
+    },
+    {
+      "id": 220,
+      "name": "景隆機車有限公司",
+      "address": "臺北市南港區忠孝東路7段597號",
+      "phone": "(02)27831298",
+      "district": "南港區",
+      "owner": "黃信達",
+      "coordinates": {
+        "lat": 25.0531557,
+        "lng": 121.6149204
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:00.389Z"
+      }
+    },
+    {
+      "id": 221,
+      "name": "三之三車業有限公司",
+      "address": "臺北市中正區重慶南路3段56號",
+      "phone": "(02)66174000",
+      "district": "中正區",
+      "owner": "劉雅鳳",
+      "coordinates": {
+        "lat": 25.0276856,
+        "lng": 121.5156529
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:01.918Z"
+      }
+    },
+    {
+      "id": 222,
+      "name": "正泓機車行",
+      "address": "臺北市信義區崇德街78號1樓",
+      "phone": "(02)27715235",
+      "district": "信義區",
+      "owner": "黃泓霖",
+      "coordinates": {
+        "lat": 25.0241848,
+        "lng": 121.5548351
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:03.768Z"
+      }
+    },
+    {
+      "id": 223,
+      "name": "伍邦車業",
+      "address": "臺北市南港區忠孝東路6段284號",
+      "phone": "(02)27856393",
+      "district": "南港區",
+      "owner": "顏志祥",
+      "coordinates": {
+        "lat": 25.0491742,
+        "lng": 121.5894075
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:05.197Z"
+      }
+    },
+    {
+      "id": 224,
+      "name": "豪展機車行",
+      "address": "臺北市內湖區康寧路1段206號",
+      "phone": "(02)87928638",
+      "district": "內湖區",
+      "owner": "邱志豪",
+      "coordinates": {
+        "lat": 25.0784867,
+        "lng": 121.595406
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:06.326Z"
+      }
+    },
+    {
+      "id": 225,
+      "name": "大仁機車行",
+      "address": "臺北市信義區莊敬路325巷38號",
+      "phone": "(02)87860708",
+      "district": "信義區",
+      "owner": "康慧君",
+      "coordinates": {
+        "lat": 25.0285628,
+        "lng": 121.5643599
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:07.788Z"
+      }
+    },
+    {
+      "id": 226,
+      "name": "政辰車業行",
+      "address": "臺北市信義區信安街184號",
+      "phone": "(02)27366969",
+      "district": "信義區",
+      "owner": "吳介鵬",
+      "coordinates": {
+        "lat": 25.0232105,
+        "lng": 121.5552448
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:08.971Z"
+      }
+    },
+    {
+      "id": 227,
+      "name": "熊大車業行",
+      "address": "臺北市內湖區內湖路2段114號",
+      "phone": "(02)26593578",
+      "district": "內湖區",
+      "owner": "陳聖文",
+      "coordinates": {
+        "lat": 25.0794533,
+        "lng": 121.5819808
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:10.525Z"
+      }
+    },
+    {
+      "id": 228,
+      "name": "東和機車有限公司",
+      "address": "臺北市內湖區環山路1段96號",
+      "phone": "(02)26277246",
+      "district": "內湖區",
+      "owner": "梁哲興",
+      "coordinates": {
+        "lat": 25.086544,
+        "lng": 121.5678182
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:11.447Z"
+      }
+    },
+    {
+      "id": 229,
+      "name": "聖平車業行",
+      "address": "臺北市士林區延平北路6段149號",
+      "phone": "(02)28160031",
+      "district": "士林區",
+      "owner": "郭建平",
+      "coordinates": {
+        "lat": 25.0892204,
+        "lng": 121.5074299
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00006715571831841028,
+        "geocoded_at": "2025-09-05T13:58:12.984Z"
+      }
+    },
+    {
+      "id": 230,
+      "name": "英詮機車行",
+      "address": "臺北市中山區北安路656號1樓",
+      "phone": "(02)25327227",
+      "district": "中山區",
+      "owner": "許哲嘉",
+      "coordinates": {
+        "lat": 25.0835925,
+        "lng": 121.5493734
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:14.008Z"
+      }
+    },
+    {
+      "id": 231,
+      "name": "良偉機車行",
+      "address": "臺北市北投區立農街2段284號1樓",
+      "phone": "(02)28210312",
+      "district": "北投區",
+      "owner": "余登宏",
+      "coordinates": {
+        "lat": 25.1185304,
+        "lng": 121.5160173
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:15.337Z"
+      }
+    },
+    {
+      "id": 232,
+      "name": "健展車業行",
+      "address": "臺北市北投區中央北路4段479號",
+      "phone": "(02)28931700",
+      "district": "北投區",
+      "owner": "陳如馨",
+      "coordinates": {
+        "lat": 25.1284616,
+        "lng": 121.4693756
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:16.366Z"
+      }
+    },
+    {
+      "id": 233,
+      "name": "龍騰車業行",
+      "address": "臺北市文山區木柵路1段34號",
+      "phone": "(02)22365129",
+      "district": "文山區",
+      "owner": "周彥龍",
+      "coordinates": {
+        "lat": 24.9866635,
+        "lng": 121.5465687
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:18.001Z"
+      }
+    },
+    {
+      "id": 234,
+      "name": "致盛國際車業有限公司",
+      "address": "臺北市中正區重慶南路3段130-1、130-2號",
+      "phone": "(02)23943990",
+      "district": "中正區",
+      "owner": "陳志行",
+      "coordinates": {
+        "lat": 25.0323,
+        "lng": 121.5127
+      },
+      "geocoding": {
+        "source": "district_fallback",
+        "accuracy": "district_center",
+        "geocoded_at": "2025-09-05T13:58:23.429Z"
+      }
+    },
+    {
+      "id": 235,
+      "name": "凱聿車業有限公司",
+      "address": "臺北市北投區明德路150巷5號1樓",
+      "phone": "(02)28234190",
+      "district": "北投區",
+      "owner": "林顥文",
+      "coordinates": {
+        "lat": 25.1105322,
+        "lng": 121.5211286
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:25.476Z"
+      }
+    },
+    {
+      "id": 236,
+      "name": "振昇機車行",
+      "address": "臺北市北投區中和街241號1樓",
+      "phone": "(02)28986220",
+      "district": "北投區",
+      "owner": "吳德文",
+      "coordinates": {
+        "lat": 25.1395104,
+        "lng": 121.5011665
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:26.501Z"
+      }
+    },
+    {
+      "id": 237,
+      "name": "金順機車行",
+      "address": "臺北市北投區育仁路137號1樓",
+      "phone": "(02)28916776",
+      "district": "北投區",
+      "owner": "鄭志星",
+      "coordinates": {
+        "lat": 25.1363267,
+        "lng": 121.5005148
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:28.712Z"
+      }
+    },
+    {
+      "id": 238,
+      "name": "丞時機車行",
+      "address": "臺北市信義區大道路31號",
+      "phone": "(02)27595337",
+      "district": "信義區",
+      "owner": "王濬麟",
+      "coordinates": {
+        "lat": 25.0420749,
+        "lng": 121.5819174
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:30.066Z"
+      }
+    },
+    {
+      "id": 239,
+      "name": "禾錡車業行",
+      "address": "臺北市中正區汀州路2段251號",
+      "phone": "(02)23651699",
+      "district": "中正區",
+      "owner": "陳澤文",
+      "coordinates": {
+        "lat": 25.0229778,
+        "lng": 121.5232381
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:31.620Z"
+      }
+    },
+    {
+      "id": 240,
+      "name": "孟軒機車行",
+      "address": "臺北市文山區木柵路一段180號1樓",
+      "phone": "(02)29392858",
+      "district": "文山區",
+      "owner": "鄭如傑",
+      "coordinates": {
+        "lat": 24.9876947,
+        "lng": 121.5524972
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:32.695Z"
+      }
+    },
+    {
+      "id": 241,
+      "name": "動力羊機車部品開發有限公司",
+      "address": "臺北市內湖區新明路339號1樓",
+      "phone": "(02)27946855",
+      "district": "內湖區",
+      "owner": "陳宋誠",
+      "coordinates": {
+        "lat": 25.0565193,
+        "lng": 121.5835668
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:34.256Z"
+      }
+    },
+    {
+      "id": 242,
+      "name": "鑫勝車業行",
+      "address": "臺北市內湖區文德路90巷28號1樓",
+      "phone": "(02)87510921",
+      "district": "內湖區",
+      "owner": "郭忠勝",
+      "coordinates": {
+        "lat": 25.0770102,
+        "lng": 121.5826357
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:35.233Z"
+      }
+    },
+    {
+      "id": 243,
+      "name": "德興鑫車業行",
+      "address": "臺北市大安區延吉街270號",
+      "phone": "(02)27086699",
+      "district": "大安區",
+      "owner": "陳冠豪",
+      "coordinates": {
+        "lat": 25.0337228,
+        "lng": 121.5568882
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:36.739Z"
+      }
+    },
+    {
+      "id": 244,
+      "name": "辰昶機車行",
+      "address": "臺北市信義區信安街80號",
+      "phone": "(02)27328138",
+      "district": "信義區",
+      "owner": "何榮峰",
+      "coordinates": {
+        "lat": 25.0259635,
+        "lng": 121.5571435
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:38.208Z"
+      }
+    },
+    {
+      "id": 245,
+      "name": "原馳機車行",
+      "address": "臺北市北投區東華街2段14號1樓",
+      "phone": "(02)28223776",
+      "district": "北投區",
+      "owner": "宋柏緯",
+      "coordinates": {
+        "lat": 25.1161853,
+        "lng": 121.514703
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:39.662Z"
+      }
+    },
+    {
+      "id": 246,
+      "name": "聲豪機車行",
+      "address": "臺北市北投區西安街2段185號1樓",
+      "phone": "(02)28236173",
+      "district": "北投區",
+      "owner": "陳信偉",
+      "coordinates": {
+        "lat": 25.1193918,
+        "lng": 121.5112396
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:40.631Z"
+      }
+    },
+    {
+      "id": 247,
+      "name": "人豪機車行",
+      "address": "臺北市信義區莊敬路204號1樓",
+      "phone": "(02)27234925",
+      "district": "信義區",
+      "owner": "葉貂群",
+      "coordinates": {
+        "lat": 25.0303212,
+        "lng": 121.5614634
+      },
+      "geocoding": {
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:42.077Z"
+      }
+    }
+  ]
+}

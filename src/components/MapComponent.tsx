@@ -1,6 +1,6 @@
 "use client";
 
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
 import { Icon } from "leaflet";
 import { useState, useEffect } from "react";
 import "leaflet/dist/leaflet.css";
@@ -16,7 +16,7 @@ const StationIcon = new Icon({
 });
 
 // 台北市中心座標
-const TAIPEI_CENTER: [number, number] = [25.033, 121.5654];
+const TAIPEI_CENTER: [number, number] = [25.05, 121.56];
 
 // 檢驗站資料類型
 interface Station {
@@ -50,35 +50,50 @@ interface StationsData {
 
 export default function MapComponent() {
   const [stationsData, setStationsData] = useState<StationsData | null>(null);
+  const [taipeiGeoJSON, setTaipeiGeoJSON] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    // 載入檢驗站資料
-    async function loadStations() {
+    // 載入檢驗站資料和台北市邊界
+    async function loadData() {
       try {
-        const response = await fetch("/data/test-stations.json");
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        // 載入檢驗站資料
+        const stationsResponse = await fetch("/data/stations.json");
+        if (!stationsResponse.ok) {
+          throw new Error(
+            `HTTP ${stationsResponse.status}: ${stationsResponse.statusText}`,
+          );
         }
-        const data: StationsData = await response.json();
-        setStationsData(data);
+        const stationsData: StationsData = await stationsResponse.json();
+        setStationsData(stationsData);
+
+        // 載入台北市GeoJSON邊界
+        try {
+          const geoResponse = await fetch("/data/taipei-boundary.geojson");
+          if (geoResponse.ok) {
+            const geoData = await geoResponse.json();
+            setTaipeiGeoJSON(geoData);
+          }
+        } catch (geoError) {
+          console.log("台北市邊界檔案不存在，跳過邊界顯示");
+        }
       } catch (err) {
-        console.error("載入檢驗站資料失敗:", err);
+        console.error("載入資料失敗:", err);
         setError(err instanceof Error ? err.message : "未知錯誤");
       } finally {
         setLoading(false);
       }
     }
 
-    loadStations();
+    loadData();
   }, []);
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center h-96 bg-gray-100 rounded-lg shadow-lg">
+      <div className="flex h-96 items-center justify-center rounded-lg bg-gray-100 shadow-lg">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-b-2 border-blue-600"></div>
           <p className="text-gray-600">載入檢驗站資料中...</p>
         </div>
       </div>
@@ -87,9 +102,9 @@ export default function MapComponent() {
 
   if (error || !stationsData) {
     return (
-      <div className="flex items-center justify-center h-96 bg-gray-100 rounded-lg shadow-lg">
+      <div className="flex h-96 items-center justify-center rounded-lg bg-gray-100 shadow-lg">
         <div className="text-center">
-          <p className="text-red-600 mb-2">❌ 載入檢驗站資料失敗</p>
+          <p className="mb-2 text-red-600">❌ 載入檢驗站資料失敗</p>
           <p className="text-sm text-gray-600">{error || "資料不可用"}</p>
         </div>
       </div>
@@ -97,43 +112,27 @@ export default function MapComponent() {
   }
 
   return (
-    <div className="space-y-4">
-      {/* 資料資訊 */}
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-        <div className="flex items-center justify-between">
-          <div>
-            <h3 className="text-sm font-semibold text-blue-800">
-              檢驗站資料載入成功 ✅
-            </h3>
-            <p className="text-sm text-blue-600">
-              顯示 {stationsData.stations.length} 家檢驗站
-              {stationsData.metadata.note && (
-                <span className="ml-2 text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">
-                  測試版本
-                </span>
-              )}
-            </p>
-          </div>
-          <div className="text-right text-xs text-blue-500">
-            最後更新:{" "}
-            {new Date(stationsData.metadata.generated_at).toLocaleString(
-              "zh-TW",
-            )}
-          </div>
-        </div>
-      </div>
-
-      {/* 地圖 */}
+    <div className="h-full w-full">
       <MapContainer
         center={TAIPEI_CENTER}
-        zoom={11}
-        style={{ height: "600px", width: "100%" }}
-        className="rounded-lg shadow-lg"
+        zoom={12}
+        style={{ height: "100%", width: "100%" }}
       >
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        />
+        <TileLayer url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" />
+
+        {/* 台北市邊界 */}
+        {taipeiGeoJSON && (
+          <GeoJSON
+            data={taipeiGeoJSON}
+            style={{
+              color: "#0891b2", // teal-600
+              weight: 3,
+              opacity: 0.8,
+              fillColor: "#06b6d4", // cyan-500
+              fillOpacity: 0.1,
+            }}
+          />
+        )}
 
         {/* 檢驗站標記 */}
         {stationsData.stations.map((station) => (
@@ -143,49 +142,51 @@ export default function MapComponent() {
             icon={StationIcon}
           >
             <Popup maxWidth={300} className="custom-popup">
-              <div className="p-3 space-y-2">
+              <div className="space-y-2 p-3">
                 <div className="border-b pb-2">
-                  <h3 className="font-bold text-gray-800 text-base">
+                  <h3 className="text-base font-bold text-gray-800">
                     {station.name}
                   </h3>
-                  <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
+                  <span className="inline-block rounded-full bg-blue-100 px-2 py-1 text-xs text-blue-800">
                     {station.district}
                   </span>
                 </div>
 
                 <div className="space-y-1 text-sm">
                   <div className="flex items-start space-x-2">
-                    <span className="text-gray-500 w-12 flex-shrink-0">📍</span>
+                    <span className="w-12 flex-shrink-0 text-gray-500">📍</span>
                     <span className="text-gray-700">{station.address}</span>
                   </div>
 
                   <div className="flex items-center space-x-2">
-                    <span className="text-gray-500 w-12 flex-shrink-0">📞</span>
+                    <span className="w-12 flex-shrink-0 text-gray-500">📞</span>
                     <a
                       href={`tel:${station.phone}`}
-                      className="text-blue-600 hover:text-blue-800 underline"
+                      className="text-blue-600 underline hover:text-blue-800"
                     >
                       {station.phone}
                     </a>
                   </div>
 
                   <div className="flex items-center space-x-2">
-                    <span className="text-gray-500 w-12 flex-shrink-0">👤</span>
+                    <span className="w-12 flex-shrink-0 text-gray-500">👤</span>
                     <span className="text-gray-600">{station.owner}</span>
                   </div>
                 </div>
 
-                <div className="pt-2 border-t space-y-2">
+                <div className="space-y-2 border-t pt-2">
                   <a
-                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(station.address)}`}
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                      station.address,
+                    )}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block w-full bg-green-500 hover:bg-green-600 text-white text-center py-2 px-4 rounded text-sm transition-colors"
+                    className="inline-block w-full rounded bg-green-500 px-4 py-2 text-center text-sm text-white transition-colors hover:bg-green-600"
                   >
                     🗺️ Google Maps 導航
                   </a>
 
-                  <div className="text-xs text-gray-400 text-center">
+                  <div className="text-center text-xs text-gray-400">
                     座標來源:{" "}
                     {station.geocoding.source === "district_fallback"
                       ? "行政區中心"
