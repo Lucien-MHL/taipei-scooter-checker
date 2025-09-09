@@ -1,71 +1,149 @@
-import { Globe } from "@/icons/Globe";
-import { GoogleMap } from "@/icons/GoogleMap";
-import { MapPin } from "@/icons/MapPin";
-import { Phone } from "@/icons/Phone";
-import { User } from "@/icons/User";
-import { formatDate } from "@/utils/formatDate";
+'use client'
+
+import { Globe } from '@/icons/Globe'
+import { GoogleMap } from '@/icons/GoogleMap'
+import { MapPin } from '@/icons/MapPin'
+import { Phone } from '@/icons/Phone'
+import { User } from '@/icons/User'
+import { useStations } from '@/stores/useStations'
+import { Metadata, Station } from '@/types/station'
+import { formatDate } from '@/utils/formatDate'
 
 export const SideBar = () => {
+  const selectedStation = useStations((state) => state.selectedStation)
+  const metadata = useStations((state) => state.metadata)
+
   return (
     <aside className="flex w-sm flex-col justify-between p-6">
-      <div>
-        <h1 className="text-center text-2xl font-semibold">
-          宏立機車事業有限公司
-        </h1>
-        <ul className="mt-10 space-y-3">
-          <li className="flex items-center gap-4">
-            <MapPin className="size-5" />
-            <p>臺北市大安區和平東路2段141號</p>
-          </li>
-          <li className="flex items-center gap-4">
-            <User className="size-5" />
-            <p>沈鳳雲</p>
-          </li>
-          <li className="flex items-center gap-4">
-            <Phone className="size-5" />
-            <p>(02)27065429</p>
-          </li>
-          <li className="flex items-center gap-4">
-            <Globe className="size-5" />
-            <p>座標來源：Nominatim</p>
-          </li>
-        </ul>
-        <a
-          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-            "宏立機車事業有限公司",
-          )}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-10 block rounded-md bg-linear-to-r from-teal-500 to-cyan-500 py-3 text-center font-bold hover:from-teal-600 hover:to-cyan-600"
-        >
-          <p className="flex items-center justify-center gap-2 select-none">
-            <GoogleMap className="size-5" />
-            <span>前往 Google map</span>
-          </p>
-        </a>
+      {selectedStation ? (
+        <StationInformation station={selectedStation} />
+      ) : (
+        <WelcomeMessage metadata={metadata!} />
+      )}
+      <WebsiteHint metadata={metadata!} />
+    </aside>
+  )
+}
+
+const WelcomeMessage = ({ metadata }: { metadata: Metadata }) => {
+  if (!metadata)
+    return (
+      <div className="animate-pulse">
+        <div className="mx-auto h-8 w-3/5 rounded-sm bg-linear-to-r from-teal-300/50 to-cyan-300/50" />
+        <div className="mt-8 h-24 w-full rounded-lg bg-linear-to-r from-teal-300/50 to-cyan-300/50" />
+        <div className="mt-6 space-y-3 text-sm">
+          <div className="h-8 w-1/2 rounded-sm bg-linear-to-r from-teal-300/50 to-cyan-300/50" />
+          <div className="h-8 w-2/5 rounded-sm bg-linear-to-r from-teal-300/50 to-cyan-300/50" />
+          <div className="h-8 w-3/5 rounded-sm bg-linear-to-r from-teal-300/50 to-cyan-300/50" />
+        </div>
       </div>
-      {/* Website Hint */}
-      <section className="mt-auto rounded-lg border p-4 text-sm">
-        <h2 className="flex items-center gap-2">
-          <span>🔍</span>小提示：
-        </h2>
-        <ul className="mt-4 list-disc space-y-2 px-4">
-          <li>點擊地圖上的藍色標記查看檢驗站詳細資訊</li>
-          <li>使用滑鼠滾輪或手勢縮放地圖檢視</li>
-          <li>資料每月自動更新，確保檢驗站資訊準確</li>
-          <li>資料最後更新：{formatDate("2025-09-05T13:58:42.082Z")}</li>
-          <li>支援手機版，隨時隨地查找最近檢驗站</li>
-          <li>
-            資料來源：
-            <a
-              href="https://data.taipei/dataset/detail?id=a81edafd-c1e9-4678-9df2-bad8ce0fc383"
-              className="hover:text-cyan-500"
-            >
-              台北市資料大平臺
-            </a>
-          </li>
+    )
+
+  return (
+    <>
+      <h1 className="text-center text-2xl font-semibold">
+        🛵 台北市機車排氣檢驗站 💨
+      </h1>
+      <div className="mt-8 rounded-lg bg-teal-50 p-4">
+        <h2 className="font-semibold text-teal-800">✨ 歡迎使用</h2>
+        <p className="mt-2 text-sm text-teal-700">
+          點擊地圖上的標記查看檢驗站詳細資訊，快速找到最近的檢驗站！
+        </p>
+      </div>
+      <div className="mt-6 space-y-3 text-sm">
+        <div className="flex items-center gap-3">
+          <span className="text-2xl">📍</span>
+          <span>
+            共 <strong>{metadata.total_stations} 家</strong> 檢驗站
+          </span>
+        </div>
+        <div className="flex items-center gap-3">
+          <span className="text-2xl">🎯</span>
+          <span>精確座標定位</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <span className="text-2xl">🗺️</span>
+          <span>整合 Google Maps 連結</span>
+        </div>
+      </div>
+    </>
+  )
+}
+
+const StationInformation = ({ station }: { station: Station }) => {
+  return (
+    <div>
+      <h1 className="text-center text-2xl font-semibold">{station.name}</h1>
+      <ul className="mt-10 space-y-3">
+        <li className="flex items-center gap-4">
+          <MapPin className="size-5" />
+          <p>{station.address}</p>
+        </li>
+        <li className="flex items-center gap-4">
+          <User className="size-5" />
+          <p>{station.owner}</p>
+        </li>
+        <li className="flex items-center gap-4">
+          <Phone className="size-5" />
+          <p>{station.phone}</p>
+        </li>
+        <li className="flex items-center gap-4">
+          <Globe className="size-5" />
+          <p>座標來源：{station.geocoding.source}</p>
+        </li>
+      </ul>
+      <a
+        href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(station.address)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-10 block rounded-md bg-linear-to-r from-teal-500 to-cyan-500 py-3 text-center font-bold hover:from-teal-600 hover:to-cyan-600"
+      >
+        <p className="flex items-center justify-center gap-2 select-none">
+          <GoogleMap className="size-5" />
+          <span>前往 Google map 導航</span>
+        </p>
+      </a>
+    </div>
+  )
+}
+
+const WebsiteHint = ({ metadata }: { metadata: Metadata }) => {
+  if (!metadata)
+    return (
+      <section className="mt-auto w-full rounded-lg border p-4">
+        <div className="h-5 w-1/4 rounded-sm bg-linear-to-r from-teal-300/50 to-cyan-300/50" />
+        <ul className="mt-4 space-y-2 pr-4">
+          <li className="h-5 w-full rounded-sm bg-linear-to-r from-teal-300/50 to-cyan-300/50" />
+          <li className="h-5 w-3/4 rounded-sm bg-linear-to-r from-teal-300/50 to-cyan-300/50" />
+          <li className="h-5 w-4/5 rounded-sm bg-linear-to-r from-teal-300/50 to-cyan-300/50" />
+          <li className="h-5 w-1/2 rounded-sm bg-linear-to-r from-teal-300/50 to-cyan-300/50" />
+          <li className="h-5 w-3/4 rounded-sm bg-linear-to-r from-teal-300/50 to-cyan-300/50" />
+          <li className="h-5 w-3/5 rounded-sm bg-linear-to-r from-teal-300/50 to-cyan-300/50" />
         </ul>
       </section>
-    </aside>
-  );
-};
+    )
+
+  return (
+    <section className="mt-auto rounded-lg border p-4 text-sm">
+      <h2 className="flex items-center gap-2">
+        <span>🔍</span>小提示：
+      </h2>
+      <ul className="mt-4 list-disc space-y-2 px-4">
+        <li>點擊地圖上的藍色標記查看檢驗站詳細資訊</li>
+        <li>使用滑鼠滾輪或手勢縮放地圖檢視</li>
+        <li>資料每月自動更新，確保檢驗站資訊準確</li>
+        <li>資料最後更新：{formatDate(metadata.generated_at)}</li>
+        <li>支援手機版，隨時隨地查找最近檢驗站</li>
+        <li>
+          資料來源：
+          <a
+            href="https://data.taipei/dataset/detail?id=a81edafd-c1e9-4678-9df2-bad8ce0fc383"
+            className="hover:text-cyan-500"
+          >
+            台北市資料大平臺
+          </a>
+        </li>
+      </ul>
+    </section>
+  )
+}

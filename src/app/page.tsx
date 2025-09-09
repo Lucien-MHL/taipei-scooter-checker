@@ -1,16 +1,18 @@
-import { SideBar } from '@/components/SideBar'
-import Map from '@/components/Map'
+import { SideBar } from "@/components/SideBar";
+import { StationsProvider } from "@/components/StationsProvider";
+import Map from "@/components/Map";
 
 export default function Home() {
   return (
-    <div className="w-full h-full flex flex-col bg-linear-to-r from-teal-800 to-cyan-800">
-      <main className="w-full h-full flex">
-        <SideBar />
-        <div className="bg-slate-800 text-white rounded-s-2xl flex-1 flex items-center justify-center text-9xl overflow-hidden">
-          <Map />
-        </div>
-      </main>
-      {/* <Footer /> */}
-    </div>
-  )
+    <StationsProvider>
+      <div className="flex h-full w-full flex-col bg-linear-to-r from-teal-800 to-cyan-800">
+        <main className="flex h-full w-full">
+          <SideBar />
+          <div className="flex flex-1 items-center justify-center overflow-hidden rounded-s-2xl bg-slate-800 text-9xl text-white">
+            <Map />
+          </div>
+        </main>
+      </div>
+    </StationsProvider>
+  );
 }
