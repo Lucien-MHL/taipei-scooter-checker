@@ -1,6 +1,5 @@
 'use client'
 
-import { Drawer } from 'vaul'
 import { useStations } from '@/stores/useStations'
 import { GoogleMap } from '@/icons/GoogleMap'
 import { MapPin } from '@/icons/MapPin'
@@ -12,29 +11,22 @@ import { Metadata, Station } from '@/types/station'
 export const StationDrawer = () => {
   const { selectedStation, metadata, isLoading } = useStations()
 
+  if (isLoading || !metadata) return null
+
   return (
-    <div className="fixed right-0 bottom-0 left-0 z-[9999] md:hidden">
-      <Drawer.Root dismissible={false} open={!isLoading && !!metadata}>
-        <Drawer.Portal>
-          <Drawer.Content
-            title="Drawer"
-            className="fixed right-0 bottom-0 left-0 h-fit rounded-t-2xl bg-white shadow-2xl transition-all duration-300 outline-none md:hidden"
-          >
-            <div className="h-full overflow-y-auto p-4">
-              <Drawer.Title />
-              <Drawer.Description />
-              {!selectedStation && <BasicContent metadata={metadata!} />}
-              {selectedStation && <SelectedContent station={selectedStation} />}
-            </div>
-          </Drawer.Content>
-        </Drawer.Portal>
-      </Drawer.Root>
+    <div className="fixed right-0 bottom-0 left-0 z-50 md:hidden">
+      <div className="rounded-t-2xl bg-white shadow-2xl transition-all duration-300">
+        <div className="p-4">
+          {!selectedStation && <BasicContent metadata={metadata} />}
+          {selectedStation && <SelectedContent station={selectedStation} />}
+        </div>
+      </div>
     </div>
   )
 }
 
 const BasicContent = ({ metadata }: { metadata: Metadata }) => (
-  <div className="h-fit space-y-2 text-center">
+  <div className="space-y-2 text-center">
     <h1 className="text-lg font-semibold text-teal-800">
       台北市機車排氣檢驗站
     </h1>
@@ -72,8 +64,8 @@ const SelectedContent = ({ station }: { station: Station }) => {
       </h1>
 
       <ul className="mb-6 space-y-3 border-b border-teal-800 pb-4">
-        <List Icon={User} text={station.owner} />
         <List Icon={MapPin} text={station.address} />
+        <List Icon={User} text={station.owner} />
       </ul>
 
       <div className="flex justify-between gap-2">
