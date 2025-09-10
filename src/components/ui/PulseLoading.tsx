@@ -1,6 +1,6 @@
 export const PulseLoading = () => {
   return (
-    <div className="relative flex items-center justify-center">
+    <div className="relative flex h-full w-full items-center justify-center">
       {/* Main pulse circle */}
       <div className="h-16 w-16 animate-pulse rounded-full border-2 border-cyan-400 bg-cyan-400/30" />
 
@@ -13,5 +13,5 @@ export const PulseLoading = () => {
       {/* Center dot */}
       <div className="absolute h-2 w-2 rounded-full bg-cyan-400" />
     </div>
-  );
-};
+  )
+}

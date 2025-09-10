@@ -13,7 +13,7 @@ import { useStations } from '@/stores/useStations'
 
 export default function MarkerCluster({ stations }: { stations: Station[] }) {
   const map = useMap()
-  const setSelectedStation = useStations((state) => state.setSelectedStation)
+  const { setSelectedStation, setDrawerState, resetToPreview } = useStations()
 
   useEffect(() => {
     // 建立 marker cluster group
@@ -33,15 +33,27 @@ export default function MarkerCluster({ stations }: { stations: Station[] }) {
       const marker = L.marker(
         [station.coordinates.lat, station.coordinates.lng],
         { icon: MapPin }
-      ).on('click', () => setSelectedStation(station))
+      ).on('click', () => {
+        setSelectedStation(station)
+        // Mobile devices: set drawer to 'basic' state to show station info
+        setDrawerState('basic')
+      })
       markers.addLayer(marker) // 不綁定popup，點擊後可由sidebar或drawer處理
     })
 
     map.addLayer(markers) // 將 cluster group 加到地圖
 
+    // Add map click handler to reset to peek state when clicking on empty areas
+    const handleMapClick = () => {
+      resetToPreview()
+    }
+
+    map.on('click', handleMapClick)
+
     // 清理函數
     return () => {
       map.removeLayer(markers)
+      map.off('click', handleMapClick)
     }
   }, [map, stations])
 
