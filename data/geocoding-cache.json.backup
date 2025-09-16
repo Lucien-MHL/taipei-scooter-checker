@@ -109,17 +109,6 @@
     "district": "大同區",
     "geocoded_at": "2025-09-05T13:51:31.678Z"
   },
-  "臺北市大同區延平北路3段67-1號": {
-    "lat": 25.0632,
-    "lng": 121.5127,
-    "formatted_address": "臺北市大同區延平北路3段67-1號",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市大同區延平北路3段67-1號",
-    "station_name": "新協大車業有限公司",
-    "district": "大同區",
-    "geocoded_at": "2025-09-05T13:51:38.541Z"
-  },
   "臺北市南港區忠孝東路7段600號": {
     "lat": 25.0528735,
     "lng": 121.6153216,
@@ -373,17 +362,6 @@
     "district": "中正區",
     "geocoded_at": "2025-09-05T13:52:08.337Z"
   },
-  "臺北市中正區牯嶺街61-3號": {
-    "lat": 25.0323,
-    "lng": 121.5127,
-    "formatted_address": "臺北市中正區牯嶺街61-3號",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市中正區牯嶺街61-3號",
-    "station_name": "松大車業有限公司",
-    "district": "中正區",
-    "geocoded_at": "2025-09-05T13:52:15.865Z"
-  },
   "臺北市北投區承德路7段344巷15號": {
     "lat": 25.1179076,
     "lng": 121.5045934,
@@ -615,17 +593,6 @@
     "district": "中山區",
     "geocoded_at": "2025-09-05T13:52:46.161Z"
   },
-  "臺北市中山區錦州街310-1號": {
-    "lat": 25.0636,
-    "lng": 121.5342,
-    "formatted_address": "臺北市中山區錦州街310-1號",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市中山區錦州街310-1號",
-    "station_name": "名佳車業行",
-    "district": "中山區",
-    "geocoded_at": "2025-09-05T13:52:55.134Z"
-  },
   "臺北市中正區汀州路1段182號": {
     "lat": 25.0282807,
     "lng": 121.5089701,
@@ -658,17 +625,6 @@
     "station_name": "春琳國際車業有限公司",
     "district": "內湖區",
     "geocoded_at": "2025-09-05T13:52:59.436Z"
-  },
-  "臺北市文山區木柵路1段57-6號": {
-    "lat": 24.9889,
-    "lng": 121.5706,
-    "formatted_address": "臺北市文山區木柵路1段57-6號",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市文山區木柵路1段57-6號",
-    "station_name": "鳳翔車業行",
-    "district": "文山區",
-    "geocoded_at": "2025-09-05T13:53:05.989Z"
   },
   "臺北市文山區木柵路1段212號": {
     "lat": 24.9878505,
@@ -769,17 +725,6 @@
     "district": "文山區",
     "geocoded_at": "2025-09-05T13:53:19.196Z"
   },
-  "臺北市北投區中和街453-11號": {
-    "lat": 25.1315,
-    "lng": 121.5017,
-    "formatted_address": "臺北市北投區中和街453-11號",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市北投區中和街453-11號",
-    "station_name": "雄大車業行",
-    "district": "北投區",
-    "geocoded_at": "2025-09-05T13:53:27.509Z"
-  },
   "臺北市北投區致遠一路1段92號": {
     "lat": 25.1094046,
     "lng": 121.5153357,
@@ -823,17 +768,6 @@
     "station_name": "亞帝車業有限公司",
     "district": "南港區",
     "geocoded_at": "2025-09-05T13:53:32.918Z"
-  },
-  "臺北市松山區五常街281-2號": {
-    "lat": 25.0578,
-    "lng": 121.5773,
-    "formatted_address": "臺北市松山區五常街281-2號",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市松山區五常街281-2號",
-    "station_name": "尚益車業有限公司",
-    "district": "松山區",
-    "geocoded_at": "2025-09-05T13:53:40.273Z"
   },
   "臺北市松山區民生東路5段57號": {
     "lat": 25.0585957,
@@ -1330,17 +1264,6 @@
     "district": "萬華區",
     "geocoded_at": "2025-09-05T13:54:47.054Z"
   },
-  "臺北市中正區新生南路1段134-1號": {
-    "lat": 25.0323,
-    "lng": 121.5127,
-    "formatted_address": "臺北市中正區新生南路1段134-1號",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市中正區新生南路1段134-1號",
-    "station_name": "一成機車有限公司",
-    "district": "中正區",
-    "geocoded_at": "2025-09-05T13:54:55.286Z"
-  },
   "臺北市中正區牯嶺街77號": {
     "lat": 25.0281499,
     "lng": 121.5178965,
@@ -1462,17 +1385,6 @@
     "district": "大安區",
     "geocoded_at": "2025-09-05T13:55:17.862Z"
   },
-  "臺北市大安區金華街118-4號": {
-    "lat": 25.0265,
-    "lng": 121.5436,
-    "formatted_address": "臺北市大安區金華街118-4號",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市大安區金華街118-4號",
-    "station_name": "致盛機車行",
-    "district": "大安區",
-    "geocoded_at": "2025-09-05T13:55:25.181Z"
-  },
   "臺北市內湖區金龍路9號": {
     "lat": 25.0844585,
     "lng": 121.5949763,
@@ -1593,17 +1505,6 @@
     "station_name": "祥和機車行",
     "district": "萬華區",
     "geocoded_at": "2025-09-05T13:55:41.126Z"
-  },
-  "臺北市大同區哈密街63巷1號": {
-    "lat": 25.0632,
-    "lng": 121.5127,
-    "formatted_address": "臺北市大同區哈密街63巷1號",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市大同區哈密街63巷1號",
-    "station_name": "國真車業有限公司",
-    "district": "大同區",
-    "geocoded_at": "2025-09-05T13:55:46.766Z"
   },
   "臺北市信義區忠孝東路5段713號": {
     "lat": 25.0426473,
@@ -1891,17 +1792,6 @@
     "district": "大安區",
     "geocoded_at": "2025-09-05T13:56:29.419Z"
   },
-  "臺北市中山區中山北路2段137巷36-2號": {
-    "lat": 25.0636,
-    "lng": 121.5312,
-    "formatted_address": "臺北市中山區中山北路2段137巷36-2號",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市中山區中山北路2段137巷36-2號",
-    "station_name": "永全機車行",
-    "district": "中山區",
-    "geocoded_at": "2025-09-05T13:56:36.257Z"
-  },
   "臺北市北投區崇仁路1段40號": {
     "lat": 25.1272635,
     "lng": 121.5012944,
@@ -2100,17 +1990,6 @@
     "district": "士林區",
     "geocoded_at": "2025-09-05T13:57:02.022Z"
   },
-  "臺北市南港區成福路200-1號1樓": {
-    "lat": 25.0554,
-    "lng": 121.6477,
-    "formatted_address": "臺北市南港區成福路200-1號1樓",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市南港區成福路200-1號1樓",
-    "station_name": "家育車業行",
-    "district": "南港區",
-    "geocoded_at": "2025-09-05T13:57:08.779Z"
-  },
   "臺北市南港區忠孝東路6段240號1樓": {
     "lat": 25.0488368,
     "lng": 121.5879299,
@@ -2243,17 +2122,6 @@
     "district": "萬華區",
     "geocoded_at": "2025-09-05T13:57:26.392Z"
   },
-  "臺北市大安區新生南路2段82-1號1樓": {
-    "lat": 25.0265,
-    "lng": 121.5436,
-    "formatted_address": "臺北市大安區新生南路2段82-1號1樓",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市大安區新生南路2段82-1號1樓",
-    "station_name": "立暉機車行",
-    "district": "大安區",
-    "geocoded_at": "2025-09-05T13:57:34.276Z"
-  },
   "臺北市信義區松信路162號": {
     "lat": 25.0431016,
     "lng": 121.5718812,
@@ -2374,17 +2242,6 @@
     "station_name": "祥銘機車行",
     "district": "南港區",
     "geocoded_at": "2025-09-05T13:57:49.465Z"
-  },
-  "臺北市文山區興隆路4段111-2號": {
-    "lat": 24.9889,
-    "lng": 121.5706,
-    "formatted_address": "臺北市文山區興隆路4段111-2號",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市文山區興隆路4段111-2號",
-    "station_name": "吉全機車行",
-    "district": "文山區",
-    "geocoded_at": "2025-09-05T13:57:56.803Z"
   },
   "臺北市信義區松山路225巷1號": {
     "lat": 25.0448333,
@@ -2562,17 +2419,6 @@
     "district": "文山區",
     "geocoded_at": "2025-09-05T13:58:18.001Z"
   },
-  "臺北市中正區重慶南路3段130-1、130-2號": {
-    "lat": 25.0323,
-    "lng": 121.5127,
-    "formatted_address": "臺北市中正區重慶南路3段130-1、130-2號",
-    "source": "district_fallback",
-    "accuracy": "district_center",
-    "address": "臺北市中正區重慶南路3段130-1、130-2號",
-    "station_name": "致盛國際車業有限公司",
-    "district": "中正區",
-    "geocoded_at": "2025-09-05T13:58:23.429Z"
-  },
   "臺北市北投區明德路150巷5號1樓": {
     "lat": 25.1105322,
     "lng": 121.5211286,
@@ -2638,5 +2484,236 @@
     "station_name": "孟軒機車行",
     "district": "文山區",
     "geocoded_at": "2025-09-05T13:58:32.695Z"
+  },
+  "臺北市內湖區新明路339號1樓": {
+    "lat": 25.0565193,
+    "lng": 121.5835668,
+    "formatted_address": "339號, 新明路, 週美里, 內湖區, 潭美, 臺北市, 114, 臺灣",
+    "source": "Nominatim",
+    "accuracy": 0.00007457007705801507,
+    "address": "臺北市內湖區新明路339號1樓",
+    "station_name": "動力羊機車部品開發有限公司",
+    "district": "內湖區",
+    "geocoded_at": "2025-09-05T13:58:34.256Z"
+  },
+  "臺北市內湖區文德路90巷28號1樓": {
+    "lat": 25.0770102,
+    "lng": 121.5826357,
+    "formatted_address": "28號, 文德路90巷, 瑞陽里, 內湖區, 臺北市, 114, 臺灣",
+    "source": "Nominatim",
+    "accuracy": 0.00007457007705801507,
+    "address": "臺北市內湖區文德路90巷28號1樓",
+    "station_name": "鑫勝車業行",
+    "district": "內湖區",
+    "geocoded_at": "2025-09-05T13:58:35.233Z"
+  },
+  "臺北市大安區延吉街270號": {
+    "lat": 25.0337228,
+    "lng": 121.5568882,
+    "formatted_address": "270號, 延吉街, 光信里, 大安區, 車罾, 臺北市, 106, 臺灣",
+    "source": "Nominatim",
+    "accuracy": 0.00007457007705801507,
+    "address": "臺北市大安區延吉街270號",
+    "station_name": "德興鑫車業行",
+    "district": "大安區",
+    "geocoded_at": "2025-09-05T13:58:36.739Z"
+  },
+  "臺北市信義區信安街80號": {
+    "lat": 25.0259635,
+    "lng": 121.5571435,
+    "formatted_address": "80號, 信安街, 嘉興里, 信義區, 六張犁, 臺北市, 110, 臺灣",
+    "source": "Nominatim",
+    "accuracy": 0.00007457007705801507,
+    "address": "臺北市信義區信安街80號",
+    "station_name": "辰昶機車行",
+    "district": "信義區",
+    "geocoded_at": "2025-09-05T13:58:38.208Z"
+  },
+  "臺北市北投區東華街2段14號1樓": {
+    "lat": 25.1161853,
+    "lng": 121.514703,
+    "formatted_address": "14號, 東華街二段, 永明里, 北投區, 奇岩, 臺北市, 112, 臺灣",
+    "source": "Nominatim",
+    "accuracy": 0.00007457007705801507,
+    "address": "臺北市北投區東華街2段14號1樓",
+    "station_name": "原馳機車行",
+    "district": "北投區",
+    "geocoded_at": "2025-09-05T13:58:39.662Z"
+  },
+  "臺北市北投區西安街2段185號1樓": {
+    "lat": 25.1193918,
+    "lng": 121.5112396,
+    "formatted_address": "185號, 西安街二段, 立農, 立農里, 北投區, 奇岩, 臺北市, 112, 臺灣",
+    "source": "Nominatim",
+    "accuracy": 0.00007457007705801507,
+    "address": "臺北市北投區西安街2段185號1樓",
+    "station_name": "聲豪機車行",
+    "district": "北投區",
+    "geocoded_at": "2025-09-05T13:58:40.631Z"
+  },
+  "臺北市信義區莊敬路204號1樓": {
+    "lat": 25.0303212,
+    "lng": 121.5614634,
+    "formatted_address": "204號, 莊敬路, 景新里, 信義區, 三張犁, 臺北市, 110, 臺灣",
+    "source": "Nominatim",
+    "accuracy": 0.00007457007705801507,
+    "address": "臺北市信義區莊敬路204號1樓",
+    "station_name": "人豪機車行",
+    "district": "信義區",
+    "geocoded_at": "2025-09-05T13:58:42.077Z"
+  },
+  "臺北市大同區延平北路3段67-1號": {
+    "lat": 25.0632,
+    "lng": 121.5127,
+    "formatted_address": "臺北市大同區延平北路3段67-1號",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市大同區延平北路3段67-1號",
+    "station_name": "新協大車業有限公司",
+    "district": "大同區",
+    "geocoded_at": "2025-09-16T10:19:43.724Z"
+  },
+  "臺北市中正區牯嶺街61-3號": {
+    "lat": 25.0323,
+    "lng": 121.5127,
+    "formatted_address": "臺北市中正區牯嶺街61-3號",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市中正區牯嶺街61-3號",
+    "station_name": "松大車業有限公司",
+    "district": "中正區",
+    "geocoded_at": "2025-09-16T10:19:49.954Z"
+  },
+  "臺北市中山區錦州街310-1號": {
+    "lat": 25.0636,
+    "lng": 121.5342,
+    "formatted_address": "臺北市中山區錦州街310-1號",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市中山區錦州街310-1號",
+    "station_name": "名佳車業行",
+    "district": "中山區",
+    "geocoded_at": "2025-09-16T10:19:57.319Z"
+  },
+  "臺北市文山區木柵路1段57-6號": {
+    "lat": 24.9889,
+    "lng": 121.5706,
+    "formatted_address": "臺北市文山區木柵路1段57-6號",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市文山區木柵路1段57-6號",
+    "station_name": "鳳翔車業行",
+    "district": "文山區",
+    "geocoded_at": "2025-09-16T10:20:02.880Z"
+  },
+  "臺北市北投區中和街453-11號": {
+    "lat": 25.1315,
+    "lng": 121.5017,
+    "formatted_address": "臺北市北投區中和街453-11號",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市北投區中和街453-11號",
+    "station_name": "雄大車業行",
+    "district": "北投區",
+    "geocoded_at": "2025-09-16T10:20:09.830Z"
+  },
+  "臺北市松山區五常街281-2號": {
+    "lat": 25.0578,
+    "lng": 121.5773,
+    "formatted_address": "臺北市松山區五常街281-2號",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市松山區五常街281-2號",
+    "station_name": "尚益車業有限公司",
+    "district": "松山區",
+    "geocoded_at": "2025-09-16T10:20:18.229Z"
+  },
+  "臺北市中正區新生南路1段134-1號": {
+    "lat": 25.0323,
+    "lng": 121.5127,
+    "formatted_address": "臺北市中正區新生南路1段134-1號",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市中正區新生南路1段134-1號",
+    "station_name": "一成機車有限公司",
+    "district": "中正區",
+    "geocoded_at": "2025-09-16T10:20:24.953Z"
+  },
+  "臺北市大安區金華街118-4號": {
+    "lat": 25.0265,
+    "lng": 121.5436,
+    "formatted_address": "臺北市大安區金華街118-4號",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市大安區金華街118-4號",
+    "station_name": "致盛機車行",
+    "district": "大安區",
+    "geocoded_at": "2025-09-16T10:20:31.053Z"
+  },
+  "臺北市大同區哈密街63巷1號": {
+    "lat": 25.0632,
+    "lng": 121.5127,
+    "formatted_address": "臺北市大同區哈密街63巷1號",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市大同區哈密街63巷1號",
+    "station_name": "國真車業有限公司",
+    "district": "大同區",
+    "geocoded_at": "2025-09-16T10:20:38.258Z"
+  },
+  "臺北市中山區中山北路2段137巷36-2號": {
+    "lat": 25.0636,
+    "lng": 121.5312,
+    "formatted_address": "臺北市中山區中山北路2段137巷36-2號",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市中山區中山北路2段137巷36-2號",
+    "station_name": "永全機車行",
+    "district": "中山區",
+    "geocoded_at": "2025-09-16T10:20:44.080Z"
+  },
+  "臺北市南港區成福路200-1號1樓": {
+    "lat": 25.0554,
+    "lng": 121.6477,
+    "formatted_address": "臺北市南港區成福路200-1號1樓",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市南港區成福路200-1號1樓",
+    "station_name": "家育車業行",
+    "district": "南港區",
+    "geocoded_at": "2025-09-16T10:20:51.560Z"
+  },
+  "臺北市大安區新生南路2段82-1號1樓": {
+    "lat": 25.0265,
+    "lng": 121.5436,
+    "formatted_address": "臺北市大安區新生南路2段82-1號1樓",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市大安區新生南路2段82-1號1樓",
+    "station_name": "立暉機車行",
+    "district": "大安區",
+    "geocoded_at": "2025-09-16T10:20:57.629Z"
+  },
+  "臺北市文山區興隆路4段111-2號": {
+    "lat": 24.9889,
+    "lng": 121.5706,
+    "formatted_address": "臺北市文山區興隆路4段111-2號",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市文山區興隆路4段111-2號",
+    "station_name": "吉全機車行",
+    "district": "文山區",
+    "geocoded_at": "2025-09-16T10:21:06.460Z"
+  },
+  "臺北市中正區重慶南路3段130-1、130-2號": {
+    "lat": 25.0323,
+    "lng": 121.5127,
+    "formatted_address": "臺北市中正區重慶南路3段130-1、130-2號",
+    "source": "district_fallback",
+    "accuracy": "district_center",
+    "address": "臺北市中正區重慶南路3段130-1、130-2號",
+    "station_name": "致盛國際車業有限公司",
+    "district": "中正區",
+    "geocoded_at": "2025-09-16T10:21:15.105Z"
   }
 }

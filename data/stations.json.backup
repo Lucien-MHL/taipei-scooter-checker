@@ -3,9 +3,9 @@
     "total_stations": 247,
     "successful_geocoding": 247,
     "failed_geocoding": 0,
-    "processing_time_ms": 36,
+    "processing_time_ms": 442879,
     "tgos_enabled": false,
-    "generated_at": "2025-09-05T13:48:10.876Z"
+    "generated_at": "2025-09-05T13:58:42.082Z"
   },
   "stations": [
     {
@@ -16,13 +16,13 @@
       "district": "大安區",
       "owner": "沈鳳雲",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.0254141,
+        "lng": 121.541036
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:41:43.112Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:20.721Z"
       }
     },
     {
@@ -33,13 +33,13 @@
       "district": "松山區",
       "owner": "鄭宇廷",
       "coordinates": {
-        "lat": 25.0578,
-        "lng": 121.5773
+        "lat": 25.0490818,
+        "lng": 121.5680532
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:41:48.412Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:21.565Z"
       }
     },
     {
@@ -50,13 +50,13 @@
       "district": "松山區",
       "owner": "盧家偉",
       "coordinates": {
-        "lat": 25.0578,
-        "lng": 121.5773
+        "lat": 25.0628212,
+        "lng": 121.5642785
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:41:54.092Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:22.868Z"
       }
     },
     {
@@ -67,13 +67,13 @@
       "district": "松山區",
       "owner": "陳盛",
       "coordinates": {
-        "lat": 25.0578,
-        "lng": 121.5773
+        "lat": 25.0595123,
+        "lng": 121.5684067
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:42:00.019Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:23.892Z"
       }
     },
     {
@@ -84,13 +84,13 @@
       "district": "士林區",
       "owner": "潘林慶",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0865703,
+        "lng": 121.5113283
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:42:06.232Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:24.774Z"
       }
     },
     {
@@ -101,13 +101,13 @@
       "district": "士林區",
       "owner": "劉尚承",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0820035,
+        "lng": 121.5102287
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:42:20.442Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:25.764Z"
       }
     },
     {
@@ -118,13 +118,13 @@
       "district": "士林區",
       "owner": "林弘儒",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.1128835,
+        "lng": 121.5355728
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:42:26.033Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:26.976Z"
       }
     },
     {
@@ -135,13 +135,13 @@
       "district": "大同區",
       "owner": "蕭耿祥",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0602874,
+        "lng": 121.5112633
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:42:31.899Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:27.906Z"
       }
     },
     {
@@ -152,13 +152,13 @@
       "district": "大同區",
       "owner": "林坤忠",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0634181,
+        "lng": 121.5110482
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:42:39.248Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:30.959Z"
       }
     },
     {
@@ -169,13 +169,13 @@
       "district": "大同區",
       "owner": "陳祈良",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0506006,
+        "lng": 121.5119127
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:42:44.204Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:31.678Z"
       }
     },
     {
@@ -192,7 +192,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:42:49.434Z"
+        "geocoded_at": "2025-09-05T13:51:38.541Z"
       }
     },
     {
@@ -203,13 +203,13 @@
       "district": "南港區",
       "owner": "黃進發",
       "coordinates": {
-        "lat": 25.057399999999998,
-        "lng": 121.6477
+        "lat": 25.0528735,
+        "lng": 121.6153216
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:42:55.459Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:39.210Z"
       }
     },
     {
@@ -220,13 +220,13 @@
       "district": "內湖區",
       "owner": "廖平和",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0751535,
+        "lng": 121.5804262
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:43:00.559Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:41.099Z"
       }
     },
     {
@@ -237,13 +237,13 @@
       "district": "內湖區",
       "owner": "賴文棟",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0778977,
+        "lng": 121.5900415
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:43:06.648Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:42.020Z"
       }
     },
     {
@@ -254,13 +254,13 @@
       "district": "萬華區",
       "owner": "周盈君",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0248512,
+        "lng": 121.4970108
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:43:11.766Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:43.761Z"
       }
     },
     {
@@ -271,13 +271,13 @@
       "district": "萬華區",
       "owner": "魏夏萍",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0410035,
+        "lng": 121.5020406
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:43:18.828Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:44.212Z"
       }
     },
     {
@@ -288,13 +288,13 @@
       "district": "萬華區",
       "owner": "張璿彬",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0383403,
+        "lng": 121.4967868
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:43:24.874Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:46.321Z"
       }
     },
     {
@@ -305,13 +305,13 @@
       "district": "萬華區",
       "owner": "葉書銘",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0368291,
+        "lng": 121.5050563
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:43:30.815Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:47.959Z"
       }
     },
     {
@@ -322,13 +322,13 @@
       "district": "中山區",
       "owner": "林秋霞",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0455966,
+        "lng": 121.5357581
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:43:36.096Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:49.044Z"
       }
     },
     {
@@ -339,13 +339,13 @@
       "district": "大同區",
       "owner": "郭永坤",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0566482,
+        "lng": 121.5091381
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:43:42.433Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:50.624Z"
       }
     },
     {
@@ -356,13 +356,13 @@
       "district": "文山區",
       "owner": "高德旺",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 25.0040288,
+        "lng": 121.5384671
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:45:13.192Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:52.030Z"
       }
     },
     {
@@ -373,13 +373,13 @@
       "district": "北投區",
       "owner": "陳志宗",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1283188,
+        "lng": 121.5010827
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:45:18.207Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:53.093Z"
       }
     },
     {
@@ -389,13 +389,13 @@
       "phone": "(02)28929174",
       "district": "北投區",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1353364,
+        "lng": 121.4969368
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:45:23.822Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:54.029Z"
       }
     },
     {
@@ -406,13 +406,13 @@
       "district": "北投區",
       "owner": "徐琇晴",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1295561,
+        "lng": 121.500961
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:45:29.234Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:55.254Z"
       }
     },
     {
@@ -423,13 +423,13 @@
       "district": "信義區",
       "owner": "鄭朝澤",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0444775,
+        "lng": 121.5692689
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:45:35.165Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:57.072Z"
       }
     },
     {
@@ -440,13 +440,13 @@
       "district": "信義區",
       "owner": "林禾田",
       "coordinates": {
-        "lat": 25.0356,
-        "lng": 121.5797
+        "lat": 25.0411963,
+        "lng": 121.5697418
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:45:40.068Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:57.687Z"
       }
     },
     {
@@ -457,13 +457,13 @@
       "district": "內湖區",
       "owner": "羅志成",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0688766,
+        "lng": 121.5875397
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:45:46.091Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:51:59.634Z"
       }
     },
     {
@@ -474,13 +474,13 @@
       "district": "文山區",
       "owner": "陳炳坤",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 25.008711,
+        "lng": 121.5376132
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:45:51.060Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:00.453Z"
       }
     },
     {
@@ -491,13 +491,13 @@
       "district": "文山區",
       "owner": "高新添",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 25.0019154,
+        "lng": 121.551348
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:45:57.086Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:01.634Z"
       }
     },
     {
@@ -508,13 +508,13 @@
       "district": "大安區",
       "owner": "傅海祥",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.0204073,
+        "lng": 121.530617
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:46:02.121Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:03.147Z"
       }
     },
     {
@@ -525,13 +525,13 @@
       "district": "北投區",
       "owner": "黃浩彰",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1127697,
+        "lng": 121.5100821
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:46:08.264Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:04.289Z"
       }
     },
     {
@@ -542,13 +542,13 @@
       "district": "萬華區",
       "owner": "陳志強",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0314292,
+        "lng": 121.5040725
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:46:13.793Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:05.750Z"
       }
     },
     {
@@ -559,13 +559,13 @@
       "district": "萬華區",
       "owner": "李金蓮",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0270877,
+        "lng": 121.5003138
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:46:19.270Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:07.006Z"
       }
     },
     {
@@ -576,13 +576,13 @@
       "district": "中正區",
       "owner": "楊振武",
       "coordinates": {
-        "lat": 25.0323,
-        "lng": 121.5127
+        "lat": 25.029851,
+        "lng": 121.5166415
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:46:24.627Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:08.337Z"
       }
     },
     {
@@ -599,7 +599,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:46:30.388Z"
+        "geocoded_at": "2025-09-05T13:52:15.865Z"
       }
     },
     {
@@ -610,13 +610,13 @@
       "district": "北投區",
       "owner": "陳美杏",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1179076,
+        "lng": 121.5045934
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:46:35.423Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:16.529Z"
       }
     },
     {
@@ -627,13 +627,13 @@
       "district": "中正區",
       "owner": "王仁鴻",
       "coordinates": {
-        "lat": 25.0323,
-        "lng": 121.5127
+        "lat": 25.0209924,
+        "lng": 121.5265955
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:46:41.099Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:18.475Z"
       }
     },
     {
@@ -644,13 +644,13 @@
       "district": "中正區",
       "owner": "連昭銘",
       "coordinates": {
-        "lat": 25.034299999999998,
-        "lng": 121.5127
+        "lat": 25.0438701,
+        "lng": 121.5279069
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:46:45.494Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:19.331Z"
       }
     },
     {
@@ -661,13 +661,13 @@
       "district": "大同區",
       "owner": "蕭富聰",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0601705,
+        "lng": 121.5197157
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:46:50.364Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:21.137Z"
       }
     },
     {
@@ -678,13 +678,13 @@
       "district": "大同區",
       "owner": "吳西寬",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0550961,
+        "lng": 121.5143585
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:46:54.804Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:21.812Z"
       }
     },
     {
@@ -695,13 +695,13 @@
       "district": "大同區",
       "owner": "陳信忠",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0514257,
+        "lng": 121.5174204
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:46:59.814Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:23.799Z"
       }
     },
     {
@@ -712,13 +712,13 @@
       "district": "南港區",
       "owner": "曾月環",
       "coordinates": {
-        "lat": 25.0554,
-        "lng": 121.6477
+        "lat": 25.0482901,
+        "lng": 121.5842979
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:04.576Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:25.808Z"
       }
     },
     {
@@ -729,13 +729,13 @@
       "district": "士林區",
       "owner": "黃豐榮",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.1007335,
+        "lng": 121.5223581
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:09.048Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:27.138Z"
       }
     },
     {
@@ -746,13 +746,13 @@
       "district": "士林區",
       "owner": "程麗蓉",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0840042,
+        "lng": 121.5100916
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:13.566Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:28.172Z"
       }
     },
     {
@@ -763,13 +763,13 @@
       "district": "士林區",
       "owner": "呂金隆",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0848611,
+        "lng": 121.5192627
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:18.485Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:29.753Z"
       }
     },
     {
@@ -780,13 +780,13 @@
       "district": "大同區",
       "owner": "胡有典",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0687273,
+        "lng": 121.518192
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:22.988Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:30.419Z"
       }
     },
     {
@@ -797,13 +797,13 @@
       "district": "大同區",
       "owner": "陳武田",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0687885,
+        "lng": 121.5181967
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:27.929Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:31.733Z"
       }
     },
     {
@@ -814,13 +814,13 @@
       "district": "大安區",
       "owner": "楊劉玉英",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.044809,
+        "lng": 121.5340323
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:32.270Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:32.823Z"
       }
     },
     {
@@ -831,13 +831,13 @@
       "district": "大安區",
       "owner": "侯天助",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.024551,
+        "lng": 121.5517864
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:36.800Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:34.108Z"
       }
     },
     {
@@ -848,13 +848,13 @@
       "district": "大安區",
       "owner": "陳文祥",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.0474614,
+        "lng": 121.5533188
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:41.444Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:36.599Z"
       }
     },
     {
@@ -865,13 +865,13 @@
       "district": "大安區",
       "owner": "陳周紅",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.0225845,
+        "lng": 121.5263236
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:45.941Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:38.646Z"
       }
     },
     {
@@ -882,13 +882,13 @@
       "district": "中山區",
       "owner": "黃登鑫",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0646625,
+        "lng": 121.5410766
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:50.507Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:39.129Z"
       }
     },
     {
@@ -899,13 +899,13 @@
       "district": "中山區",
       "owner": "湯乾坤",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0793637,
+        "lng": 121.5446566
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:55.215Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:40.487Z"
       }
     },
     {
@@ -916,13 +916,13 @@
       "district": "中山區",
       "owner": "吳惠鈴",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.06229,
+        "lng": 121.5327157
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:47:59.728Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:41.998Z"
       }
     },
     {
@@ -933,13 +933,13 @@
       "district": "中山區",
       "owner": "簡?達",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0474686,
+        "lng": 121.5432052
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:48:04.337Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:42.947Z"
       }
     },
     {
@@ -950,13 +950,13 @@
       "district": "中山區",
       "owner": "邱寬",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0552001,
+        "lng": 121.5375747
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:48:09.970Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:46.161Z"
       }
     },
     {
@@ -973,7 +973,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:48:14.196Z"
+        "geocoded_at": "2025-09-05T13:52:55.134Z"
       }
     },
     {
@@ -984,13 +984,13 @@
       "district": "中正區",
       "owner": "邱炳宗",
       "coordinates": {
-        "lat": 25.0323,
-        "lng": 121.5127
+        "lat": 25.0282807,
+        "lng": 121.5089701
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:48:19.040Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:55.748Z"
       }
     },
     {
@@ -1001,13 +1001,13 @@
       "district": "中正區",
       "owner": "陳哲男",
       "coordinates": {
-        "lat": 25.0323,
-        "lng": 121.5127
+        "lat": 25.0236825,
+        "lng": 121.516999
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:48:23.683Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:57.590Z"
       }
     },
     {
@@ -1018,13 +1018,13 @@
       "district": "內湖區",
       "owner": "呂圓",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0775969,
+        "lng": 121.5776638
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:48:28.524Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:52:59.436Z"
       }
     },
     {
@@ -1041,7 +1041,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:48:33.000Z"
+        "geocoded_at": "2025-09-05T13:53:05.989Z"
       }
     },
     {
@@ -1052,13 +1052,13 @@
       "district": "文山區",
       "owner": "潘宗彬",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9878505,
+        "lng": 121.5533051
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:48:37.612Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:08.036Z"
       }
     },
     {
@@ -1069,13 +1069,13 @@
       "district": "文山區",
       "owner": "李世雄",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9840183,
+        "lng": 121.5597548
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:48:42.217Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:09.409Z"
       }
     },
     {
@@ -1086,13 +1086,13 @@
       "district": "文山區",
       "owner": "吳顏差",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.982815,
+        "lng": 121.5657371
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:48:46.926Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:10.391Z"
       }
     },
     {
@@ -1103,13 +1103,13 @@
       "district": "文山區",
       "owner": "呂世源",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9822075,
+        "lng": 121.563448
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:48:51.417Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:11.869Z"
       }
     },
     {
@@ -1120,13 +1120,13 @@
       "district": "文山區",
       "owner": "陳智山",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9875557,
+        "lng": 121.5688793
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:48:56.077Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:14.488Z"
       }
     },
     {
@@ -1137,13 +1137,13 @@
       "district": "文山區",
       "owner": "李木傳",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9948151,
+        "lng": 121.5445354
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:01.058Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:15.614Z"
       }
     },
     {
@@ -1154,13 +1154,13 @@
       "district": "文山區",
       "owner": "鄭揚瑞",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9978365,
+        "lng": 121.5446512
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:06.328Z"
+        "source": "Nominatim",
+        "accuracy": 0.05340790341039136,
+        "geocoded_at": "2025-09-05T13:53:16.844Z"
       }
     },
     {
@@ -1171,13 +1171,13 @@
       "district": "文山區",
       "owner": "蔡文文",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.998589,
+        "lng": 121.5455496
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:10.707Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:18.583Z"
       }
     },
     {
@@ -1188,13 +1188,13 @@
       "district": "文山區",
       "owner": "陳志祥",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9938771,
+        "lng": 121.5413651
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:15.302Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:19.196Z"
       }
     },
     {
@@ -1211,7 +1211,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:19.833Z"
+        "geocoded_at": "2025-09-05T13:53:27.509Z"
       }
     },
     {
@@ -1222,13 +1222,13 @@
       "district": "北投區",
       "owner": "童美惠",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1094046,
+        "lng": 121.5153357
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:24.611Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:28.362Z"
       }
     },
     {
@@ -1239,13 +1239,13 @@
       "district": "北投區",
       "owner": "呂學殷",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1277116,
+        "lng": 121.5014133
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:29.055Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:29.642Z"
       }
     },
     {
@@ -1256,13 +1256,13 @@
       "district": "松山區",
       "owner": "黃棟樑",
       "coordinates": {
-        "lat": 25.0578,
-        "lng": 121.5773
+        "lat": 25.0479114,
+        "lng": 121.5563385
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:33.633Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:30.564Z"
       }
     },
     {
@@ -1273,13 +1273,13 @@
       "district": "南港區",
       "owner": "彭福強",
       "coordinates": {
-        "lat": 25.0554,
-        "lng": 121.6477
+        "lat": 25.0429194,
+        "lng": 121.583557
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:38.539Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:32.918Z"
       }
     },
     {
@@ -1296,7 +1296,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:43.044Z"
+        "geocoded_at": "2025-09-05T13:53:40.273Z"
       }
     },
     {
@@ -1307,13 +1307,13 @@
       "district": "松山區",
       "owner": "蔡月琴",
       "coordinates": {
-        "lat": 25.0578,
-        "lng": 121.5773
+        "lat": 25.0585957,
+        "lng": 121.5578256
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:47.551Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:41.828Z"
       }
     },
     {
@@ -1324,13 +1324,13 @@
       "district": "松山區",
       "owner": "林振文",
       "coordinates": {
-        "lat": 25.0578,
-        "lng": 121.5773
+        "lat": 25.0510964,
+        "lng": 121.5580225
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:52.363Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:43.876Z"
       }
     },
     {
@@ -1341,13 +1341,13 @@
       "district": "松山區",
       "owner": "易正盛",
       "coordinates": {
-        "lat": 25.0578,
-        "lng": 121.5773
+        "lat": 25.0532271,
+        "lng": 121.5527947
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:49:57.176Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:47.050Z"
       }
     },
     {
@@ -1358,13 +1358,13 @@
       "district": "信義區",
       "owner": "衛霖森",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0385637,
+        "lng": 121.5842389
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:01.580Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:47.526Z"
       }
     },
     {
@@ -1375,13 +1375,13 @@
       "district": "信義區",
       "owner": "張嘉琪",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0407006,
+        "lng": 121.5853545
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:06.188Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:49.390Z"
       }
     },
     {
@@ -1392,13 +1392,13 @@
       "district": "南港區",
       "owner": "潘月娥",
       "coordinates": {
-        "lat": 25.0554,
-        "lng": 121.6477
+        "lat": 25.0495153,
+        "lng": 121.615919
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:10.723Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:50.533Z"
       }
     },
     {
@@ -1409,13 +1409,13 @@
       "district": "南港區",
       "owner": "高文義",
       "coordinates": {
-        "lat": 25.0554,
-        "lng": 121.6477
+        "lat": 25.0456353,
+        "lng": 121.6151032
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:15.291Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:52.067Z"
       }
     },
     {
@@ -1426,13 +1426,13 @@
       "district": "大同區",
       "owner": "黃武雄",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0519196,
+        "lng": 121.5130255
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:20.296Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:53.194Z"
       }
     },
     {
@@ -1443,13 +1443,13 @@
       "district": "文山區",
       "owner": "陳秋永",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.998406,
+        "lng": 121.544303
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:26.457Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:55.297Z"
       }
     },
     {
@@ -1460,13 +1460,13 @@
       "district": "萬華區",
       "owner": "張清輝",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.027378,
+        "lng": 121.494046
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:30.950Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:55.758Z"
       }
     },
     {
@@ -1477,13 +1477,13 @@
       "district": "萬華區",
       "owner": "楊承達",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0253411,
+        "lng": 121.4967797
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:35.656Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:58.372Z"
       }
     },
     {
@@ -1494,13 +1494,13 @@
       "district": "萬華區",
       "owner": "徐秋蓮",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0376707,
+        "lng": 121.504992
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:40.296Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:53:59.751Z"
       }
     },
     {
@@ -1511,13 +1511,13 @@
       "district": "萬華區",
       "owner": "林偉傑",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0193946,
+        "lng": 121.4971166
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:45.624Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:01.387Z"
       }
     },
     {
@@ -1528,13 +1528,13 @@
       "district": "士林區",
       "owner": "呂金隆",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0814063,
+        "lng": 121.519815
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:49.864Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:02.307Z"
       }
     },
     {
@@ -1545,13 +1545,13 @@
       "district": "士林區",
       "owner": "蔡昇達",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.1142902,
+        "lng": 121.5302877
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:54.441Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:03.328Z"
       }
     },
     {
@@ -1562,13 +1562,13 @@
       "district": "士林區",
       "owner": "林俊忠",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.52289999999999
+        "lat": 25.1171518,
+        "lng": 121.526022
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:50:58.985Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:04.356Z"
       }
     },
     {
@@ -1579,13 +1579,13 @@
       "district": "士林區",
       "owner": "汪碧雲",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0922046,
+        "lng": 121.5262221
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:51:03.527Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:05.729Z"
       }
     },
     {
@@ -1596,13 +1596,13 @@
       "district": "大同區",
       "owner": "李建緯",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0638325,
+        "lng": 121.5159307
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:51:08.442Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:07.625Z"
       }
     },
     {
@@ -1613,13 +1613,13 @@
       "district": "信義區",
       "owner": "沈毓翔",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0220636,
+        "lng": 121.5552397
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:51:12.955Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:09.094Z"
       }
     },
     {
@@ -1630,13 +1630,13 @@
       "district": "大安區",
       "owner": "黃正德",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.0225538,
+        "lng": 121.5507467
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:51:17.564Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:10.193Z"
       }
     },
     {
@@ -1647,13 +1647,13 @@
       "district": "中山區",
       "owner": "林鴻鑫",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0486266,
+        "lng": 121.5226587
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:51:22.421Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:12.445Z"
       }
     },
     {
@@ -1664,13 +1664,13 @@
       "district": "中山區",
       "owner": "黃立偉",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0655461,
+        "lng": 121.530253
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:51:28.126Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:13.030Z"
       }
     },
     {
@@ -1681,13 +1681,13 @@
       "district": "中正區",
       "owner": "鄭秀玉",
       "coordinates": {
-        "lat": 25.0323,
-        "lng": 121.5127
+        "lat": 25.0250464,
+        "lng": 121.518695
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:51:31.878Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:15.112Z"
       }
     },
     {
@@ -1698,13 +1698,13 @@
       "district": "內湖區",
       "owner": "郭誌銘",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0711493,
+        "lng": 121.6095769
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:51:36.520Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:15.825Z"
       }
     },
     {
@@ -1715,13 +1715,13 @@
       "district": "內湖區",
       "owner": "曾振豪",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0853092,
+        "lng": 121.5918603
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:51:41.432Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:18.385Z"
       }
     },
     {
@@ -1732,13 +1732,13 @@
       "district": "內湖區",
       "owner": "林瑩霞",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0687375,
+        "lng": 121.6185038
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:51:46.284Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:19.508Z"
       }
     },
     {
@@ -1749,13 +1749,13 @@
       "district": "北投區",
       "owner": "李瑞德",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1103519,
+        "lng": 121.513915
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:51:51.107Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:21.255Z"
       }
     },
     {
@@ -1766,13 +1766,13 @@
       "district": "萬華區",
       "owner": "李碧珠",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0468657,
+        "lng": 121.5041926
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:51:55.657Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:22.071Z"
       }
     },
     {
@@ -1783,13 +1783,13 @@
       "district": "北投區",
       "owner": "葉淑娥",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1161631,
+        "lng": 121.5116646
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:00.180Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:23.717Z"
       }
     },
     {
@@ -1800,13 +1800,13 @@
       "district": "信義區",
       "owner": "劉銹錦",
       "coordinates": {
-        "lat": 25.0316,
-        "lng": 121.5797
+        "lat": 25.0350767,
+        "lng": 121.5763355
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:04.941Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:24.875Z"
       }
     },
     {
@@ -1817,13 +1817,13 @@
       "district": "萬華區",
       "owner": "蔡金龍",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0212452,
+        "lng": 121.4999969
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:09.496Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:26.214Z"
       }
     },
     {
@@ -1834,13 +1834,13 @@
       "district": "士林區",
       "owner": "林振華",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0865606,
+        "lng": 121.5097387
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:14.016Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:27.860Z"
       }
     },
     {
@@ -1851,13 +1851,13 @@
       "district": "大安區",
       "owner": "許溪泉",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.0282491,
+        "lng": 121.5535572
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:18.560Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:29.956Z"
       }
     },
     {
@@ -1868,13 +1868,13 @@
       "district": "中正區",
       "owner": "侯秋燕",
       "coordinates": {
-        "lat": 25.0323,
-        "lng": 121.5127
+        "lat": 25.0287361,
+        "lng": 121.5153732
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:23.493Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:30.673Z"
       }
     },
     {
@@ -1885,13 +1885,13 @@
       "district": "內湖區",
       "owner": "曹永陣",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0688303,
+        "lng": 121.6183625
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:28.230Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:33.045Z"
       }
     },
     {
@@ -1902,13 +1902,13 @@
       "district": "內湖區",
       "owner": "周鴻政",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.072688,
+        "lng": 121.6061099
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:32.854Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:33.584Z"
       }
     },
     {
@@ -1919,13 +1919,13 @@
       "district": "內湖區",
       "owner": "林振昌",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0824877,
+        "lng": 121.5780473
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:37.715Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:36.101Z"
       }
     },
     {
@@ -1936,13 +1936,13 @@
       "district": "北投區",
       "owner": "詹文琦",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1376188,
+        "lng": 121.4933757
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:42.252Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:36.814Z"
       }
     },
     {
@@ -1953,13 +1953,13 @@
       "district": "松山區",
       "owner": "盧蘇阿葉",
       "coordinates": {
-        "lat": 25.0578,
-        "lng": 121.5773
+        "lat": 25.0630278,
+        "lng": 121.5658837
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:46.759Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:38.558Z"
       }
     },
     {
@@ -1970,13 +1970,13 @@
       "district": "信義區",
       "owner": "林靜惠",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0287833,
+        "lng": 121.5643639
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:51.361Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:39.479Z"
       }
     },
     {
@@ -1987,13 +1987,13 @@
       "district": "信義區",
       "owner": "黃東安",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0281834,
+        "lng": 121.5684773
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:52:56.143Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:41.054Z"
       }
     },
     {
@@ -2004,13 +2004,13 @@
       "district": "南港區",
       "owner": "洪淑華",
       "coordinates": {
-        "lat": 25.0554,
-        "lng": 121.6477
+        "lat": 25.0466699,
+        "lng": 121.5882285
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:00.911Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:42.457Z"
       }
     },
     {
@@ -2021,13 +2021,13 @@
       "district": "南港區",
       "owner": "王秀玉",
       "coordinates": {
-        "lat": 25.0554,
-        "lng": 121.6477
+        "lat": 25.0418124,
+        "lng": 121.5876666
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:05.748Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:44.497Z"
       }
     },
     {
@@ -2038,13 +2038,13 @@
       "district": "南港區",
       "owner": "李信賢",
       "coordinates": {
-        "lat": 25.057399999999998,
-        "lng": 121.6477
+        "lat": 25.0526095,
+        "lng": 121.6133067
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:10.223Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:44.934Z"
       }
     },
     {
@@ -2055,13 +2055,13 @@
       "district": "萬華區",
       "owner": "孫溪林",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0290764,
+        "lng": 121.4921986
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:15.691Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:47.054Z"
       }
     },
     {
@@ -2078,7 +2078,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:19.990Z"
+        "geocoded_at": "2025-09-05T13:54:55.286Z"
       }
     },
     {
@@ -2089,13 +2089,13 @@
       "district": "中正區",
       "owner": "商嘉宏",
       "coordinates": {
-        "lat": 25.0323,
-        "lng": 121.5127
+        "lat": 25.0281499,
+        "lng": 121.5178965
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:24.928Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:57.297Z"
       }
     },
     {
@@ -2106,13 +2106,13 @@
       "district": "大安區",
       "owner": "蔡明成",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.0400493,
+        "lng": 121.5372116
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:29.296Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:58.321Z"
       }
     },
     {
@@ -2123,13 +2123,13 @@
       "district": "內湖區",
       "owner": "林秉宏",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0676285,
+        "lng": 121.6136864
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:34.160Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:54:59.959Z"
       }
     },
     {
@@ -2140,13 +2140,13 @@
       "district": "士林區",
       "owner": "陳惠如",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.1068983,
+        "lng": 121.5258801
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:38.878Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:01.501Z"
       }
     },
     {
@@ -2157,13 +2157,13 @@
       "district": "大同區",
       "owner": "林子雄",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0598145,
+        "lng": 121.5155851
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:43.645Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:03.440Z"
       }
     },
     {
@@ -2174,13 +2174,13 @@
       "district": "北投區",
       "owner": "賴民禮",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.125107,
+        "lng": 121.5264914
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:48.410Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:04.667Z"
       }
     },
     {
@@ -2191,13 +2191,13 @@
       "district": "信義區",
       "owner": "蔡進奎",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0219662,
+        "lng": 121.5565114
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:53.154Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:06.821Z"
       }
     },
     {
@@ -2208,13 +2208,13 @@
       "district": "大安區",
       "owner": "林世魁",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.0309197,
+        "lng": 121.538244
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:53:57.635Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:07.245Z"
       }
     },
     {
@@ -2225,13 +2225,13 @@
       "district": "萬華區",
       "owner": "劉燦慧",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0335972,
+        "lng": 121.5048275
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:02.240Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:09.559Z"
       }
     },
     {
@@ -2242,13 +2242,13 @@
       "district": "內湖區",
       "owner": "洪益詮",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0852107,
+        "lng": 121.5588122
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:06.848Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:10.711Z"
       }
     },
     {
@@ -2259,13 +2259,13 @@
       "district": "大安區",
       "owner": "王俊傑",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.044696,
+        "lng": 121.544813
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:11.443Z"
+        "source": "Manual_Override",
+        "accuracy": "precise",
+        "geocoded_at": "2025-09-16T10:30:00.000Z"
       }
     },
     {
@@ -2282,7 +2282,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:16.054Z"
+        "geocoded_at": "2025-09-05T13:55:25.181Z"
       }
     },
     {
@@ -2293,13 +2293,13 @@
       "district": "內湖區",
       "owner": "郭志明",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0844585,
+        "lng": 121.5949763
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:20.979Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:28.006Z"
       }
     },
     {
@@ -2310,13 +2310,13 @@
       "district": "文山區",
       "owner": "高志宏",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 25.0007633,
+        "lng": 121.5491165
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:25.469Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:28.659Z"
       }
     },
     {
@@ -2327,13 +2327,13 @@
       "district": "士林區",
       "owner": "張振盛",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0890274,
+        "lng": 121.507659
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:30.052Z"
+        "source": "Nominatim",
+        "accuracy": 0.00006715571831841028,
+        "geocoded_at": "2025-09-05T13:55:30.499Z"
       }
     },
     {
@@ -2344,13 +2344,13 @@
       "district": "松山區",
       "owner": "吳勝雄",
       "coordinates": {
-        "lat": 25.0578,
-        "lng": 121.5773
+        "lat": 25.0538723,
+        "lng": 121.5614237
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:34.983Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:31.499Z"
       }
     },
     {
@@ -2361,13 +2361,13 @@
       "district": "士林區",
       "owner": "吳建龍",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0966024,
+        "lng": 121.5474172
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:39.470Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:33.092Z"
       }
     },
     {
@@ -2378,13 +2378,13 @@
       "district": "信義區",
       "owner": "吳俊明",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0237577,
+        "lng": 121.5691996
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:44.133Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:33.893Z"
       }
     },
     {
@@ -2395,13 +2395,13 @@
       "district": "信義區",
       "owner": "彭胡鳳英",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0411408,
+        "lng": 121.5776618
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:48.717Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:35.798Z"
       }
     },
     {
@@ -2412,13 +2412,13 @@
       "district": "北投區",
       "owner": "鄭進福",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1186874,
+        "lng": 121.5144116
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:53.341Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:36.745Z"
       }
     },
     {
@@ -2429,13 +2429,13 @@
       "district": "萬華區",
       "owner": "陳少玉",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.03486,
+        "lng": 121.4940583
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:54:57.935Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:38.596Z"
       }
     },
     {
@@ -2446,13 +2446,13 @@
       "district": "南港區",
       "owner": "王仁鴻",
       "coordinates": {
-        "lat": 25.0554,
-        "lng": 121.6477
+        "lat": 25.0533449,
+        "lng": 121.6164873
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:02.457Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:39.449Z"
       }
     },
     {
@@ -2463,13 +2463,13 @@
       "district": "萬華區",
       "owner": "羅淑惠",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.034493,
+        "lng": 121.4937338
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:07.063Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:41.126Z"
       }
     },
     {
@@ -2486,7 +2486,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:11.662Z"
+        "geocoded_at": "2025-09-05T13:55:46.766Z"
       }
     },
     {
@@ -2497,13 +2497,13 @@
       "district": "信義區",
       "owner": "潘明洲",
       "coordinates": {
-        "lat": 25.0356,
-        "lng": 121.5797
+        "lat": 25.0426473,
+        "lng": 121.5803679
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:16.100Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:48.761Z"
       }
     },
     {
@@ -2514,13 +2514,13 @@
       "district": "中正區",
       "owner": "鄭朝誥",
       "coordinates": {
-        "lat": 25.0323,
-        "lng": 121.5127
+        "lat": 25.0402703,
+        "lng": 121.5325243
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:20.620Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:49.931Z"
       }
     },
     {
@@ -2531,13 +2531,13 @@
       "district": "內湖區",
       "owner": "曾文華",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0846584,
+        "lng": 121.5611583
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:25.133Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:51.366Z"
       }
     },
     {
@@ -2548,13 +2548,13 @@
       "district": "大安區",
       "owner": "陳經典",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.0284824,
+        "lng": 121.5381027
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:29.793Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:52.490Z"
       }
     },
     {
@@ -2565,13 +2565,13 @@
       "district": "中山區",
       "owner": "康田",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0490048,
+        "lng": 121.5255979
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:34.310Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:54.129Z"
       }
     },
     {
@@ -2582,13 +2582,13 @@
       "district": "北投區",
       "owner": "何瑞通",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1292842,
+        "lng": 121.5056411
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:39.221Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:55.086Z"
       }
     },
     {
@@ -2599,13 +2599,13 @@
       "district": "北投區",
       "owner": "廖展誌",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1171876,
+        "lng": 121.5129691
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:43.611Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:56.487Z"
       }
     },
     {
@@ -2616,13 +2616,13 @@
       "district": "文山區",
       "owner": "劉清坡",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9989866,
+        "lng": 121.558113
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:48.244Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:57.816Z"
       }
     },
     {
@@ -2633,13 +2633,13 @@
       "district": "文山區",
       "owner": "陳雪妮",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9882767,
+        "lng": 121.5676555
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:52.759Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:55:59.238Z"
       }
     },
     {
@@ -2650,13 +2650,13 @@
       "district": "士林區",
       "owner": "徐濤",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0888416,
+        "lng": 121.5186878
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:55:58.888Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:00.478Z"
       }
     },
     {
@@ -2667,13 +2667,13 @@
       "district": "士林區",
       "owner": "蘇芬芬",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.1013547,
+        "lng": 121.5343195
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:02.665Z"
+        "source": "Nominatim",
+        "accuracy": 0.05340790341039136,
+        "geocoded_at": "2025-09-05T13:56:03.243Z"
       }
     },
     {
@@ -2684,13 +2684,13 @@
       "district": "中山區",
       "owner": "鄭榮輝",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0626488,
+        "lng": 121.5349111
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:07.235Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:04.062Z"
       }
     },
     {
@@ -2701,13 +2701,13 @@
       "district": "北投區",
       "owner": "林嘉政",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1276324,
+        "lng": 121.4675769
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:11.873Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:05.709Z"
       }
     },
     {
@@ -2718,13 +2718,13 @@
       "district": "內湖區",
       "owner": "柯坤達",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0866769,
+        "lng": 121.5637056
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:16.772Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:07.173Z"
       }
     },
     {
@@ -2735,13 +2735,13 @@
       "district": "內湖區",
       "owner": "葉秀銘",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0701652,
+        "lng": 121.6163605
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:21.168Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:08.434Z"
       }
     },
     {
@@ -2752,13 +2752,13 @@
       "district": "萬華區",
       "owner": "徐正雄",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0308376,
+        "lng": 121.4968551
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:25.719Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:09.549Z"
       }
     },
     {
@@ -2769,13 +2769,13 @@
       "district": "大安區",
       "owner": "簡陳碧雲",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.0290593,
+        "lng": 121.5246573
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:30.730Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:13.064Z"
       }
     },
     {
@@ -2786,13 +2786,13 @@
       "district": "信義區",
       "owner": "廖德政",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0455279,
+        "lng": 121.5672914
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:35.059Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:14.199Z"
       }
     },
     {
@@ -2803,13 +2803,13 @@
       "district": "士林區",
       "owner": "李忠喜",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0794261,
+        "lng": 121.5113007
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:39.741Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:15.587Z"
       }
     },
     {
@@ -2820,13 +2820,13 @@
       "district": "士林區",
       "owner": "謝林麗豐",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0913968,
+        "lng": 121.5266504
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:44.267Z"
+        "source": "Nominatim",
+        "accuracy": 0.05340790341039136,
+        "geocoded_at": "2025-09-05T13:56:16.657Z"
       }
     },
     {
@@ -2837,13 +2837,13 @@
       "district": "內湖區",
       "owner": "曾德昌",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0672208,
+        "lng": 121.5904634
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:48.798Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:18.192Z"
       }
     },
     {
@@ -2854,13 +2854,13 @@
       "district": "信義區",
       "owner": "何政憲",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0484858,
+        "lng": 121.5763412
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:53.342Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:19.113Z"
       }
     },
     {
@@ -2871,13 +2871,13 @@
       "district": "中山區",
       "owner": "詹秉樟",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0562851,
+        "lng": 121.5289814
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:56:58.293Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:21.367Z"
       }
     },
     {
@@ -2888,13 +2888,13 @@
       "district": "內湖區",
       "owner": "李志成",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0686762,
+        "lng": 121.5847407
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:02.671Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:22.086Z"
       }
     },
     {
@@ -2905,13 +2905,13 @@
       "district": "北投區",
       "owner": "張永和",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1359111,
+        "lng": 121.4972936
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:07.270Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:23.927Z"
       }
     },
     {
@@ -2922,13 +2922,13 @@
       "district": "大安區",
       "owner": "吳志遠",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.044862,
+        "lng": 121.546847
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:11.807Z"
+        "source": "Manual_Override",
+        "accuracy": "precise",
+        "geocoded_at": "2025-09-16T10:30:00.000Z"
       }
     },
     {
@@ -2945,7 +2945,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:16.369Z"
+        "geocoded_at": "2025-09-05T13:56:36.257Z"
       }
     },
     {
@@ -2956,13 +2956,13 @@
       "district": "北投區",
       "owner": "許位誠",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1272635,
+        "lng": 121.5012944
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:21.097Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:37.546Z"
       }
     },
     {
@@ -2973,13 +2973,13 @@
       "district": "內湖區",
       "owner": "章香琴",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0787917,
+        "lng": 121.5792918
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:25.705Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:39.288Z"
       }
     },
     {
@@ -2990,13 +2990,13 @@
       "district": "萬華區",
       "owner": "蔡榮龍",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0335424,
+        "lng": 121.5046338
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:30.315Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:39.902Z"
       }
     },
     {
@@ -3007,13 +3007,13 @@
       "district": "士林區",
       "owner": "丁東日",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0799593,
+        "lng": 121.5108122
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:34.953Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:41.749Z"
       }
     },
     {
@@ -3024,13 +3024,13 @@
       "district": "文山區",
       "owner": "溫仕傳",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9890176,
+        "lng": 121.5621663
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:39.538Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:43.076Z"
       }
     },
     {
@@ -3041,13 +3041,13 @@
       "district": "信義區",
       "owner": "李坤憲",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0300906,
+        "lng": 121.5616567
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:44.100Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:44.714Z"
       }
     },
     {
@@ -3058,13 +3058,13 @@
       "district": "松山區",
       "owner": "羅重庚",
       "coordinates": {
-        "lat": 25.0578,
-        "lng": 121.5773
+        "lat": 25.0574474,
+        "lng": 121.5690764
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:48.983Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:45.738Z"
       }
     },
     {
@@ -3075,13 +3075,13 @@
       "district": "南港區",
       "owner": "邱阿亮",
       "coordinates": {
-        "lat": 25.0554,
-        "lng": 121.6477
+        "lat": 25.039672,
+        "lng": 121.588856
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:53.471Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:47.376Z"
       }
     },
     {
@@ -3092,13 +3092,13 @@
       "district": "內湖區",
       "owner": "古丞凱",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0861062,
+        "lng": 121.5713961
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:57:58.065Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:48.398Z"
       }
     },
     {
@@ -3109,13 +3109,13 @@
       "district": "大安區",
       "owner": "丁進忠",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.0279761,
+        "lng": 121.5544343
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:02.648Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:49.859Z"
       }
     },
     {
@@ -3126,13 +3126,13 @@
       "district": "中山區",
       "owner": "許明貴",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0676369,
+        "lng": 121.5281494
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:07.181Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:51.678Z"
       }
     },
     {
@@ -3143,13 +3143,13 @@
       "district": "北投區",
       "owner": "林祺富",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1121481,
+        "lng": 121.5197606
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:11.820Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:53.149Z"
       }
     },
     {
@@ -3160,13 +3160,13 @@
       "district": "萬華區",
       "owner": "陳柏榮",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0300372,
+        "lng": 121.5033502
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:16.499Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:54.745Z"
       }
     },
     {
@@ -3177,13 +3177,13 @@
       "district": "松山區",
       "owner": "張雅萍",
       "coordinates": {
-        "lat": 25.0578,
-        "lng": 121.5773
+        "lat": 25.0490746,
+        "lng": 121.5679808
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:21.105Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:56.182Z"
       }
     },
     {
@@ -3194,13 +3194,13 @@
       "district": "南港區",
       "owner": "王健治",
       "coordinates": {
-        "lat": 25.0554,
-        "lng": 121.6477
+        "lat": 25.0413109,
+        "lng": 121.5880657
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:25.713Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:57.207Z"
       }
     },
     {
@@ -3211,13 +3211,13 @@
       "district": "信義區",
       "owner": "葉聰明",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0369755,
+        "lng": 121.58074
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:30.176Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:56:59.255Z"
       }
     },
     {
@@ -3228,13 +3228,13 @@
       "district": "文山區",
       "owner": "廖銘恭",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9841273,
+        "lng": 121.5695261
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:34.737Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:00.279Z"
       }
     },
     {
@@ -3245,13 +3245,13 @@
       "district": "士林區",
       "owner": "張榮芳",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0936457,
+        "lng": 121.5207755
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:39.334Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:02.022Z"
       }
     },
     {
@@ -3268,7 +3268,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:43.786Z"
+        "geocoded_at": "2025-09-05T13:57:08.779Z"
       }
     },
     {
@@ -3279,13 +3279,13 @@
       "district": "南港區",
       "owner": "莊敬長",
       "coordinates": {
-        "lat": 25.057399999999998,
-        "lng": 121.6477
+        "lat": 25.0488368,
+        "lng": 121.5879299
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:48.357Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:10.519Z"
       }
     },
     {
@@ -3296,13 +3296,13 @@
       "district": "文山區",
       "owner": "張景州",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9987145,
+        "lng": 121.5404527
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:52.902Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:11.543Z"
       }
     },
     {
@@ -3313,13 +3313,13 @@
       "district": "大同區",
       "owner": "賴宏林",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0605268,
+        "lng": 121.5145235
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:58:57.496Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:13.694Z"
       }
     },
     {
@@ -3330,13 +3330,13 @@
       "district": "內湖區",
       "owner": "郭錦練",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0783448,
+        "lng": 121.5793924
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:02.223Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:15.124Z"
       }
     },
     {
@@ -3347,13 +3347,13 @@
       "district": "內湖區",
       "owner": "黃宇宏",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.055828,
+        "lng": 121.5824357
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:07.161Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:16.766Z"
       }
     },
     {
@@ -3364,13 +3364,13 @@
       "district": "信義區",
       "owner": "古紘瑞",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.025077,
+        "lng": 121.5669814
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:11.603Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:17.687Z"
       }
     },
     {
@@ -3381,13 +3381,13 @@
       "district": "信義區",
       "owner": "陳洪幸姱",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0253998,
+        "lng": 121.5539296
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:16.211Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:19.531Z"
       }
     },
     {
@@ -3398,13 +3398,13 @@
       "district": "文山區",
       "owner": "蔡宗涼",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9982706,
+        "lng": 121.5447663
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:20.810Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:21.388Z"
       }
     },
     {
@@ -3415,13 +3415,13 @@
       "district": "士林區",
       "owner": "劉明德",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.52289999999999
+        "lat": 25.1170738,
+        "lng": 121.526036
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:25.416Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:22.834Z"
       }
     },
     {
@@ -3432,13 +3432,13 @@
       "district": "士林區",
       "owner": "王豪裕",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0900213,
+        "lng": 121.5154211
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:29.983Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:23.934Z"
       }
     },
     {
@@ -3449,13 +3449,13 @@
       "district": "萬華區",
       "owner": "張漢生",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0365034,
+        "lng": 121.4931052
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:34.634Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:25.288Z"
       }
     },
     {
@@ -3466,13 +3466,13 @@
       "district": "萬華區",
       "owner": "陳哲俊",
       "coordinates": {
-        "lat": 25.0377,
-        "lng": 121.5019
+        "lat": 25.0313263,
+        "lng": 121.4905674
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:39.242Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:26.392Z"
       }
     },
     {
@@ -3489,7 +3489,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:43.767Z"
+        "geocoded_at": "2025-09-05T13:57:34.276Z"
       }
     },
     {
@@ -3500,13 +3500,13 @@
       "district": "信義區",
       "owner": "林柏諺",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0431016,
+        "lng": 121.5718812
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:48.728Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:34.946Z"
       }
     },
     {
@@ -3517,13 +3517,13 @@
       "district": "中山區",
       "owner": "連永昌",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0583782,
+        "lng": 121.5289767
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:53.418Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:37.451Z"
       }
     },
     {
@@ -3534,13 +3534,13 @@
       "district": "文山區",
       "owner": "林佶賓",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9878242,
+        "lng": 121.5531547
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T09:59:57.837Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:38.001Z"
       }
     },
     {
@@ -3551,13 +3551,13 @@
       "district": "中山區",
       "owner": "廖崇憲",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0561931,
+        "lng": 121.5426358
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:02.853Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:40.520Z"
       }
     },
     {
@@ -3568,13 +3568,13 @@
       "district": "內湖區",
       "owner": "高賜銘",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0660471,
+        "lng": 121.6115206
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:07.894Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:41.015Z"
       }
     },
     {
@@ -3585,13 +3585,13 @@
       "district": "大安區",
       "owner": "黃崇軒",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.029209,
+        "lng": 121.5418621
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:12.195Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:43.390Z"
       }
     },
     {
@@ -3602,13 +3602,13 @@
       "district": "大同區",
       "owner": "洪秀枝",
       "coordinates": {
-        "lat": 25.0632,
-        "lng": 121.5127
+        "lat": 25.0600291,
+        "lng": 121.5085901
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:16.747Z"
+        "source": "Nominatim",
+        "accuracy": 0.00006715571831841028,
+        "geocoded_at": "2025-09-05T13:57:44.107Z"
       }
     },
     {
@@ -3619,13 +3619,13 @@
       "district": "內湖區",
       "owner": "呂泓頡",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0762717,
+        "lng": 121.6211358
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:21.229Z"
+        "source": "Nominatim",
+        "accuracy": 0.00006715571831841028,
+        "geocoded_at": "2025-09-05T13:57:46.050Z"
       }
     },
     {
@@ -3636,13 +3636,13 @@
       "district": "士林區",
       "owner": "賴重安",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.1379213,
+        "lng": 121.5425857
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:25.823Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:46.974Z"
       }
     },
     {
@@ -3653,13 +3653,13 @@
       "district": "松山區",
       "owner": "劉家國",
       "coordinates": {
-        "lat": 25.0578,
-        "lng": 121.5773
+        "lat": 25.0462005,
+        "lng": 121.5576023
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:30.856Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:48.966Z"
       }
     },
     {
@@ -3670,13 +3670,13 @@
       "district": "南港區",
       "owner": "林建文",
       "coordinates": {
-        "lat": 25.0554,
-        "lng": 121.6477
+        "lat": 25.0573448,
+        "lng": 121.6061568
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:35.220Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:49.465Z"
       }
     },
     {
@@ -3693,7 +3693,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:39.776Z"
+        "geocoded_at": "2025-09-05T13:57:56.803Z"
       }
     },
     {
@@ -3704,13 +3704,13 @@
       "district": "信義區",
       "owner": "許博翔",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0448333,
+        "lng": 121.5779572
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:44.912Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:57.623Z"
       }
     },
     {
@@ -3721,13 +3721,13 @@
       "district": "北投區",
       "owner": "江柏輝",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1383657,
+        "lng": 121.4899953
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:49.506Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:57:59.354Z"
       }
     },
     {
@@ -3738,13 +3738,13 @@
       "district": "南港區",
       "owner": "黃信達",
       "coordinates": {
-        "lat": 25.057399999999998,
-        "lng": 121.6477
+        "lat": 25.0531557,
+        "lng": 121.6149204
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:54.051Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:00.389Z"
       }
     },
     {
@@ -3755,13 +3755,13 @@
       "district": "中正區",
       "owner": "劉雅鳳",
       "coordinates": {
-        "lat": 25.0323,
-        "lng": 121.5127
+        "lat": 25.0276856,
+        "lng": 121.5156529
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:00:58.578Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:01.918Z"
       }
     },
     {
@@ -3772,13 +3772,13 @@
       "district": "信義區",
       "owner": "黃泓霖",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0241848,
+        "lng": 121.5548351
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:03.132Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:03.768Z"
       }
     },
     {
@@ -3789,13 +3789,13 @@
       "district": "南港區",
       "owner": "顏志祥",
       "coordinates": {
-        "lat": 25.057399999999998,
-        "lng": 121.6477
+        "lat": 25.0491742,
+        "lng": 121.5894075
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:07.884Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:05.197Z"
       }
     },
     {
@@ -3806,13 +3806,13 @@
       "district": "內湖區",
       "owner": "邱志豪",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0784867,
+        "lng": 121.595406
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:12.636Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:06.326Z"
       }
     },
     {
@@ -3823,13 +3823,13 @@
       "district": "信義區",
       "owner": "康慧君",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0285628,
+        "lng": 121.5643599
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:17.152Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:07.788Z"
       }
     },
     {
@@ -3840,13 +3840,13 @@
       "district": "信義區",
       "owner": "吳介鵬",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0232105,
+        "lng": 121.5552448
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:22.129Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:08.971Z"
       }
     },
     {
@@ -3857,13 +3857,13 @@
       "district": "內湖區",
       "owner": "陳聖文",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0794533,
+        "lng": 121.5819808
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:26.651Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:10.525Z"
       }
     },
     {
@@ -3874,13 +3874,13 @@
       "district": "內湖區",
       "owner": "梁哲興",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.086544,
+        "lng": 121.5678182
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:31.207Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:11.447Z"
       }
     },
     {
@@ -3891,13 +3891,13 @@
       "district": "士林區",
       "owner": "郭建平",
       "coordinates": {
-        "lat": 25.0876,
-        "lng": 121.5259
+        "lat": 25.0892204,
+        "lng": 121.5074299
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:35.829Z"
+        "source": "Nominatim",
+        "accuracy": 0.00006715571831841028,
+        "geocoded_at": "2025-09-05T13:58:12.984Z"
       }
     },
     {
@@ -3908,13 +3908,13 @@
       "district": "中山區",
       "owner": "許哲嘉",
       "coordinates": {
-        "lat": 25.0636,
-        "lng": 121.5342
+        "lat": 25.0835925,
+        "lng": 121.5493734
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:40.386Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:14.008Z"
       }
     },
     {
@@ -3925,13 +3925,13 @@
       "district": "北投區",
       "owner": "余登宏",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1185304,
+        "lng": 121.5160173
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:44.909Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:15.337Z"
       }
     },
     {
@@ -3942,13 +3942,13 @@
       "district": "北投區",
       "owner": "陳如馨",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1284616,
+        "lng": 121.4693756
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:49.602Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:16.366Z"
       }
     },
     {
@@ -3959,13 +3959,13 @@
       "district": "文山區",
       "owner": "周彥龍",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9866635,
+        "lng": 121.5465687
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:54.268Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:18.001Z"
       }
     },
     {
@@ -3982,7 +3982,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:01:58.835Z"
+        "geocoded_at": "2025-09-05T13:58:23.429Z"
       }
     },
     {
@@ -3993,13 +3993,13 @@
       "district": "北投區",
       "owner": "林顥文",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1105322,
+        "lng": 121.5211286
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:03.437Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:25.476Z"
       }
     },
     {
@@ -4010,13 +4010,13 @@
       "district": "北投區",
       "owner": "吳德文",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1395104,
+        "lng": 121.5011665
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:08.148Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:26.501Z"
       }
     },
     {
@@ -4027,13 +4027,13 @@
       "district": "北投區",
       "owner": "鄭志星",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1363267,
+        "lng": 121.5005148
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:12.642Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:28.712Z"
       }
     },
     {
@@ -4044,13 +4044,13 @@
       "district": "信義區",
       "owner": "王濬麟",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0420749,
+        "lng": 121.5819174
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:17.530Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:30.066Z"
       }
     },
     {
@@ -4061,13 +4061,13 @@
       "district": "中正區",
       "owner": "陳澤文",
       "coordinates": {
-        "lat": 25.0323,
-        "lng": 121.5127
+        "lat": 25.0229778,
+        "lng": 121.5232381
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:22.065Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:31.620Z"
       }
     },
     {
@@ -4078,13 +4078,13 @@
       "district": "文山區",
       "owner": "鄭如傑",
       "coordinates": {
-        "lat": 24.9889,
-        "lng": 121.5706
+        "lat": 24.9876947,
+        "lng": 121.5524972
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:26.683Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:32.695Z"
       }
     },
     {
@@ -4095,13 +4095,13 @@
       "district": "內湖區",
       "owner": "陳宋誠",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0565193,
+        "lng": 121.5835668
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:31.293Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:34.256Z"
       }
     },
     {
@@ -4112,13 +4112,13 @@
       "district": "內湖區",
       "owner": "郭忠勝",
       "coordinates": {
-        "lat": 25.0821,
-        "lng": 121.5946
+        "lat": 25.0770102,
+        "lng": 121.5826357
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:35.801Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:35.233Z"
       }
     },
     {
@@ -4129,13 +4129,13 @@
       "district": "大安區",
       "owner": "陳冠豪",
       "coordinates": {
-        "lat": 25.0265,
-        "lng": 121.5436
+        "lat": 25.0337228,
+        "lng": 121.5568882
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:40.392Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:36.739Z"
       }
     },
     {
@@ -4146,13 +4146,13 @@
       "district": "信義區",
       "owner": "何榮峰",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0259635,
+        "lng": 121.5571435
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:45.288Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:38.208Z"
       }
     },
     {
@@ -4163,13 +4163,13 @@
       "district": "北投區",
       "owner": "宋柏緯",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1161853,
+        "lng": 121.514703
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:49.651Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:39.662Z"
       }
     },
     {
@@ -4180,13 +4180,13 @@
       "district": "北投區",
       "owner": "陳信偉",
       "coordinates": {
-        "lat": 25.1315,
-        "lng": 121.5017
+        "lat": 25.1193918,
+        "lng": 121.5112396
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:54.235Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:40.631Z"
       }
     },
     {
@@ -4197,13 +4197,13 @@
       "district": "信義區",
       "owner": "葉貂群",
       "coordinates": {
-        "lat": 25.0336,
-        "lng": 121.5797
+        "lat": 25.0303212,
+        "lng": 121.5614634
       },
       "geocoding": {
-        "source": "district_fallback",
-        "accuracy": "district_center",
-        "geocoded_at": "2025-09-02T10:02:58.861Z"
+        "source": "Nominatim",
+        "accuracy": 0.00007457007705801507,
+        "geocoded_at": "2025-09-05T13:58:42.077Z"
       }
     }
   ]

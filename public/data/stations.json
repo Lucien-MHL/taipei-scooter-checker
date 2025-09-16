@@ -3,9 +3,9 @@
     "total_stations": 247,
     "successful_geocoding": 247,
     "failed_geocoding": 0,
-    "processing_time_ms": 442879,
+    "processing_time_ms": 97334,
     "tgos_enabled": false,
-    "generated_at": "2025-09-05T13:58:42.082Z"
+    "generated_at": "2025-09-16T10:21:15.109Z"
   },
   "stations": [
     {
@@ -192,7 +192,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:51:38.541Z"
+        "geocoded_at": "2025-09-16T10:19:43.724Z"
       }
     },
     {
@@ -599,7 +599,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:52:15.865Z"
+        "geocoded_at": "2025-09-16T10:19:49.954Z"
       }
     },
     {
@@ -973,7 +973,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:52:55.134Z"
+        "geocoded_at": "2025-09-16T10:19:57.319Z"
       }
     },
     {
@@ -1041,7 +1041,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:53:05.989Z"
+        "geocoded_at": "2025-09-16T10:20:02.880Z"
       }
     },
     {
@@ -1211,7 +1211,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:53:27.509Z"
+        "geocoded_at": "2025-09-16T10:20:09.830Z"
       }
     },
     {
@@ -1296,7 +1296,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:53:40.273Z"
+        "geocoded_at": "2025-09-16T10:20:18.229Z"
       }
     },
     {
@@ -2078,7 +2078,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:54:55.286Z"
+        "geocoded_at": "2025-09-16T10:20:24.953Z"
       }
     },
     {
@@ -2282,7 +2282,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:55:25.181Z"
+        "geocoded_at": "2025-09-16T10:20:31.053Z"
       }
     },
     {
@@ -2486,7 +2486,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:55:46.766Z"
+        "geocoded_at": "2025-09-16T10:20:38.258Z"
       }
     },
     {
@@ -2945,7 +2945,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:56:36.257Z"
+        "geocoded_at": "2025-09-16T10:20:44.080Z"
       }
     },
     {
@@ -3268,7 +3268,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:57:08.779Z"
+        "geocoded_at": "2025-09-16T10:20:51.560Z"
       }
     },
     {
@@ -3489,7 +3489,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:57:34.276Z"
+        "geocoded_at": "2025-09-16T10:20:57.629Z"
       }
     },
     {
@@ -3693,7 +3693,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:57:56.803Z"
+        "geocoded_at": "2025-09-16T10:21:06.460Z"
       }
     },
     {
@@ -3982,7 +3982,7 @@
       "geocoding": {
         "source": "district_fallback",
         "accuracy": "district_center",
-        "geocoded_at": "2025-09-05T13:58:23.429Z"
+        "geocoded_at": "2025-09-16T10:21:15.105Z"
       }
     },
     {
