@@ -14,7 +14,9 @@ export const StationsProvider = ({ children }: React.PropsWithChildren) => {
     setLoading(true)
     const fetchData = async () => {
       try {
-        const response = await fetch('/data/stations.json')
+        const response = await fetch(
+          `${process.env.NODE_ENV === 'production' ? '/taipei-scooter-checker' : ''}/data/stations.json`
+        )
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}: ${response.statusText}`)
         }
