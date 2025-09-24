@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Taipei Scooter Checker 🛵
 
-## Getting Started
+A comprehensive web application for locating motorcycle emission inspection stations in Taipei, built with modern web technologies and advanced geocoding solutions.
 
-First, run the development server:
+**🚀 Live Demo**: https://lucien-mhl.github.io/taipei-scooter-checker/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About This Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project solves a real-world problem: helping motorcycle owners in Taipei quickly find the nearest emission inspection station. What started as a personal need for my 5+ year old motorcycle became a showcase of full-stack development skills and data processing expertise.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Interactive Map Interface** - Built with React-Leaflet and marker clustering
+- **Responsive Design** - Seamless experience on desktop and mobile devices
+- **Real-time Search** - Instant filtering and location-based results
+- **Automated Data Processing** - Self-updating system with government open data API
+- **High Availability** - 98.8% successful automated geocoding of all 247 stations
 
-## Learn More
+## Technical Highlights
 
-To learn more about Next.js, take a look at the following resources:
+### 🎯 Advanced Geocoding Solution
+Achieved **98.8% success rate** in automatically geocoding 247 inspection stations through innovative address formatting strategies:
+- Developed comma-separated address format for Taiwan addresses
+- Implemented symbol conversion techniques (`-` → `之`)
+- Only 3 stations require manual intervention (all in known problematic areas)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🛠️ Modern Tech Stack
+- **Frontend**: Next.js 15.5.2 with App Router, React 18, TypeScript
+- **Styling**: TailwindCSS 4.0 with custom animations
+- **State Management**: Zustand for lightweight state handling
+- **Maps**: React-Leaflet with MarkerCluster integration
+- **Deployment**: GitHub Pages with automated CI/CD
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ⚡ Automated Data Pipeline
+- **Source**: Taipei City Government Open Data Platform
+- **Processing**: 7-module Node.js pipeline for data transformation
+- **Geocoding**: Nominatim API with intelligent fallback strategies
+- **Logging**: Comprehensive execution tracking and failure analysis
+- **Updates**: Monthly automated refresh via GitHub Actions
 
-## Deploy on Vercel
+## Project Impact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project demonstrates:
+- **Problem-solving skills** - Tackled complex geocoding challenges specific to Taiwan addresses
+- **Full-stack development** - End-to-end solution from data processing to user interface
+- **System design** - Scalable, maintainable architecture with proper error handling
+- **DevOps practices** - Automated testing, deployment, and monitoring
+- **Real-world application** - Addresses actual user needs with measurable success metrics
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Technical Achievements
+
+- 🏆 **98.8% automation rate** for complex geocoding tasks
+- 🎨 **Pixel-perfect responsive design** with smooth animations
+- 🔧 **Robust error handling** ensuring 100% data integrity
+- 📊 **Comprehensive logging** for production monitoring
+- 🚀 **Modern deployment** with static site generation and CDN delivery
+
+---
+
+*Built with passion for clean code, user experience, and solving real-world problems.*

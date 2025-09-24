@@ -5,6 +5,13 @@ const CONFIG = {
   userAgent: 'taipei-scooter-checker/1.0 (dev@example.com)'
 }
 
+const failedGeocoding = {
+  coordinates: null,
+  geocoding: {
+    source: 'failed'
+  }
+}
+
 const geocoding = (address) => {
   const headers = {
     'User-Agent': CONFIG.userAgent
@@ -28,15 +35,13 @@ const geocoding = (address) => {
         try {
           const result = JSON.parse(data)
 
-          if (!result || result.length !== 1)
-            return reject(new Error('找不到該地址的座標，建議改用手動輸入'))
+          if (!result || result.length !== 1) return resolve(failedGeocoding)
 
           const location = result[0]
           const lat = parseFloat(location.lat)
           const lng = parseFloat(location.lon)
 
-          if (!lat || !lng)
-            return reject(new Error('找不到該地址的座標，建議改用手動輸入'))
+          if (!lat || !lng) return resolve(failedGeocoding)
 
           resolve({
             coordinates: {

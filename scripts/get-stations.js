@@ -39,27 +39,32 @@ const getStations = async () => {
 }
 
 const translateKeys = (station) => {
+  const findKey = (obj, patterns) => {
+    for (const pattern of patterns) {
+      const key = Object.keys(obj).find((k) => k.includes(pattern))
+      if (key && obj[key]) return obj[key]
+    }
+    return null
+  }
   const result = {
-    id: station['站號'],
-    name: station['站名'],
-    address: station['地址'],
-    phone: station['電話'],
-    district: station['行政區'],
-    owner: station['負責人'],
+    id: findKey(station, ['站號', '號']),
+    name: findKey(station, ['站名', '名']),
+    address: findKey(station, ['地址', '地', '址']),
+    phone: findKey(station, ['電話', '電', '話']),
+    district: findKey(station, ['行政區', '行政', '行', '政']),
+    owner: findKey(station, ['負責人', '負責', '人']),
     date: station['_importdate']['date'] || generateDate()
   }
   if (Object.values(result).some((value) => !value)) {
+    console.log('該檢驗站資料不完整:', station)
     return null
   } else {
     return result
   }
 }
 
-const pad = (num, size) => {
-  return String(num).padStart(size, '0')
-}
-
 const generateDate = () => {
+  const pad = (num, size) => String(num).padStart(size, '0')
   const now = new Date()
   const year = now.getFullYear()
   const month = pad(now.getMonth() + 1, 2)
@@ -74,4 +79,15 @@ const generateDate = () => {
 module.exports = {
   getStations,
   translateKeys
+}
+
+const demo = {
+  站號: 'A12',
+  廠牌: '山葉',
+  站名: '宏立機車事業有限公司',
+  行政區: '大安區',
+  郵遞區號: '106025',
+  地址: '臺北市大安區和平東路2段141號',
+  電話: '(02)27065429',
+  負責人: '沈鳳雲'
 }

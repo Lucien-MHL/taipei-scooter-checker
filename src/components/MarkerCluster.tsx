@@ -21,8 +21,11 @@ export default function MarkerCluster({ stations }: { stations: Station[] }) {
     // 建立 marker cluster group
     const markers = createMarkers()
 
-    // 為每個檢驗站建立 marker
+    // 為每個檢驗站建立 marker (只處理有座標的站點)
     stations.forEach((station) => {
+      // 跳過沒有座標的站點，這些會在其他地方顯示
+      if (!station.coordinates) return
+
       const marker = L.marker(
         [station.coordinates.lat, station.coordinates.lng],
         { icon: MapPin(station.id) }

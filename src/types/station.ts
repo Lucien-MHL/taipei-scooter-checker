@@ -1,26 +1,22 @@
 export interface Station {
-  id: string;
-  name: string;
-  address: string;
-  phone: string;
-  district: string;
-  owner: string;
+  id: string
+  name: string
+  address: string
+  phone: string
+  district: string
+  owner: string
   coordinates: {
-    lat: number;
-    lng: number;
-  };
+    lat: number
+    lng: number
+  } | null
   geocoding: {
-    source: string;
-    accuracy: string;
-    geocoded_at: string;
-  };
+    source: string
+    accuracy: string
+    geocoded_at: string
+  } | null
 }
 
 export interface Metadata {
-  total_stations: number;
-  successful_geocoding: number;
-  failed_geocoding: number;
-  processing_time_ms: number;
-  tgos_enabled: boolean;
-  generated_at: Date | string;
+  total: number
+  updated_at: Date | string
 }

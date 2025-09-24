@@ -8,6 +8,8 @@ import { User } from '@/icons/User'
 import { useStations } from '@/stores/useStations'
 import { Metadata, Station } from '@/types/station'
 import { formatDate } from '@/utils/formatDate'
+import { getNoCoordinateStations } from '@/utils/noCoordinateStations'
+import { useState } from 'react'
 
 export const SideBar = () => {
   const selectedStation = useStations((state) => state.selectedStation)
@@ -26,6 +28,9 @@ export const SideBar = () => {
 }
 
 const WelcomeMessage = ({ metadata }: { metadata: Metadata }) => {
+  const stations = useStations((state) => state.stations)
+  const [showNoCoordModal, setShowNoCoordModal] = useState(false)
+  const noCoordStations = getNoCoordinateStations(stations)
   if (!metadata)
     return (
       <div className="animate-pulse">
@@ -54,7 +59,7 @@ const WelcomeMessage = ({ metadata }: { metadata: Metadata }) => {
         <div className="flex items-center gap-3">
           <span className="md:text-lg lg:text-2xl">📍</span>
           <span>
-            共 <strong>{metadata.total_stations} 家</strong> 檢驗站
+            共 <strong>{metadata.total} 家</strong> 檢驗站
           </span>
         </div>
         <div className="flex items-center gap-3">
@@ -66,6 +71,23 @@ const WelcomeMessage = ({ metadata }: { metadata: Metadata }) => {
           <span>整合 Google Maps 連結</span>
         </div>
       </div>
+
+      {noCoordStations.length > 0 && (
+        <button
+          onClick={() => setShowNoCoordModal(true)}
+          className="mt-6 w-full rounded-md border border-amber-200 bg-amber-50 px-4 py-2 text-amber-800 transition-colors hover:bg-amber-100 md:text-sm lg:text-base"
+        >
+          📝 查看尚未座標化的站點 ({noCoordStations.length})
+        </button>
+      )}
+
+      {/* 無座標站點彈窗 */}
+      {showNoCoordModal && (
+        <NoCoordinateStationsModal
+          stations={noCoordStations}
+          onClose={() => setShowNoCoordModal(false)}
+        />
+      )}
     </>
   )
 }
@@ -95,7 +117,14 @@ const StationInformation = ({ station }: { station: Station }) => {
         <List Icon={MapPin} text={station.address} />
         <List Icon={User} text={station.owner} />
         <List Icon={Phone} text={station.phone} />
-        <List Icon={Globe} text={`座標來源：${station.geocoding.source}`} />
+        <List
+          Icon={Globe}
+          text={
+            station.geocoding
+              ? `座標來源：${station.geocoding.source}`
+              : '座標來源：未知'
+          }
+        />
       </ul>
       <a
         href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(station.address)}`}
@@ -137,7 +166,7 @@ const WebsiteHint = ({ metadata }: { metadata: Metadata }) => {
         <li>點擊地圖上的標記查看檢驗站詳細資訊</li>
         <li>使用滑鼠滾輪或手勢縮放地圖檢視</li>
         <li>資料每月自動更新，確保資訊準確</li>
-        <li>資料最後更新：{formatDate(metadata.generated_at)}</li>
+        <li>資料最後更新：{formatDate(metadata.updated_at)}</li>
         <li>支援手機版，隨時隨地查找最近檢驗站</li>
         <li>
           資料來源：
@@ -150,5 +179,57 @@ const WebsiteHint = ({ metadata }: { metadata: Metadata }) => {
         </li>
       </ul>
     </section>
+  )
+}
+
+const NoCoordinateStationsModal = ({
+  stations,
+  onClose
+}: {
+  stations: Station[]
+  onClose: () => void
+}) => {
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+      <div className="mx-4 max-h-[80vh] w-full max-w-2xl overflow-hidden rounded-lg bg-white shadow-xl">
+        <div className="flex items-center justify-between border-b p-6">
+          <h2 className="text-xl font-semibold">
+            📝 尚未座標化的站點 ({stations.length})
+          </h2>
+          <button
+            onClick={onClose}
+            className="text-2xl text-gray-400 hover:text-gray-600"
+          >
+            ×
+          </button>
+        </div>
+        <div className="max-h-[60vh] overflow-y-auto p-6">
+          <div className="space-y-4">
+            {stations.map((station) => (
+              <div
+                key={station.id}
+                className="rounded-lg border border-gray-200 p-4 hover:bg-gray-50"
+              >
+                <h3 className="mb-2 text-lg font-semibold">{station.name}</h3>
+                <div className="mb-3 space-y-1 text-sm text-gray-600">
+                  <p>📍 {station.address}</p>
+                  <p>📞 {station.phone}</p>
+                  <p>👤 {station.owner}</p>
+                </div>
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(station.address)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-md bg-blue-500 px-4 py-2 text-white transition-colors hover:bg-blue-600"
+                >
+                  <GoogleMap className="h-4 w-4" />
+                  前往 Google Maps
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }

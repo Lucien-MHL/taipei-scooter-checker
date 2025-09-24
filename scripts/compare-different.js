@@ -8,7 +8,6 @@
  *  - 關閉店家 closed
  */
 
-const fs = require('fs')
 const path = require('path')
 
 const originalData = require(path.join(__dirname, '../data/stations.json'))
@@ -30,7 +29,11 @@ const compareDifferent = (newStations) => {
     closed: []
   }
 
-  // 先從舊資料開始遞迴尋找是否有 closed、move、modified 的檢驗站
+  console.log('Start to compare different')
+  console.log('originalStations length:', originalStations.length)
+  console.log('newStations length:', newStations.length)
+
+  // 先從舊資料開始遞迴尋找是否有 closed、move、modified、unchanged 的檢驗站
   originalStations.forEach((station) => {
     const newStation = newMap.get(station.id)
     if (!newStation) {
