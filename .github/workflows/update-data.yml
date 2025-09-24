@@ -1,0 +1,118 @@
+# 這個檔案的名字，會顯示在 GitHub Actions 頁面
+name: Monthly Data Update
+
+# 什麼時候執行這個 workflow
+on:
+  # cron: 每月 1 號早上 9 點 (台灣時間 = UTC+8，所以 UTC 1 點)
+  schedule:
+    - cron: '0 1 1 * *'  # 分 時 日 月 週，* 表示每個月
+
+  # 也可以手動觸發 (在 GitHub 網頁上點按鈕)
+  workflow_dispatch:
+
+# 這個 workflow 需要什麼權限
+permissions:
+  contents: write  # 需要寫權限才能 commit 檔案
+  issues: write    # 需要權限才能建立 Issue
+
+# 要做的工作
+jobs:
+  update-stations-data:
+    # 在 Ubuntu 虛擬機上執行
+    runs-on: ubuntu-latest
+
+    steps:
+      # 步驟 1: 下載你的程式碼
+      - name: 📥 下載程式碼
+        uses: actions/checkout@v4
+
+      # 步驟 2: 安裝 Node.js
+      - name: 🚀 安裝 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # 步驟 3: 安裝相依套件
+      - name: 📦 安裝套件
+        run: npm ci
+
+      # 步驟 4: 執行你的資料更新腳本
+      - name: 🔄 執行資料更新
+        run: node scripts/index.js
+
+      # 步驟 5: 檢查失敗站點並建立 Issue
+      - name: 📋 處理失敗站點 Issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 檢查是否有失敗的站點 (coordinates: null)
+          FAILED_COUNT=$(node -e "
+            const fs = require('fs');
+            const data = JSON.parse(fs.readFileSync('public/data/stations.json', 'utf8'));
+            const failed = data.stations.filter(s => !s.coordinates);
+            console.log(failed.length);
+          ")
+
+          if [ "$FAILED_COUNT" -gt 0 ]; then
+            echo "發現 $FAILED_COUNT 個失敗站點，建立 Issue..."
+
+            # 建立 Issue 的內容
+            node -e "
+              const fs = require('fs');
+              const data = JSON.parse(fs.readFileSync('public/data/stations.json', 'utf8'));
+              const failed = data.stations.filter(s => !s.coordinates);
+
+              let issueBody = '## 📍 需要手動處理座標的檢驗站\\n\\n';
+              issueBody += '以下站點無法自動取得精確座標，需要手動查詢：\\n\\n';
+
+              failed.forEach((station, index) => {
+                const encodedAddr = encodeURIComponent(station.address);
+                const tgosUrl = \`https://map.tgos.tw/TGOSCloudMap?addr=\${encodedAddr}\`;
+
+                issueBody += \`### \${index + 1}. \${station.name}\\n\`;
+                issueBody += \`- **ID**: \${station.id}\\n\`;
+                issueBody += \`- **地址**: \${station.address}\\n\`;
+                issueBody += \`- **電話**: \${station.phone}\\n\`;
+                issueBody += \`- **負責人**: \${station.owner}\\n\`;
+                issueBody += \`- 🗺️ **[查看 TGOS 地圖](\${tgosUrl})**\\n\\n\`;
+              });
+
+              issueBody += '## 📝 處理說明\\n\\n';
+              issueBody += '1. 點擊上方 TGOS 地圖連結\\n';
+              issueBody += '2. 確認地址位置並取得精確座標\\n';
+              issueBody += '3. 在此 Issue 下方留言，格式：\\n';
+              issueBody += '   \\\`\\\`\\\`\\n';
+              issueBody += '   ID: 站點ID\\n';
+              issueBody += '   坐標: 緯度,經度\\n';
+              issueBody += '   \\\`\\\`\\\`\\n';
+              issueBody += '4. 系統會自動處理並更新資料\\n\\n';
+              issueBody += '> 此 Issue 由系統自動建立於 ' + new Date().toISOString().split('T')[0];
+
+              fs.writeFileSync('issue_body.txt', issueBody);
+            "
+
+            # 使用 GitHub CLI 建立 Issue
+            gh issue create \
+              --title \"🔧 座標處理需求 - $(date +%Y年%m月)\" \
+              --body-file issue_body.txt \
+              --label \"座標處理,自動化\"
+
+            rm issue_body.txt
+          else
+            echo "沒有失敗站點，跳過 Issue 建立"
+          fi
+
+      # 步驟 6: 如果有變更就 commit
+      - name: 💾 提交更新的資料
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          if [[ -n $(git status --porcelain) ]]; then
+            git add public/data/stations.json
+            git commit -m "chore: auto-update station data $(date +%Y-%m-%d)"
+            git push
+          else
+            echo "沒有資料變更，跳過 commit"
+          fi

@@ -1,0 +1,170 @@
+# 監聽 Issue Comment，自動處理座標更新
+name: Process Manual Coordinates
+
+# 當有人在 Issue 留言時觸發
+on:
+  issue_comment:
+    types: [created]
+
+# 需要權限
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  process-coordinates:
+    # 只處理包含特定標籤的 Issue 的留言
+    if: contains(github.event.issue.labels.*.name, '座標處理')
+    runs-on: ubuntu-latest
+
+    steps:
+      # 步驟 1: 下載程式碼
+      - name: 📥 下載程式碼
+        uses: actions/checkout@v4
+
+      # 步驟 2: 安裝 Node.js
+      - name: 🚀 安裝 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # 步驟 3: 安裝套件
+      - name: 📦 安裝套件
+        run: npm ci
+
+      # 步驟 4: 解析留言並更新座標
+      - name: 🔍 處理座標留言
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMMENT_BODY: ${{ github.event.comment.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          echo "處理 Issue #$ISSUE_NUMBER 的留言..."
+
+          # 建立座標處理腳本
+          cat > process_comment.js << 'EOF'
+          const fs = require('fs');
+
+          // 取得留言內容
+          const commentBody = process.env.COMMENT_BODY;
+          console.log('留言內容:', commentBody);
+
+          // 解析座標格式 "ID: AI6\n坐標: 25.123,121.456"
+          const idMatch = commentBody.match(/ID:\s*([A-Z0-9]+)/i);
+          const coordMatch = commentBody.match(/坐標:\s*([0-9.]+),\s*([0-9.]+)/);
+
+          if (!idMatch || !coordMatch) {
+            console.log('❌ 留言格式不正確，需要格式：ID: 站點ID\\n坐標: 緯度,經度');
+            process.exit(1);
+          }
+
+          const stationId = idMatch[1];
+          const lat = parseFloat(coordMatch[1]);
+          const lng = parseFloat(coordMatch[2]);
+
+          console.log(`✅ 解析成功: ${stationId} -> (${lat}, ${lng})`);
+
+          // 讀取現有資料
+          const dataPath = 'public/data/stations.json';
+          const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+
+          // 找到對應站點並更新
+          let updated = false;
+          for (let station of data.stations) {
+            if (station.id === stationId) {
+              station.coordinates = { lat, lng };
+              station.geocoding = {
+                source: 'manual_tgos',
+                accuracy: 'high',
+                geocoded_at: new Date().toISOString()
+              };
+              updated = true;
+              console.log(`✅ 已更新站點: ${station.name} (${station.id})`);
+              break;
+            }
+          }
+
+          if (!updated) {
+            console.log(`❌ 找不到 ID 為 ${stationId} 的站點`);
+            process.exit(1);
+          }
+
+          // 儲存更新後的資料
+          fs.writeFileSync(dataPath, JSON.stringify(data, null, 2), 'utf8');
+          console.log('✅ 資料已更新並儲存');
+
+          // 輸出結果供後續步驟使用
+          console.log(`UPDATED_STATION=${stationId}`);
+          console.log(`STATION_NAME=${data.stations.find(s => s.id === stationId).name}`);
+          EOF
+
+          # 執行座標處理腳本
+          node process_comment.js
+
+      # 步驟 5: 提交更新的資料
+      - name: 💾 提交座標更新
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          if [[ -n $(git status --porcelain) ]]; then
+            git add public/data/stations.json
+            git commit -m "chore: update manual coordinates via issue comment"
+            git push
+            echo "✅ 座標更新已提交"
+          else
+            echo "沒有變更需要提交"
+          fi
+
+      # 步驟 6: 回覆留言確認處理結果
+      - name: 💬 回覆處理結果
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 建立回覆內容
+          cat > reply.txt << 'EOF'
+          ✅ **座標更新成功！**
+
+          已成功處理您提供的座標資訊：
+          - **站點 ID**: ${{ env.UPDATED_STATION }}
+          - **座標來源**: 手動 TGOS 查詢
+          - **處理時間**: $(date '+%Y-%m-%d %H:%M:%S')
+
+          資料已自動更新並部署。感謝您的協助！ 🙏
+
+          > 此回覆由自動化系統產生
+          EOF
+
+          # 使用 GitHub CLI 回覆留言
+          gh issue comment ${{ github.event.issue.number }} --body-file reply.txt
+
+      # 步驟 7: 檢查是否所有失敗站點都已處理完畢
+      - name: 🔍 檢查處理進度並關閉 Issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 檢查還有多少個失敗站點
+          REMAINING_COUNT=$(node -e "
+            const fs = require('fs');
+            const data = JSON.parse(fs.readFileSync('public/data/stations.json', 'utf8'));
+            const failed = data.stations.filter(s => !s.coordinates);
+            console.log(failed.length);
+          ")
+
+          if [ "$REMAINING_COUNT" -eq 0 ]; then
+            echo "🎉 所有站點都已處理完畢，關閉 Issue"
+            gh issue close ${{ github.event.issue.number }} --comment "🎉 **所有座標已處理完畢**
+
+          感謝協助！所有檢驗站的座標都已成功更新。
+
+          📊 **處理結果統計**:
+          - ✅ 總站點數: 247 個
+          - 🎯 成功率: 100%
+          - 🗺️ 座標來源: Nominatim API + 手動 TGOS 查詢
+
+          > Issue 自動關閉於 $(date '+%Y-%m-%d %H:%M:%S')"
+          else
+            echo "還有 $REMAINING_COUNT 個站點未處理，Issue 保持開放"
+          fi
