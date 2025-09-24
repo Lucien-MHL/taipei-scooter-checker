@@ -92,6 +92,10 @@ jobs:
               fs.writeFileSync('issue_body.txt', issueBody);
             "
 
+            # 先建立必要的標籤 (如果不存在的話)
+            gh label create "座標處理" --color "d73a4a" --description "需要手動處理座標的站點" || true
+            gh label create "自動化" --color "0075ca" --description "自動化系統相關" || true
+
             # 使用 GitHub CLI 建立 Issue
             ISSUE_TITLE="🔧 座標處理需求 - $(date +%Y年%m月)"
             gh issue create \
