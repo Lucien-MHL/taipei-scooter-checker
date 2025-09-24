@@ -122,8 +122,9 @@ jobs:
           console.log('✅ 資料已更新並儲存');
 
           // 輸出結果供後續步驟使用
-          console.log(`UPDATED_STATION=${stationId}`);
-          console.log(`STATION_NAME=${data.stations.find(s => s.id === stationId).name}`);
+          const fs2 = require('fs');
+          fs2.appendFileSync(process.env.GITHUB_ENV, `UPDATED_STATION=${stationId}\n`);
+          fs2.appendFileSync(process.env.GITHUB_ENV, `STATION_NAME=${data.stations.find(s => s.id === stationId).name}\n`);
           EOF
 
           # 執行座標處理腳本
@@ -150,13 +151,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # 建立回覆內容
-          cat > reply.txt << 'EOF'
+          CURRENT_TIME=$(date '+%Y-%m-%d %H:%M:%S')
+          cat > reply.txt << EOF
           ✅ **座標更新成功！**
 
           已成功處理您提供的座標資訊：
           - **站點 ID**: ${{ env.UPDATED_STATION }}
           - **座標來源**: 手動 TGOS 查詢
-          - **處理時間**: $(date '+%Y-%m-%d %H:%M:%S')
+          - **處理時間**: $CURRENT_TIME
 
           資料已自動更新並部署。感謝您的協助！ 🙏
 
