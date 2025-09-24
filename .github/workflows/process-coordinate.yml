@@ -19,22 +19,48 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 步驟 1: 下載程式碼
+      # 步驟 1: 快速格式檢查 (省時省資源)
+      - name: 🔍 快速檢查留言格式
+        env:
+          COMMENT_BODY: ${{ github.event.comment.body }}
+        run: |
+          echo "檢查留言格式..."
+          echo "留言內容: $COMMENT_BODY"
+
+          # 檢查 ID 格式: "ID: AI6" 或 "ID:AI6"
+          if [[ ! "$COMMENT_BODY" =~ ID:[[:space:]]*[A-Z0-9]+ ]]; then
+            echo "❌ 找不到正確的 ID 格式"
+            echo "需要格式: ID: 站點ID"
+            echo "範例: ID: AI6"
+            exit 1
+          fi
+
+          # 檢查座標格式: "坐標: 25.123,121.456" 或 "坐標:25.123, 121.456"
+          if [[ ! "$COMMENT_BODY" =~ 坐標:[[:space:]]*[0-9.]+,[[:space:]]*[0-9.]+ ]]; then
+            echo "❌ 找不到正確的座標格式"
+            echo "需要格式: 坐標: 緯度,經度"
+            echo "範例: 坐標: 25.0387951,121.5639969"
+            exit 1
+          fi
+
+          echo "✅ 格式檢查通過，繼續處理..."
+
+      # 步驟 2: 下載程式碼 (只在格式正確時執行)
       - name: 📥 下載程式碼
         uses: actions/checkout@v4
 
-      # 步驟 2: 安裝 Node.js
+      # 步驟 3: 安裝 Node.js
       - name: 🚀 安裝 Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
 
-      # 步驟 3: 安裝套件
+      # 步驟 4: 安裝套件
       - name: 📦 安裝套件
         run: npm ci
 
-      # 步驟 4: 解析留言並更新座標
+      # 步驟 5: 解析留言並更新座標
       - name: 🔍 處理座標留言
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -103,7 +129,7 @@ jobs:
           # 執行座標處理腳本
           node process_comment.js
 
-      # 步驟 5: 提交更新的資料
+      # 步驟 6: 提交更新的資料
       - name: 💾 提交座標更新
         run: |
           git config --global user.name 'github-actions[bot]'
@@ -118,7 +144,7 @@ jobs:
             echo "沒有變更需要提交"
           fi
 
-      # 步驟 6: 回覆留言確認處理結果
+      # 步驟 7: 回覆留言確認處理結果
       - name: 💬 回覆處理結果
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -140,7 +166,7 @@ jobs:
           # 使用 GitHub CLI 回覆留言
           gh issue comment ${{ github.event.issue.number }} --body-file reply.txt
 
-      # 步驟 7: 檢查是否所有失敗站點都已處理完畢
+      # 步驟 8: 檢查是否所有失敗站點都已處理完畢
       - name: 🔍 檢查處理進度並關閉 Issue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
