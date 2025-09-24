@@ -3090,9 +3090,14 @@
       "district": "大安區",
       "owner": "吳志遠",
       "date": "2025-08-18 10:46:35.300668",
-      "coordinates": null,
+      "coordinates": {
+        "lat": 25.044862,
+        "lng": 121.546847
+      },
       "geocoding": {
-        "source": "failed"
+        "source": "manual_tgos",
+        "accuracy": "high",
+        "geocoded_at": "2025-09-24T10:53:00.853Z"
       }
     },
     {
