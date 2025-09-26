@@ -10,7 +10,9 @@
 
 const path = require('path')
 
-const originalData = require(path.join(__dirname, '../data/stations.json'))
+const originalData = require(
+  path.join(__dirname, '../public/data/stations.json')
+)
 
 const compareDifferent = (newStations) => {
   if (!originalData) throw new Error('原始資料不存在')
@@ -68,6 +70,14 @@ const compareDifferent = (newStations) => {
       summary.fresh.push(newStation)
     }
   })
+
+  console.log(`${'='.repeat(21)}比對結果${'='.repeat(21)}`)
+  console.log('unchanged:', summary.unchanged.length)
+  console.log('modified:', summary.modified.length)
+  console.log('moved:', summary.moved.length)
+  console.log('fresh:', summary.fresh.length)
+  console.log('closed:', summary.closed.length)
+  console.log('='.repeat(51))
 
   return summary
 }
