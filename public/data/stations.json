@@ -2622,9 +2622,14 @@
       "district": "大同區",
       "owner": "連素真",
       "date": "2025-08-18 10:46:35.266248",
-      "coordinates": null,
+      "coordinates": {
+        "lat": 25.074182,
+        "lng": 121.515269
+      },
       "geocoding": {
-        "source": "failed"
+        "source": "manual_tgos",
+        "accuracy": "high",
+        "geocoded_at": "2025-09-26T15:17:27.298Z"
       }
     },
     {
