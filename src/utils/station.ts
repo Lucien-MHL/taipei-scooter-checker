@@ -2,9 +2,12 @@ import L from 'leaflet'
 import { Station } from '@/types/station'
 
 export const zoomToStation = (station: Station, map: L.Map) => {
-  const stationLatLng = [station.coordinates.lat, station.coordinates.lng] as [
-    number,
-    number
+  const stationLatLng = [
+    station.coordinates!.lat,
+    station.coordinates!.lng
+  ] as [
+    NonNullable<Station['coordinates']>['lat'],
+    NonNullable<Station['coordinates']>['lng']
   ]
   const currentZoom = map.getZoom()
   const currentCenter = map.getCenter()
