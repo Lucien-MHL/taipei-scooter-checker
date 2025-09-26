@@ -31,12 +31,21 @@ Achieved **98.8% success rate** in automatically geocoding 247 inspection statio
 - **Maps**: React-Leaflet with MarkerCluster integration
 - **Deployment**: GitHub Pages with automated CI/CD
 
-### ⚡ Automated Data Pipeline
-- **Source**: Taipei City Government Open Data Platform
+### ⚡ Fully Automated Data Pipeline
+- **Source**: Taipei City Government Open Data Platform (247 stations)
 - **Processing**: 7-module Node.js pipeline for data transformation
 - **Geocoding**: Nominatim API with intelligent fallback strategies
+- **Manual Handling**: Smart Issue-based system for failed geocoding cases
+- **Auto-deployment**: Automatic GitHub Pages updates after data changes
 - **Logging**: Comprehensive execution tracking and failure analysis
 - **Updates**: Monthly automated refresh via GitHub Actions
+
+### 🤖 Intelligent Issue Management System
+- **Auto-issue Creation**: Automatically creates GitHub Issues for failed geocoding cases
+- **TGOS Integration**: Provides direct links to Taiwan's official map service
+- **Comment Processing**: Monitors Issue comments for manual coordinate input
+- **Smart Validation**: Validates coordinate format and updates data automatically
+- **Auto-closure**: Closes Issues and triggers deployment when all coordinates are processed
 
 ## Project Impact
 
@@ -50,6 +59,9 @@ This project demonstrates:
 ## Technical Achievements
 
 - 🏆 **98.8% automation rate** for complex geocoding tasks
+- 🤖 **100% automated workflow** with GitHub Actions and Issue management
+- 🎯 **Smart data protection** preventing overwrite of manually added coordinates
+- 🔄 **End-to-end automation** from data update to deployment
 - 🎨 **Pixel-perfect responsive design** with smooth animations
 - 🔧 **Robust error handling** ensuring 100% data integrity
 - 📊 **Comprehensive logging** for production monitoring
