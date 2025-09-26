@@ -118,6 +118,19 @@ jobs:
             git add public/data/stations.json
             git commit -m "chore: auto-update station data $(date +%Y-%m-%d)"
             git push
+            echo "✅ 資料已提交，準備觸發部署..."
+            echo "DATA_UPDATED=true" >> $GITHUB_ENV
           else
             echo "沒有資料變更，跳過 commit"
+            echo "DATA_UPDATED=false" >> $GITHUB_ENV
           fi
+
+      # 步驟 7: 觸發 GitHub Pages 部署
+      - name: 🚀 觸發 GitHub Pages 部署
+        if: env.DATA_UPDATED == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "資料已更新，觸發 Deploy workflow..."
+          gh workflow run deploy.yml
+          echo "✅ Deploy workflow 已觸發"

@@ -140,9 +140,11 @@ jobs:
             git add public/data/stations.json
             git commit -m "chore: update manual coordinates via issue comment"
             git push
-            echo "✅ 座標更新已提交"
+            echo "✅ 座標更新已提交，準備觸發部署..."
+            echo "COORDINATE_UPDATED=true" >> $GITHUB_ENV
           else
             echo "沒有變更需要提交"
+            echo "COORDINATE_UPDATED=false" >> $GITHUB_ENV
           fi
 
       # 步驟 7: 回覆留言確認處理結果
@@ -168,31 +170,40 @@ jobs:
           # 使用 GitHub CLI 回覆留言
           gh issue comment ${{ github.event.issue.number }} --body-file reply.txt
 
-      # 步驟 8: 檢查是否所有失敗站點都已處理完畢
+      # 步驟 8: 檢查處理進度並決定是否關閉 Issue + 觸發部署
       - name: 🔍 檢查處理進度並關閉 Issue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 檢查還有多少個失敗站點
-          REMAINING_COUNT=$(node -e "
-            const fs = require('fs');
-            const data = JSON.parse(fs.readFileSync('public/data/stations.json', 'utf8'));
-            const failed = data.stations.filter(s => !s.coordinates);
-            console.log(failed.length);
-          ")
+          # 只有在座標真的有更新時才檢查進度
+          if [ "${{ env.COORDINATE_UPDATED }}" = "true" ]; then
+            # 檢查還有多少個失敗站點
+            REMAINING_COUNT=$(node -e "
+              const fs = require('fs');
+              const data = JSON.parse(fs.readFileSync('public/data/stations.json', 'utf8'));
+              const failed = data.stations.filter(s => !s.coordinates);
+              console.log(failed.length);
+            ")
 
-          if [ "$REMAINING_COUNT" -eq 0 ]; then
-            echo "🎉 所有站點都已處理完畢，關閉 Issue"
-            gh issue close ${{ github.event.issue.number }} --comment "🎉 **所有座標已處理完畢**
+            if [ "$REMAINING_COUNT" -eq 0 ]; then
+              echo "🎉 所有站點都已處理完畢，關閉 Issue 並觸發部署"
 
-          感謝協助！所有檢驗站的座標都已成功更新。
+              # 關閉 Issue
+              gh issue close ${{ github.event.issue.number }} --comment "🎉 **所有座標已處理完畢**
 
-          📊 **處理結果統計**:
-          - ✅ 總站點數: 247 個
-          - 🎯 成功率: 100%
-          - 🗺️ 座標來源: Nominatim API + 手動 TGOS 查詢
+              感謝協助！所有檢驗站的座標都已成功更新。
 
-          > Issue 自動關閉於 $(date '+%Y-%m-%d %H:%M:%S')"
+              > Issue 自動關閉於 $(date '+%Y-%m-%d %H:%M:%S')"
+
+              # 觸發部署（只在 Issue 關閉時）
+              echo "🚀 觸發最終部署..."
+              gh workflow run deploy.yml
+              echo "✅ Deploy workflow 已觸發，網站將進行最終更新"
+
+            else
+              echo "還有 $REMAINING_COUNT 個站點未處理，Issue 保持開放"
+              echo "💡 座標已更新但 Issue 未關閉，暫不觸發部署"
+            fi
           else
-            echo "還有 $REMAINING_COUNT 個站點未處理，Issue 保持開放"
+            echo "本次無座標更新，跳過進度檢查"
           fi
