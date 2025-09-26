@@ -14,6 +14,7 @@ on:
 permissions:
   contents: write  # 需要寫權限才能 commit 檔案
   issues: write    # 需要權限才能建立 Issue
+  actions: write   # 需要權限才能觸發其他 workflows
 
 # 要做的工作
 jobs:
